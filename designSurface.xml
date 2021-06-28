@@ -4,6 +4,7 @@
       <map>
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="../../android/src/main/res/layout/activity_scan.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/drawable/launch_background.xml" value="0.22407407407407406" />
         <entry key="appLib/src/main/res/layout/activity_base.xml" value="0.25679347826086957" />
       </map>
     </option>
