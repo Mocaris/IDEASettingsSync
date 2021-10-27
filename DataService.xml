@@ -2,5 +2,6 @@
   <component name="DataService">
     <option name="modeDefault" value="{&quot;name&quot;:&quot;Default&quot;,&quot;selected&quot;:false}" />
     <option name="modeEasy" value="{&quot;name&quot;:&quot;Easy&quot;,&quot;selected&quot;:true}" />
+    <option name="templateCustom" value="{&quot;logic&quot;:&quot;Controller&quot;,&quot;view&quot;:&quot;UI&quot;,&quot;viewFile&quot;:&quot;View&quot;,&quot;state&quot;:&quot;State&quot;,&quot;selected&quot;:false,&quot;title&quot;:&quot;Custom&quot;}" />
   </component>
 </application>
