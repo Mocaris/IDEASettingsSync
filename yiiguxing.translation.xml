@@ -1,0 +1,22 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogX" value="371" />
+    <option name="newTranslationDialogY" value="-638" />
+    <histories>
+      <item value="城市" />
+      <item value="ch" />
+      <item value="城市&#10;" />
+      <item value="String" />
+      <item value="city" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="19" />
+        <entry key="ENGLISH" value="20" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1643249666930" />
+  </component>
+</application>
