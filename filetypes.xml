@@ -1,13 +1,14 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="apple-app-site-association" type="AUTO_DETECTED" />
       <mapping pattern="adbcommand.md" type="AUTO_DETECTED" />
+      <mapping pattern="apple-app-site-association" type="AUTO_DETECTED" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".zsh_history" type="PLAIN_TEXT" />
       <mapping ext="plugin" type="PLAIN_TEXT" />
       <mapping ext="back" type="PLAIN_TEXT" />
+      <mapping ext="shell" type="PLAIN_TEXT" />
       <mapping ext="klib" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
