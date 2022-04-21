@@ -1,0 +1,6 @@
+<application>
+  <component name="DataService">
+    <option name="function" value="{&quot;useFolder&quot;:true,&quot;usePrefix&quot;:false,&quot;isPageView&quot;:false,&quot;autoDispose&quot;:false,&quot;addLifecycle&quot;:false,&quot;addBinding&quot;:false,&quot;lintNorm&quot;:false,&quot;funTabIndex&quot;:2}" />
+    <option name="templateCustom" value="{&quot;logic&quot;:&quot;Controller&quot;,&quot;view&quot;:&quot;UI&quot;,&quot;viewFile&quot;:&quot;UI&quot;,&quot;state&quot;:&quot;State&quot;,&quot;selected&quot;:false}" />
+  </component>
+</application>
