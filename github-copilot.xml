@@ -1,6 +1,7 @@
 <application>
   <component name="github-copilot">
     <option name="signinNotificationShown" value="true" />
+    <option name="enableCompletions" value="false" />
     <option name="telemetryTermsAcceptedDate" value="2022-04-06T11:40:37.929263+08:00[Asia/Shanghai]" />
   </component>
 </application>
