@@ -1,6 +1,9 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
+    <option name="treeFontSizeEnabled" value="true" />
+    <option name="tabFontSizeEnabled" value="true" />
     <option name="tabsHeight" value="20" />
     <option name="accentColor" value="416a9b" />
     <option name="selectedTheme" value="NATIVE" />
