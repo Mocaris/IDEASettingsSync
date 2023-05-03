@@ -6,4 +6,13 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
   </component>
+  <component name="InlayHintsSettings">
+    <settingsMapElement>
+      <kotlin.kotlin.lambdas.hints>
+        <Settings>
+          <option name="returnExpressions" value="false" />
+        </Settings>
+      </kotlin.kotlin.lambdas.hints>
+    </settingsMapElement>
+  </component>
 </application>
