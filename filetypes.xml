@@ -9,7 +9,6 @@
       <mapping pattern=".zsh_history" type="PLAIN_TEXT" />
       <mapping ext="plugin" type="PLAIN_TEXT" />
       <mapping ext="back" type="PLAIN_TEXT" />
-      <mapping ext="shell" type="PLAIN_TEXT" />
       <mapping ext="klib" type="PLAIN_TEXT" />
       <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
