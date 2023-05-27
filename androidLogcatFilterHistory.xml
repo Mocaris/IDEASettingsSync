@@ -3,6 +3,7 @@
     <option name="mostRecentlyUsed" value="com.laotiejicun.webuilocker" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.laotiejicun.locker.debug" />
         <option value="com.laotiejicun.webuilocker" />
       </list>
     </option>
