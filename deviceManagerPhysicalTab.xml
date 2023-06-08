@@ -5,23 +5,23 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="ef8caaf3" />
-          </Key>
-        </key>
-        <name value="Xiaomi Mi 10" />
-        <target value="Android 11.0" />
-        <api value="androidversion:30:null:null:true" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
             <value value="68b22103" />
           </Key>
         </key>
         <name value="Xiaomi MI 8" />
         <target value="Android 10.0" />
         <api value="androidversion:29:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="ef8caaf3" />
+          </Key>
+        </key>
+        <name value="Xiaomi Mi 10" />
+        <target value="Android 11.0" />
+        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
