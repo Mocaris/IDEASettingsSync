@@ -1,5 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="com.laotiejicun.buffet" />
+      </list>
+    </option>
+    <option name="mostRecentlyUsed" value="com.laotiejicun.buffet" />
     <option name="nonFavorites">
       <list>
         <option value="com.laotiejicun.webuilocker" />
