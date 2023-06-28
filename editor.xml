@@ -8,11 +8,6 @@
   </component>
   <component name="InlayHintsSettings">
     <settingsMapElement>
-      <kotlin.kotlin.references.types.hints>
-        <Settings>
-          <option name="localVariableType" value="true" />
-        </Settings>
-      </kotlin.kotlin.references.types.hints>
       <kotlin.kotlin.lambdas.hints>
         <Settings>
           <option name="implicitReceiversAndParams" value="false" />
