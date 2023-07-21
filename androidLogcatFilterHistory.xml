@@ -5,8 +5,11 @@
         <option value="com.laotiejicun.buffet" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="DetectProcessWorker" />
     <option name="nonFavorites">
       <list>
+        <option value="DetectProcessWorker" />
+        <option value="startActivity" />
         <option value="com.laotiejicun.webuilocker" />
         <option value="package:com.laotiejicun.locker.debug" />
       </list>
