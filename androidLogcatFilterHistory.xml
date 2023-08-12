@@ -5,8 +5,10 @@
         <option value="com.laotiejicun.buffet" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="ImportUserListUtil" />
     <option name="nonFavorites">
       <list>
+        <option value="ImportUserListUtil" />
         <option value="DetectProcessWorker" />
         <option value="startActivity" />
         <option value="com.laotiejicun.webuilocker" />
