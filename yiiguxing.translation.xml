@@ -20,18 +20,20 @@
     <option name="lastTrimTime" value="1650271866232" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1691575166746" />
+    <option name="lastTrimTime" value="1692285936482" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="File" />
+      <item value="Exception" />
       <item value="秒后关闭消毒" />
       <item value="Nio Socket Channel" />
       <item value="new Instance" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="4" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="CHINESE" value="8" />
+        <entry key="ENGLISH" value="9" />
       </map>
     </option>
   </component>
