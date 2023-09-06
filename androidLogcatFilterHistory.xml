@@ -5,12 +5,12 @@
         <option value="com.laotiejicun.buffet" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.laotiejicun.locker " />
+    <option name="mostRecentlyUsed" value="package:com.laotiejicun.locker" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.laotiejicun.locker" />
         <option value="package:com.laotiejicun.locker " />
         <option value="package:com.laotiejicun.detect " />
-        <option value="package:com.laotiejicun.locker" />
         <option value="ImportUserListUtil" />
         <option value="DetectProcessWorker" />
         <option value="startActivity" />
