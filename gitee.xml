@@ -1,6 +1,6 @@
 <application>
   <component name="GiteeAccounts">
-    <account name="Mocaris" id="d4d6523a-45b8-4c0b-86f8-b2093f330727">
+    <account name="Mocaris" id="61cdca6a-4b09-45df-aac9-38d1a177d336">
       <Server host="gitee.com" clientid="b7837ec65bcb294b0e2a31e5669b788a3185829524af4d818c3c2a35b186366d" clientsecret="85891acdb745502e19e02e3bbcd405dd303190c8a3fcf29a6ca7a2796b76f918" />
     </account>
   </component>
