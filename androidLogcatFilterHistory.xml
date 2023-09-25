@@ -2,10 +2,10 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
+        <option value="LeakCanary" />
         <option value="com.laotiejicun.buffet" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.laotiejicun.locker" />
     <option name="nonFavorites">
       <list>
         <option value="package:com.laotie.sdkzip" />
