@@ -2,9 +2,9 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
+        <option value="LeakCanary" />
         <option value="package:com.laotiejicun.locker" />
         <option value="com.laotiejicun.buffet" />
-        <option value="LeakCanary" />
       </list>
     </option>
     <option name="mostRecentlyUsed" value="package:com.laotiejicun.locker" />
