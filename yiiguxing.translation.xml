@@ -20,10 +20,11 @@
     <option name="lastTrimTime" value="1650271866232" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1692285936482" />
+    <option name="lastTrimTime" value="1695967814481" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Skipping tombstone write, nothing to do." />
       <item value="File" />
       <item value="Exception" />
       <item value="秒后关闭消毒" />
@@ -32,8 +33,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="8" />
-        <entry key="ENGLISH" value="9" />
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="10" />
       </map>
     </option>
   </component>
