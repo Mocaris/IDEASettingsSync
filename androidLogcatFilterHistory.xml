@@ -7,14 +7,14 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="test_demo" />
     <option name="nonFavorites">
       <list>
+        <option value="&quot;type&quot;:" />
+        <option value="com.qiuliao.wlzb" />
         <option value="test_demo" />
         <option value="package:com.laotiejicun.detect " />
         <option value="upsert更新人脸库" />
         <option value="package:com.laotie.sdkzip" />
-        <option value="com.qiuliao.wlzb" />
         <option value="package:com.laotiejicun.locker " />
         <option value="ImportUserListUtil" />
         <option value="DetectProcessWorker" />
