@@ -7,10 +7,11 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="com.qiuliao.wlzb" />
     <option name="nonFavorites">
       <list>
-        <option value="&quot;type&quot;:" />
         <option value="com.qiuliao.wlzb" />
+        <option value="&quot;type&quot;:" />
         <option value="test_demo" />
         <option value="package:com.laotiejicun.detect " />
         <option value="upsert更新人脸库" />
