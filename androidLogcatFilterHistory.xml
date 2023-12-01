@@ -7,9 +7,9 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="com.qiuliao.wlzb" />
     <option name="nonFavorites">
       <list>
+        <option value="com.laotiejicun.webuilocker" />
         <option value="com.qiuliao.wlzb" />
         <option value="com.mocaris" />
         <option value=" System.out" />
@@ -24,7 +24,6 @@
         <option value="ImportUserListUtil" />
         <option value="DetectProcessWorker" />
         <option value="startActivity" />
-        <option value="com.laotiejicun.webuilocker" />
         <option value="package:com.laotiejicun.locker.debug" />
       </list>
     </option>
