@@ -5,6 +5,17 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="R5CT913E2DM" />
+          </Key>
+        </key>
+        <name value="samsung SM-A136B" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:9:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="7618bf2e6edf1629" />
           </Key>
         </key>
