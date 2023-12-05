@@ -2,11 +2,13 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
+        <option value="com.qiuliao.tv" />
         <option value="package:com.laotiejicun.locker" />
         <option value="com.laotiejicun.buffet" />
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="com.qiuliao.tv" />
     <option name="nonFavorites">
       <list>
         <option value="com.laotiejicun.webuilocker" />
