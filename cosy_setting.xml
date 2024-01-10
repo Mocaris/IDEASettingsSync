@@ -30,6 +30,19 @@
         </option>
       </ChangeUserSettingParams>
     </option>
+    <option name="recentQueries">
+      <map>
+        <entry key="LaoTieSysApp|1508137056710408">
+          <value>
+            <list>
+              <option value="/explain code" />
+              <option value="/explain code" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="showInlineAcceptTips" value="false" />
+    <option name="showInlineCancelTips" value="false" />
   </component>
 </application>
