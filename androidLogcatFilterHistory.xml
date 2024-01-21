@@ -10,8 +10,8 @@
     </option>
     <option name="nonFavorites">
       <list>
-        <option value="tabPositions" />
         <option value="com.laotiejicun.webuilocker" />
+        <option value="tabPositions" />
         <option value="com.qiuliao.wlzb" />
         <option value="com.mocaris" />
         <option value=" System.out" />
