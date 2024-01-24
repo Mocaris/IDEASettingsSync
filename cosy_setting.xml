@@ -26,8 +26,8 @@
         <option name="local">
           <LocalModelParam>
             <option name="enable" value="true" />
-            <option name="inferenceMode" value="speed" />
-            <option name="maxCandidateNum" value="3" />
+            <option name="inferenceMode" value="auto" />
+            <option name="maxCandidateNum" value="5" />
           </LocalModelParam>
         </option>
       </ChangeUserSettingParams>
