@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="CLOSE_TAB_BUTTON_ON_THE_RIGHT" value="false" />
     <option name="EDITOR_TAB_LIMIT" value="30" />
     <option name="EDITOR_TAB_PLACEMENT" value="2" />
