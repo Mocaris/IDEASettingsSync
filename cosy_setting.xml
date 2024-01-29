@@ -20,7 +20,6 @@
                 <option name="modelLevel" value="large" />
               </CloudModelManualTrigger>
             </option>
-            <option name="showInlineWhenIDECompletion" value="true" />
           </CloudModelParam>
         </option>
         <option name="local">
