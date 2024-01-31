@@ -41,6 +41,13 @@
             </list>
           </value>
         </entry>
+        <entry key="laotie_android|1508137056710408">
+          <value>
+            <list>
+              <option value="Failed to invoke getAdditionalVisibleSourceSets on org.jetbrains.kotlin.gradle.plugin.sources.DefaultKotlinSourceSet" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
