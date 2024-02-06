@@ -2,6 +2,7 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
+        <option value="com.qiuliao.tv" />
         <option value="package:com.laotiejicun.locker" />
         <option value="com.laotiejicun.buffet" />
         <option value="LeakCanary" />
@@ -9,8 +10,14 @@
     </option>
     <option name="nonFavorites">
       <list>
-        <option value="&quot;type&quot;:" />
+        <option value="com.laotiejicun.webuilocker" />
+        <option value="tabPositions" />
         <option value="com.qiuliao.wlzb" />
+        <option value="com.mocaris" />
+        <option value=" System.out" />
+        <option value="com.laotiejicun.locker" />
+        <option value="package:com.laotiejicun.locker.dev" />
+        <option value="&quot;type&quot;:" />
         <option value="test_demo" />
         <option value="package:com.laotiejicun.detect " />
         <option value="upsert更新人脸库" />
@@ -19,7 +26,6 @@
         <option value="ImportUserListUtil" />
         <option value="DetectProcessWorker" />
         <option value="startActivity" />
-        <option value="com.laotiejicun.webuilocker" />
         <option value="package:com.laotiejicun.locker.debug" />
       </list>
     </option>

@@ -16,6 +16,28 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="2ef44e57" />
+          </Key>
+        </key>
+        <name value="Xiaomi M2012K11AC" />
+        <target value="Android 12.0" />
+        <api value="androidversion:31:null:1:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="R5CT913E2DM" />
+          </Key>
+        </key>
+        <name value="samsung SM-A136B" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:9:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="7618bf2e6edf1629" />
           </Key>
         </key>
@@ -43,6 +65,17 @@
         </key>
         <name value="Device" />
         <target value="Android 1.0" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="8KE0220331020914" />
+          </Key>
+        </key>
+        <name value="HUAWEI ELE-AL00" />
+        <target value="Android 10.0" />
+        <api value="androidversion:29:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>

@@ -1,0 +1,58 @@
+<application>
+  <component name="CosySettings">
+    <option name="manualOpenLocalModel" value="true" />
+    <option name="parameter">
+      <ChangeUserSettingParams>
+        <option name="allowReportUsage" value="true" />
+        <option name="cloud">
+          <CloudModelParam>
+            <option name="autoTrigger">
+              <CloudModelAutoTrigger>
+                <option name="enable" value="true" />
+                <option name="generateLength" value="level_3" />
+                <option name="modelLevel" value="large" />
+              </CloudModelAutoTrigger>
+            </option>
+            <option name="enable" value="true" />
+            <option name="manualTrigger">
+              <CloudModelManualTrigger>
+                <option name="generateLength" value="level_3" />
+                <option name="modelLevel" value="large" />
+              </CloudModelManualTrigger>
+            </option>
+          </CloudModelParam>
+        </option>
+        <option name="local">
+          <LocalModelParam>
+            <option name="enable" value="true" />
+            <option name="inferenceMode" value="auto" />
+            <option name="maxCandidateNum" value="5" />
+          </LocalModelParam>
+        </option>
+      </ChangeUserSettingParams>
+    </option>
+    <option name="recentQueries">
+      <map>
+        <entry key="LaoTieSysApp|1508137056710408">
+          <value>
+            <list>
+              <option value="/explain code" />
+              <option value="/explain code" />
+            </list>
+          </value>
+        </entry>
+        <entry key="laotie_android|1508137056710408">
+          <value>
+            <list>
+              <option value="Failed to invoke getAdditionalVisibleSourceSets on org.jetbrains.kotlin.gradle.plugin.sources.DefaultKotlinSourceSet" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="showInlineAcceptTips" value="false" />
+    <option name="showInlineCancelTips" value="false" />
+    <option name="showInlinePrevTips" value="false" />
+    <option name="showInlineTriggerTips" value="false" />
+  </component>
+</application>
