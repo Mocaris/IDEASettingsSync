@@ -47,6 +47,7 @@
               <option value="/explain code" />
               <option value="/generate comment" />
               <option value="/generate optimization" />
+              <option value="/explain code" />
             </list>
           </value>
         </entry>
