@@ -46,6 +46,8 @@
             <list>
               <option value="/explain code" />
               <option value="/generate comment" />
+              <option value="/generate optimization" />
+              <option value="/explain code" />
             </list>
           </value>
         </entry>
@@ -53,14 +55,6 @@
           <value>
             <list>
               <option value="Failed to invoke getAdditionalVisibleSourceSets on org.jetbrains.kotlin.gradle.plugin.sources.DefaultKotlinSourceSet" />
-            </list>
-          </value>
-        </entry>
-        <entry key="laotie_flutter|1508137056710408">
-          <value>
-            <list>
-              <option value="/explain code" />
-              <option value="翻译 caseSensitive" />
             </list>
           </value>
         </entry>

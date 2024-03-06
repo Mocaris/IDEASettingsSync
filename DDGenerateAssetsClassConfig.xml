@@ -1,6 +1,0 @@
-<application>
-  <component name="DDGenerateAssetsClassConfig">
-    <option name="className" value="Assets" />
-    <option name="fileName" value="assets" />
-  </component>
-</application>
