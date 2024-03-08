@@ -9,5 +9,12 @@
   </action>
   <action id="EditorSelectWord" />
   <action id="SmartSelect" />
+  <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
 </keymap>
