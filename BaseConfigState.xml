@@ -1,0 +1,7 @@
+<application>
+  <component name="SmartInputBaseConfigState">
+    <option name="chineseInputSourceName" value="微信输入法" />
+    <option name="englishInputSourceName" value="ABC" />
+    <option name="newShowSwitchTipType" value="LANGUAGE" />
+  </component>
+</application>
