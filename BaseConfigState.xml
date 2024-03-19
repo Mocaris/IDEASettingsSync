@@ -3,5 +3,6 @@
     <option name="chineseInputSourceName" value="微信输入法" />
     <option name="englishInputSourceName" value="ABC" />
     <option name="newShowSwitchTipType" value="LANGUAGE" />
+    <option name="englishCaretColor" value="春绿" />
   </component>
 </application>
