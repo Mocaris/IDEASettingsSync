@@ -8,6 +8,9 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="SmartSelect" />
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.WriteAccess" />
