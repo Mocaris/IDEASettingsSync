@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="System.out" />
     <option name="nonFavorites">
       <list>
+        <option value="System.out" />
         <option value="live.astrostar.sdk.demo" />
         <option value="com.laotiejicun.webuilocker package:com.laotiejicun.webuilocker" />
         <option value="tabPositions" />
