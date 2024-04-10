@@ -2,6 +2,9 @@
   <option name="RIGHT_MARGIN" value="100" />
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="SOFT_MARGINS" value="90" />
+  <JavaCodeStyleSettings>
+    <option name="USE_SINGLE_CLASS_IMPORTS" value="false" />
+  </JavaCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="1" />
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="1" />
