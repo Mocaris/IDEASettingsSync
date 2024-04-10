@@ -9,9 +9,9 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="level:DEBUG" />
     <option name="nonFavorites">
       <list>
+        <option value="Face init" />
         <option value="IrisSdkManager" />
         <option value="System.out" />
         <option value="live.astrostar.sdk.demo" />
@@ -31,7 +31,6 @@
         <option value="ImportUserListUtil" />
         <option value="DetectProcessWorker" />
         <option value="startActivity" />
-        <option value="package:com.laotiejicun.locker.debug" />
       </list>
     </option>
   </component>
