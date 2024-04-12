@@ -9,8 +9,12 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="----------》》》" />
     <option name="nonFavorites">
       <list>
+        <option value="----------》》》" />
+        <option value="-------------------doRegisterDelay: " />
+        <option value="---------" />
         <option value="Face init" />
         <option value="IrisSdkManager" />
         <option value="System.out" />
@@ -28,9 +32,6 @@
         <option value="upsert更新人脸库" />
         <option value="package:com.laotie.sdkzip" />
         <option value="package:com.laotiejicun.locker " />
-        <option value="ImportUserListUtil" />
-        <option value="DetectProcessWorker" />
-        <option value="startActivity" />
       </list>
     </option>
   </component>
