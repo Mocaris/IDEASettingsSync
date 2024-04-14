@@ -11,6 +11,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="IrisManagerUtil" />
         <option value="IrisSdkManager" />
         <option value="----------》》》" />
         <option value="-------------------doRegisterDelay: " />
@@ -30,7 +31,6 @@
         <option value="package:com.laotiejicun.detect " />
         <option value="upsert更新人脸库" />
         <option value="package:com.laotie.sdkzip" />
-        <option value="package:com.laotiejicun.locker " />
       </list>
     </option>
   </component>
