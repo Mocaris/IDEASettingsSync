@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…/LaoTieSDK2/src/main/java/com/laotiejicun/sdk2/LaoTieSDK.kt [LaoTieLockerSDK.LaoTieSDK2.main]'" />
-    <option name="defaultScopeName" value="File '…/LaoTieSDK2/src/main/java/com/laotiejicun/sdk2/LaoTieSDK.kt [LaoTieLockerSDK.LaoTieSDK2.main]'" />
-    <option name="SEARCH_SCOPE" value="File '…/LaoTieSDK2/src/main/java/com/laotiejicun/sdk2/LaoTieSDK.kt [LaoTieLockerSDK.LaoTieSDK2.main]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.kt</mask>
   </component>
 </application>
