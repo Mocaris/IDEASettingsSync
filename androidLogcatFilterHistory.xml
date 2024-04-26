@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="SocketClient" />
     <option name="nonFavorites">
       <list>
+        <option value="SocketClient" />
         <option value="eventReceived" />
         <option value="Socket" />
         <option value="IrisManagerUtil" />
@@ -30,7 +32,6 @@
         <option value="package:com.laotiejicun.locker.dev" />
         <option value="&quot;type&quot;:" />
         <option value="test_demo" />
-        <option value="package:com.laotiejicun.detect " />
       </list>
     </option>
   </component>
