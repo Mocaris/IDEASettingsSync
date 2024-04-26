@@ -11,6 +11,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="eventReceived" />
         <option value="Socket" />
         <option value="IrisManagerUtil" />
         <option value="IrisSdkManager" />
@@ -30,7 +31,6 @@
         <option value="&quot;type&quot;:" />
         <option value="test_demo" />
         <option value="package:com.laotiejicun.detect " />
-        <option value="upsert更新人脸库" />
       </list>
     </option>
   </component>
