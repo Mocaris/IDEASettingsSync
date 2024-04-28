@@ -9,9 +9,9 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="SocketClient" />
     <option name="nonFavorites">
       <list>
+        <option value="执行串口信息" />
         <option value="SocketClient" />
         <option value="eventReceived" />
         <option value="Socket" />
@@ -31,7 +31,6 @@
         <option value="com.laotiejicun.locker" />
         <option value="package:com.laotiejicun.locker.dev" />
         <option value="&quot;type&quot;:" />
-        <option value="test_demo" />
       </list>
     </option>
   </component>
