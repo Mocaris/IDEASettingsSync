@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="串口信息" />
     <option name="nonFavorites">
       <list>
+        <option value="串口信息" />
         <option value="执行串口信息" />
         <option value="SocketClient" />
         <option value="eventReceived" />
@@ -30,7 +32,6 @@
         <option value=" System.out" />
         <option value="com.laotiejicun.locker" />
         <option value="package:com.laotiejicun.locker.dev" />
-        <option value="&quot;type&quot;:" />
       </list>
     </option>
   </component>
