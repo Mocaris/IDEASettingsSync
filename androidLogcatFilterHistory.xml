@@ -11,12 +11,13 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="执行串口信息" />
+        <option value="串口" />
         <option value="SocketClientHandler" />
         <option value="connect Inactive" />
         <option value="Inac" />
         <option value="下载" />
         <option value="串口信息" />
-        <option value="执行串口信息" />
         <option value="SocketClient" />
         <option value="eventReceived" />
         <option value="Socket" />
@@ -30,7 +31,6 @@
         <option value="live.astrostar.sdk.demo" />
         <option value="com.laotiejicun.webuilocker package:com.laotiejicun.webuilocker" />
         <option value="tabPositions" />
-        <option value="com.qiuliao.wlzb" />
       </list>
     </option>
   </component>
