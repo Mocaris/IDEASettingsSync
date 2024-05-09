@@ -9,15 +9,16 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="串口信息" />
     <option name="nonFavorites">
       <list>
+        <option value="串口信息" />
         <option value="串口" />
         <option value="执行串口信息" />
         <option value="SocketClientHandler" />
         <option value="connect Inactive" />
         <option value="Inac" />
         <option value="下载" />
-        <option value="串口信息" />
         <option value="SocketClient" />
         <option value="eventReceived" />
         <option value="Socket" />
