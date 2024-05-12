@@ -9,13 +9,13 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="已处理对应指令" />
+    <option name="mostRecentlyUsed" value="串口" />
     <option name="nonFavorites">
       <list>
+        <option value="串口" />
         <option value="已处理对应指令" />
         <option value="串口:Timeout" />
         <option value="80 01 01 33 B3" />
-        <option value="串口" />
         <option value="80 01 01 33" />
         <option value="执行串口信息" />
         <option value="80 01 08 33" />
