@@ -13,6 +13,8 @@
     <option name="nonFavorites">
       <list>
         <option value="串口" />
+        <option value="80 01 01 11" />
+        <option value="WaterParkReadStateTask" />
         <option value="已处理对应指令" />
         <option value="串口:Timeout" />
         <option value="80 01 01 33 B3" />
@@ -30,8 +32,6 @@
         <option value="eventReceived" />
         <option value="Socket" />
         <option value="IrisManagerUtil" />
-        <option value="IrisSdkManager" />
-        <option value="----------》》》" />
       </list>
     </option>
   </component>
