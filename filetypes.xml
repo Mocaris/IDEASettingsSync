@@ -1,9 +1,8 @@
 <application>
-  <component name="FileTypeManager" version="19">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="adbcommand.md" type="AUTO_DETECTED" />
       <mapping pattern="apple-app-site-association" type="AUTO_DETECTED" />
-      <mapping ext="tars" type="Jce File" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".zsh_history" type="PLAIN_TEXT" />
@@ -19,6 +18,7 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
+      <mapping ext="tars" type="Jce File" />
     </extensionMap>
   </component>
 </application>
