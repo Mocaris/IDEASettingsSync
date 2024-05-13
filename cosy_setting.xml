@@ -81,6 +81,12 @@
           <value>
             <list>
               <option value="Failed to invoke getAdditionalVisibleSourceSets on org.jetbrains.kotlin.gradle.plugin.sources.DefaultKotlinSourceSet" />
+              <option value="/generate optimization" />
+              <option value="/generate optimization" />
+              <option value="/generate optimization" />
+              <option value="0x00异或0x80" />
+              <option value="/generate optimization" />
+              <option value="/generate optimization" />
             </list>
           </value>
         </entry>
