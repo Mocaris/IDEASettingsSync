@@ -11,6 +11,8 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="board_id=2543&amp;board_num=1&amp;" />
+        <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
         <option value="串口" />
         <option value="----------SerialPortService---onServiceConnected----" />
         <option value="WaterParkReadStateTask" />
@@ -29,8 +31,6 @@
         <option value="connect Inactive" />
         <option value="Inac" />
         <option value="下载" />
-        <option value="SocketClient" />
-        <option value="eventReceived" />
       </list>
     </option>
   </component>
