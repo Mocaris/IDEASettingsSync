@@ -11,6 +11,9 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="OkHttp" />
+        <option value="board_id=2543&amp;board_num=1" />
+        <option value="board_id=2543&amp;board_num=1&amp;lock_num=" />
         <option value="SyncInfoService" />
         <option value="database-----onCreate" />
         <option value="initReadWaterState" />
@@ -28,9 +31,6 @@
         <option value="已处理对应指令" />
         <option value="串口:Timeout" />
         <option value="80 01 01 33 B3" />
-        <option value="80 01 01 33" />
-        <option value="80 01 08 33" />
-        <option value="80 01 " />
       </list>
     </option>
   </component>
