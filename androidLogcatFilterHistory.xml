@@ -11,26 +11,26 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="initReadWaterState" />
+        <option value="已处理串口指令" />
+        <option value="initReadWaterState-------------" />
+        <option value="执行串口信息" />
+        <option value="WaterPark/initData " />
         <option value="串口" />
         <option value="initReadWaterState: " />
         <option value="board_id=2543&amp;board_num=1&amp;" />
         <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
         <option value="----------SerialPortService---onServiceConnected----" />
         <option value="WaterParkReadStateTask" />
-        <option value="已处理串口指令" />
         <option value="80 01 01 11" />
         <option value="已处理对应指令" />
         <option value="串口:Timeout" />
         <option value="80 01 01 33 B3" />
         <option value="80 01 01 33" />
-        <option value="执行串口信息" />
         <option value="80 01 08 33" />
         <option value="80 01 " />
         <option value="有效串口信息" />
         <option value="串口信息" />
-        <option value="SocketClientHandler" />
-        <option value="connect Inactive" />
-        <option value="Inac" />
       </list>
     </option>
   </component>
