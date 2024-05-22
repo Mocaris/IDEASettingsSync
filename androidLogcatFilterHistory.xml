@@ -11,10 +11,10 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="串口" />
         <option value="initReadWaterState: " />
         <option value="board_id=2543&amp;board_num=1&amp;" />
         <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
-        <option value="串口" />
         <option value="----------SerialPortService---onServiceConnected----" />
         <option value="WaterParkReadStateTask" />
         <option value="已处理串口指令" />
