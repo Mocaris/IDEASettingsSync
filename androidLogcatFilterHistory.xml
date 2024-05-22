@@ -11,6 +11,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="SyncInfoService" />
         <option value="database-----onCreate" />
         <option value="initReadWaterState" />
         <option value="已处理串口指令" />
@@ -30,7 +31,6 @@
         <option value="80 01 01 33" />
         <option value="80 01 08 33" />
         <option value="80 01 " />
-        <option value="有效串口信息" />
       </list>
     </option>
   </component>
