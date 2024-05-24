@@ -4,8 +4,31 @@
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
     <option name="ENABLE_SECOND_REFORMAT" value="true" />
   </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="gittoolbox.code.vision.blame.changeDate" value="Default" />
+        <entry key="gittoolbox.code.vision.blame.issueNav" value="Default" />
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="sol.gas.estimation" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="compose.state.read" value="false" />
+        <entry key="devkit.threading" value="false" />
+        <entry key="java.implicit.types" value="false" />
+        <entry key="java.method.chains" value="true" />
+      </map>
+    </option>
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
