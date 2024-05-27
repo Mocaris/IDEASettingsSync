@@ -67,6 +67,7 @@
               <option value="PriorityBlockingQueue.poll() 结束" />
               <option value="PriorityBlockingQueue 中 put() 和 offer() 的区别" />
               <option value="rxjava  延时操作" />
+              <option value="Comparable  以 priority 值越小越靠前" />
             </list>
           </value>
         </entry>
