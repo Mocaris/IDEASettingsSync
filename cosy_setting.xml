@@ -63,6 +63,9 @@
               <option value="LinkedBlockingQueue 怎么排序" />
               <option value="PriorityQueue 如何添加同步机制" />
               <option value="android 项目中 找不到 ConcurrentSkipListQueue" />
+              <option value="ConcurrentSkipListQueue poll() 方法的解释" />
+              <option value="PriorityBlockingQueue.poll() 结束" />
+              <option value="PriorityBlockingQueue 中 put() 和 offer() 的区别" />
             </list>
           </value>
         </entry>
