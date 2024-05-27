@@ -59,6 +59,10 @@
               <option value="@Synchronized&#10;    fun initReadWaterState() {&#10;        synchronized(this::class.java) {&#10;            if (checkWaterParkState) return&#10;            checkWaterParkState = true&#10;            Logger.d(&quot;initReadWaterState-------------$checkWaterParkState&quot;)&#10;            WaterParkPresenter.initReadWaterState()&#10;                .doOnComplete {&#10;                    Logger.d(&quot;initReadWaterState-------------doOnComplete&quot;)&#10;                    checkWaterParkState = false&#10;                }&#10;                .subscribe { infoList -&gt;&#10;                    Logger.d(&quot;initReadWaterState-------------subscribe $infoList&quot;)&#10;                    if (infoList.isNotEmpty()) {&#10;                        NetRepository.waterParkInit(&#10;                            boardId = getDefaultConfig()?.board_id ?: &quot;&quot;,&#10;                            data = GsonUtils.toJson(infoList)&#10;                        ).subscribe(object : NetResponseObserable&lt;JSONObject&gt;() {&#10;                            override fun onSuccess(t: JSONObject) {&#10;                                Logger.d(&quot;init waterPark: ${infoList.count()}&quot;)&#10;                            }&#10;&#10;                            override fun onFail(e: HttpResException) {&#10;                                Logger.d(&quot;init waterPark: ${e.message}&quot;)&#10;                            }&#10;&#10;                        })&#10;                    }&#10;                }&#10;        }&#10;    }" />
               <option value="这段代码 在 checkWaterParkState = true 的情况下 执行了两次" />
               <option value="incrementAndGet" />
+              <option value="添加 LinkedBlockingQueue 至最前面" />
+              <option value="LinkedBlockingQueue 怎么排序" />
+              <option value="PriorityQueue 如何添加同步机制" />
+              <option value="android 项目中 找不到 ConcurrentSkipListQueue" />
             </list>
           </value>
         </entry>
