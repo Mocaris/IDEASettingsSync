@@ -98,6 +98,7 @@
               <option value="0x00异或0x80" />
               <option value="/generate optimization" />
               <option value="/generate optimization" />
+              <option value="android intent  进入系统设置页面" />
             </list>
           </value>
         </entry>
