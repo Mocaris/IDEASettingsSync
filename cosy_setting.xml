@@ -1,5 +1,7 @@
 <application>
   <component name="CosySettings">
+    <option name="dedicatedDomainUrl" value="" />
+    <option name="localStoragePath" value="$USER_HOME$/.lingma" />
     <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
@@ -49,6 +51,12 @@
               <option value="/explain code" />
               <option value="netty 框架中 NioEventLoopGroup  的作用" />
               <option value="netty 中 Bootstrap 的作用" />
+              <option value="/explain code" />
+              <option value="/generate optimization" />
+              <option value="kotlin 中将 byte 转为16进制字符串" />
+              <option value="kotlin 中将 byte 转为16进制字符串，性能最好的方式" />
+              <option value="/generate optimization" />
+              <option value="提高性能优化" />
             </list>
           </value>
         </entry>
@@ -68,6 +76,8 @@
               <option value="PriorityBlockingQueue 中 put() 和 offer() 的区别" />
               <option value="rxjava  延时操作" />
               <option value="Comparable  以 priority 值越小越靠前" />
+              <option value="/generate optimization" />
+              <option value="/explain code" />
             </list>
           </value>
         </entry>
