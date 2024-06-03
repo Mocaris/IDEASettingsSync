@@ -9,7 +9,6 @@
               <option value="User Info" />
               <option value="Firebase" />
               <option value="Android Vitals" />
-              <option value="Gemini" />
             </set>
           </value>
         </entry>
