@@ -85,6 +85,7 @@
               <option value="上午,下午,晚上,凌晨  时间段从几点到几点" />
               <option value="查看 jks 签名文件信息的命令" />
               <option value="/explain code" />
+              <option value="/generate optimization" />
             </list>
           </value>
         </entry>
