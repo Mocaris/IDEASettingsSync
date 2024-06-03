@@ -30,18 +30,5 @@
         </option>
       </ChangeUserSettingParams>
     </option>
-    <option name="recentQueries">
-      <map>
-        <entry key="LaoTieSysApp|1508137056710408">
-          <value>
-            <list>
-              <option value="败Parameterspecifiedasnon-nullisnull:methodcom.laotiejicun.webuilocker.db.tb.TBBoardModel.&lt;init&gt;，parameteruart_url" />
-              <option value="gson 反序列化时，默认初始值" />
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="showInlineAcceptTips" value="false" />
   </component>
 </application>
