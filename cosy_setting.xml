@@ -32,6 +32,14 @@
     </option>
     <option name="recentQueries">
       <map>
+        <entry key="LaoTieSysApp|1508137056710408">
+          <value>
+            <list>
+              <option value="kotlin 协程中 Channel 如何根据优先级排序" />
+              <option value="kotlin 中 select 表达式" />
+            </list>
+          </value>
+        </entry>
         <entry key="LaotieLocker|1508137056710408">
           <value>
             <list>
@@ -43,5 +51,6 @@
     </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
+    <option name="showInlineTriggerTips" value="false" />
   </component>
 </application>
