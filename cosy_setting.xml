@@ -30,6 +30,17 @@
         </option>
       </ChangeUserSettingParams>
     </option>
+    <option name="recentQueries">
+      <map>
+        <entry key="LaotieLocker|1508137056710408">
+          <value>
+            <list>
+              <option value="Scheduling restart of crashed service top.carlwu.laotie.beta/top.carlwu.laotie.service.CoreLockerService in 1000ms" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
   </component>
