@@ -11,6 +11,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="top.carlwu.laotie" />
         <option value="readSingleBoardState" />
         <option value="执行串口信息" />
         <option value="doOnComplete" />
@@ -30,7 +31,6 @@
         <option value="----------SerialPortService---onServiceConnected----" />
         <option value="WaterParkReadStateTask" />
         <option value="80 01 01 11" />
-        <option value="已处理对应指令" />
       </list>
     </option>
   </component>
