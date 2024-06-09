@@ -44,6 +44,7 @@
           <value>
             <list>
               <option value="Scheduling restart of crashed service top.carlwu.laotie.beta/top.carlwu.laotie.service.CoreLockerService in 1000ms" />
+              <option value="kotlin 循环前加跳转标签" />
             </list>
           </value>
         </entry>
