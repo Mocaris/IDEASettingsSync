@@ -1,10 +1,7 @@
 <application>
   <component name="GiteeAccounts">
-    <account name="Mocaris" id="f5bff495-b695-40d8-92a0-af3b3a73491d">
+    <account name="Mocaris" id="81ecc877-afcc-43b5-94e0-d8ff5f07daeb">
       <Server host="gitee.com" clientid="b7837ec65bcb294b0e2a31e5669b788a3185829524af4d818c3c2a35b186366d" clientsecret="85891acdb745502e19e02e3bbcd405dd303190c8a3fcf29a6ca7a2796b76f918" />
     </account>
-  </component>
-  <component name="GiteeSettings">
-    <option name="CONNECTION_TIMEOUT" value="10000" />
   </component>
 </application>

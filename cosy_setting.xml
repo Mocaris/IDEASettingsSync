@@ -1,8 +1,5 @@
 <application>
   <component name="CosySettings">
-    <option name="dedicatedDomainUrl" value="" />
-    <option name="localStoragePath" value="$USER_HOME$/.lingma" />
-    <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
@@ -11,14 +8,14 @@
             <option name="autoTrigger">
               <CloudModelAutoTrigger>
                 <option name="enable" value="true" />
-                <option name="generateLength" value="level_3" />
+                <option name="generateLength" value="level_1" />
                 <option name="modelLevel" value="large" />
               </CloudModelAutoTrigger>
             </option>
             <option name="enable" value="true" />
             <option name="manualTrigger">
               <CloudModelManualTrigger>
-                <option name="generateLength" value="level_3" />
+                <option name="generateLength" value="level_2" />
                 <option name="modelLevel" value="large" />
               </CloudModelManualTrigger>
             </option>
@@ -26,80 +23,27 @@
         </option>
         <option name="local">
           <LocalModelParam>
-            <option name="enable" value="true" />
+            <option name="enable" value="false" />
             <option name="inferenceMode" value="auto" />
-            <option name="maxCandidateNum" value="5" />
+            <option name="maxCandidateNum" value="3" />
           </LocalModelParam>
         </option>
       </ChangeUserSettingParams>
     </option>
     <option name="recentQueries">
       <map>
-        <entry key="KTReaderDemo|1508137056710408">
-          <value>
-            <list>
-              <option value="Permissive" />
-              <option value="Permissive" />
-            </list>
-          </value>
-        </entry>
         <entry key="LaoTieSysApp|1508137056710408">
           <value>
             <list>
-              <option value="/explain code" />
-              <option value="/explain code" />
-              <option value="/explain code" />
-              <option value="netty 框架中 NioEventLoopGroup  的作用" />
-              <option value="netty 中 Bootstrap 的作用" />
-              <option value="/generate optimization" />
+              <option value="kotlin 协程中 Channel 如何根据优先级排序" />
+              <option value="kotlin 中 select 表达式" />
             </list>
           </value>
         </entry>
         <entry key="LaotieLocker|1508137056710408">
           <value>
             <list>
-              <option value="/explain code" />
-              <option value="@Synchronized&#10;    fun initReadWaterState() {&#10;        synchronized(this::class.java) {&#10;            if (checkWaterParkState) return&#10;            checkWaterParkState = true&#10;            Logger.d(&quot;initReadWaterState-------------$checkWaterParkState&quot;)&#10;            WaterParkPresenter.initReadWaterState()&#10;                .doOnComplete {&#10;                    Logger.d(&quot;initReadWaterState-------------doOnComplete&quot;)&#10;                    checkWaterParkState = false&#10;                }&#10;                .subscribe { infoList -&gt;&#10;                    Logger.d(&quot;initReadWaterState-------------subscribe $infoList&quot;)&#10;                    if (infoList.isNotEmpty()) {&#10;                        NetRepository.waterParkInit(&#10;                            boardId = getDefaultConfig()?.board_id ?: &quot;&quot;,&#10;                            data = GsonUtils.toJson(infoList)&#10;                        ).subscribe(object : NetResponseObserable&lt;JSONObject&gt;() {&#10;                            override fun onSuccess(t: JSONObject) {&#10;                                Logger.d(&quot;init waterPark: ${infoList.count()}&quot;)&#10;                            }&#10;&#10;                            override fun onFail(e: HttpResException) {&#10;                                Logger.d(&quot;init waterPark: ${e.message}&quot;)&#10;                            }&#10;&#10;                        })&#10;                    }&#10;                }&#10;        }&#10;    }" />
-              <option value="这段代码 在 checkWaterParkState = true 的情况下 执行了两次" />
-              <option value="incrementAndGet" />
-            </list>
-          </value>
-        </entry>
-        <entry key="astrostar-app|1508137056710408">
-          <value>
-            <list>
-              <option value="/explain code" />
-              <option value="/generate comment" />
-              <option value="/generate optimization" />
-              <option value="/explain code" />
-            </list>
-          </value>
-        </entry>
-        <entry key="icommu-app|1508137056710408">
-          <value>
-            <list>
-              <option value="/generate optimization" />
-              <option value="中国身份证正则" />
-              <option value="/generate optimization" />
-              <option value="0x33 10进制" />
-              <option value="上午,下午,晚上,凌晨  时间段从几点到几点" />
-              <option value="查看 jks 签名文件信息的命令" />
-              <option value="/explain code" />
-              <option value="/generate optimization" />
-            </list>
-          </value>
-        </entry>
-        <entry key="laotie_android|1508137056710408">
-          <value>
-            <list>
-              <option value="Failed to invoke getAdditionalVisibleSourceSets on org.jetbrains.kotlin.gradle.plugin.sources.DefaultKotlinSourceSet" />
-              <option value="/generate optimization" />
-              <option value="/generate optimization" />
-              <option value="/generate optimization" />
-              <option value="0x00异或0x80" />
-              <option value="/generate optimization" />
-              <option value="/generate optimization" />
-              <option value="android intent  进入系统设置页面" />
+              <option value="Scheduling restart of crashed service top.carlwu.laotie.beta/top.carlwu.laotie.service.CoreLockerService in 1000ms" />
             </list>
           </value>
         </entry>
@@ -107,7 +51,6 @@
     </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
-    <option name="showInlinePrevTips" value="false" />
     <option name="showInlineTriggerTips" value="false" />
   </component>
 </application>
