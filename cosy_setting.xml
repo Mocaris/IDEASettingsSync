@@ -38,6 +38,7 @@
             <list>
               <option value="kotlin 协程中 Channel 如何根据优先级排序" />
               <option value="kotlin 中 select 表达式" />
+              <option value="/generate optimization" />
             </list>
           </value>
         </entry>
