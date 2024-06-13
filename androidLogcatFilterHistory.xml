@@ -11,11 +11,12 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="App SerialPort" />
+        <option value="串口" />
+        <option value="执行串口信息" />
         <option value="top.carlwu.laotie" />
         <option value="readSingleBoardState" />
-        <option value="执行串口信息" />
         <option value="doOnComplete" />
-        <option value="串口" />
         <option value="OkHttp" />
         <option value="board_id=2543&amp;board_num=1" />
         <option value="board_id=2543&amp;board_num=1&amp;lock_num=" />
@@ -30,7 +31,6 @@
         <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
         <option value="----------SerialPortService---onServiceConnected----" />
         <option value="WaterParkReadStateTask" />
-        <option value="80 01 01 11" />
       </list>
     </option>
   </component>

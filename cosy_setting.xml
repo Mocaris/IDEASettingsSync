@@ -1,5 +1,6 @@
 <application>
   <component name="CosySettings">
+    <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
@@ -23,7 +24,7 @@
         </option>
         <option name="local">
           <LocalModelParam>
-            <option name="enable" value="false" />
+            <option name="enable" value="true" />
             <option name="inferenceMode" value="auto" />
             <option name="maxCandidateNum" value="3" />
           </LocalModelParam>
@@ -44,6 +45,8 @@
           <value>
             <list>
               <option value="Scheduling restart of crashed service top.carlwu.laotie.beta/top.carlwu.laotie.service.CoreLockerService in 1000ms" />
+              <option value="kotlin 循环前加跳转标签" />
+              <option value="PriorityBlockingQueue 中 take 和 poll 的区别" />
             </list>
           </value>
         </entry>
