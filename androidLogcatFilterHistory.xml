@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="SerialPort" />
     <option name="nonFavorites">
       <list>
+        <option value="SerialPort" />
         <option value="App SerialPort" />
         <option value="串口" />
         <option value="执行串口信息" />
@@ -30,7 +32,6 @@
         <option value="board_id=2543&amp;board_num=1&amp;" />
         <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
         <option value="----------SerialPortService---onServiceConnected----" />
-        <option value="WaterParkReadStateTask" />
       </list>
     </option>
   </component>
