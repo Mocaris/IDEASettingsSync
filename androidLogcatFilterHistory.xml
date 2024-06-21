@@ -12,6 +12,7 @@
     <option name="nonFavorites">
       <list>
         <option value="SerialPort" />
+        <option value=" addTask: " />
         <option value="App SerialPort" />
         <option value="串口" />
         <option value="执行串口信息" />
@@ -30,7 +31,6 @@
         <option value="initReadWaterState: " />
         <option value="board_id=2543&amp;board_num=1&amp;" />
         <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
-        <option value="----------SerialPortService---onServiceConnected----" />
       </list>
     </option>
   </component>
