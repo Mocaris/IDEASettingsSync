@@ -50,6 +50,7 @@
               <option value="/generate optimization" />
               <option value="/explain code" />
               <option value="/generate optimization" />
+              <option value="android webview 页面 第一次点击无反应" />
             </list>
           </value>
         </entry>
