@@ -11,6 +11,8 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="MainPageVM" />
+        <option value="MainPage" />
         <option value="LeakCanary " />
         <option value="SerialPort" />
         <option value=" addTask: " />
@@ -29,8 +31,6 @@
         <option value="已处理串口指令" />
         <option value="initReadWaterState-------------" />
         <option value="WaterPark/initData " />
-        <option value="initReadWaterState: " />
-        <option value="board_id=2543&amp;board_num=1&amp;" />
       </list>
     </option>
   </component>
