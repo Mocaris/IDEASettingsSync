@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="BridgeWebView" />
     <option name="nonFavorites">
       <list>
+        <option value="BridgeWebView" />
         <option value="MainPageVM" />
         <option value="MainPage" />
         <option value="LeakCanary " />
@@ -30,7 +32,6 @@
         <option value="initReadWaterState" />
         <option value="已处理串口指令" />
         <option value="initReadWaterState-------------" />
-        <option value="WaterPark/initData " />
       </list>
     </option>
   </component>
