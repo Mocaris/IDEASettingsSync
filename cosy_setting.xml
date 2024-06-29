@@ -53,6 +53,7 @@
               <option value="android webview 页面 第一次点击无反应" />
               <option value="InputDispatcher            W  Asynchronous input event injection failed." />
               <option value="/explain code" />
+              <option value="Could not determine the dependencies of task ':appWebUILocker:compileDevDebugJavaWithJavac'.&#10;&gt; Could not create task ':appWebUILocker:kspDevDebugKotlin'.&#10;   &gt; Cannot query the value of task ':appWebUILocker:compileDevDebugKotlin' property 'moduleName' because it has no value available." />
             </list>
           </value>
         </entry>
