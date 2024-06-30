@@ -65,6 +65,7 @@
               <option value="Scheduling restart of crashed service top.carlwu.laotie.beta/top.carlwu.laotie.service.CoreLockerService in 1000ms" />
               <option value="kotlin 循环前加跳转标签" />
               <option value="PriorityBlockingQueue 中 take 和 poll 的区别" />
+              <option value="LinearLayout 子view 均匀分布 的属性" />
             </list>
           </value>
         </entry>
