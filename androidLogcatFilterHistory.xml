@@ -9,8 +9,11 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="HBS:PushPlugin" />
     <option name="nonFavorites">
       <list>
+        <option value="HBS:PushPlugin" />
+        <option value="HBS:PushPluginHBS:PushPlugin" />
         <option value="掌纹模块初始化" />
         <option value="receive data" />
         <option value="1302" />
@@ -29,8 +32,6 @@
         <option value="doOnComplete" />
         <option value="OkHttp" />
         <option value="board_id=2543&amp;board_num=1" />
-        <option value="board_id=2543&amp;board_num=1&amp;lock_num=" />
-        <option value="SyncInfoService" />
       </list>
     </option>
   </component>
