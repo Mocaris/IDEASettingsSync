@@ -11,6 +11,14 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="掌纹模块初始化" />
+        <option value="receive data" />
+        <option value="1302" />
+        <option value="checkReboot" />
+        <option value="BridgeWebView" />
+        <option value="MainPageVM" />
+        <option value="MainPage" />
+        <option value="LeakCanary " />
         <option value="SerialPort" />
         <option value=" addTask: " />
         <option value="App SerialPort" />
@@ -23,14 +31,6 @@
         <option value="board_id=2543&amp;board_num=1" />
         <option value="board_id=2543&amp;board_num=1&amp;lock_num=" />
         <option value="SyncInfoService" />
-        <option value="database-----onCreate" />
-        <option value="initReadWaterState" />
-        <option value="已处理串口指令" />
-        <option value="initReadWaterState-------------" />
-        <option value="WaterPark/initData " />
-        <option value="initReadWaterState: " />
-        <option value="board_id=2543&amp;board_num=1&amp;" />
-        <option value="--&gt; POST http://a1.laotiejicun.com/WaterPark/returnProduct" />
       </list>
     </option>
   </component>
