@@ -9,9 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="initLicense" />
+    <option name="mostRecentlyUsed" value="licenseLocalInfo" />
     <option name="nonFavorites">
       <list>
+        <option value="licenseLocalInfo" />
         <option value="initLicense" />
         <option value="HBS:PushPlugin" />
         <option value="HBS:PushPluginHBS:PushPlugin" />
@@ -31,7 +32,6 @@
         <option value="top.carlwu.laotie" />
         <option value="readSingleBoardState" />
         <option value="doOnComplete" />
-        <option value="OkHttp" />
       </list>
     </option>
   </component>
