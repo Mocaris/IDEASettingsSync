@@ -9,8 +9,12 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="BDOCRSDKManager initSDK:" />
     <option name="nonFavorites">
       <list>
+        <option value="BDOCRSDKManager initSDK:" />
+        <option value="Resource :" />
+        <option value="FalconDP" />
         <option value="licenseLocalInfo" />
         <option value="initLicense" />
         <option value="HBS:PushPlugin" />
@@ -28,9 +32,6 @@
         <option value="App SerialPort" />
         <option value="串口" />
         <option value="执行串口信息" />
-        <option value="top.carlwu.laotie" />
-        <option value="readSingleBoardState" />
-        <option value="doOnComplete" />
       </list>
     </option>
   </component>
