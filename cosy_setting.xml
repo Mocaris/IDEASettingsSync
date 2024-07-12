@@ -59,6 +59,7 @@
               <option value="/explain code" />
               <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details" />
               <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details&#10;错误修复" />
+              <option value="未检测到活体人脸    文案优化" />
             </list>
           </value>
         </entry>
