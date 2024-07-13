@@ -60,6 +60,8 @@
               <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details" />
               <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details&#10;错误修复" />
               <option value="未检测到活体人脸    文案优化" />
+              <option value="[0713/164312.149294:ERROR:elf_dynamic_array_reader.h(64)] tag not found&#10;[0713/164312.219196:ERROR:file_io_posix.cc(144)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: Permission denied (13)" />
+              <option value="[0713/164312.149294:ERROR:elf_dynamic_array_reader.h(64)] tag not found&#10;[0713/164312.219196:ERROR:file_io_posix.cc(144)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: Permission denied (13)  这个错误如何修复" />
             </list>
           </value>
         </entry>
