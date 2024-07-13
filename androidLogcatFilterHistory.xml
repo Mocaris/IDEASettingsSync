@@ -9,9 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="spdlog" />
     <option name="nonFavorites">
       <list>
+        <option value="MainPageVM" />
+        <option value="BridgeWebView" />
         <option value="spdlog" />
         <option value="BDOCRSDKManager" />
         <option value="BaiduVisUtils" />
@@ -26,8 +27,6 @@
         <option value="receive data" />
         <option value="1302" />
         <option value="checkReboot" />
-        <option value="BridgeWebView" />
-        <option value="MainPageVM" />
         <option value="MainPage" />
         <option value="LeakCanary " />
         <option value="SerialPort" />
