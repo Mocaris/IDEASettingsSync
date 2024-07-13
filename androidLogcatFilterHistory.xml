@@ -11,6 +11,8 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="ORCSDKManager" />
+        <option value="bugly" />
         <option value="MainPageVM" />
         <option value="BridgeWebView" />
         <option value="spdlog" />
@@ -29,8 +31,6 @@
         <option value="checkReboot" />
         <option value="MainPage" />
         <option value="LeakCanary " />
-        <option value="SerialPort" />
-        <option value=" addTask: " />
       </list>
     </option>
   </component>
