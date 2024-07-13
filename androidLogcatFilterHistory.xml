@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="spdlog" />
     <option name="nonFavorites">
       <list>
+        <option value="spdlog" />
         <option value="BDOCRSDKManager" />
         <option value="BaiduVisUtils" />
         <option value="BDOCRSDKManager initSDK:" />
@@ -30,7 +32,6 @@
         <option value="LeakCanary " />
         <option value="SerialPort" />
         <option value=" addTask: " />
-        <option value="App SerialPort" />
       </list>
     </option>
   </component>
