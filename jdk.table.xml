@@ -516,17 +516,17 @@
     <jdk version="2">
       <name value="Android API 32 Platform" />
       <type value="Android SDK" />
-      <homePath value="$USER_HOME$/DeveloperKit/Android/sdk" />
+      <homePath value="D:/DevKit/Android/Sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-32/data/annotations.zip!/" type="simple" />
+            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-32/data/annotations.zip!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-32/android.jar!/" type="simple" />
-            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-32/data/res" type="simple" />
+            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-32/android.jar!/" type="simple" />
+            <root url="file://D:/DevKit/Android/Sdk/platforms/android-32/data/res" type="simple" />
           </root>
         </classPath>
         <javadocPath>
