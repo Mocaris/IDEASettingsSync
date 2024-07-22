@@ -80,6 +80,7 @@
           <value>
             <list>
               <option value="/explain code" />
+              <option value="E:\StudioProjects\LaotiePhoneApp\app\src\main\AndroidManifest.xml:28:18-86 Error:&#10;&#9;Attribute application@appComponentFactory value=(androidx.core.app.CoreComponentFactory) from [androidx.core:core:1.13.1] AndroidManifest.xml:28:18-86&#10;&#9;is also present at [com.android.support:support-compat:28.0.0] AndroidManifest.xml:22:18-91 value=(android.support.v4.app.CoreComponentFactory).&#10;&#9;Suggestion: add 'tools:replace=&quot;android:appComponentFactory&quot;' to &lt;application&gt; element at AndroidManifest.xml:5:5-32:19 to override." />
             </list>
           </value>
         </entry>
