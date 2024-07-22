@@ -60,7 +60,9 @@
               <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details" />
               <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details&#10;错误修复" />
               <option value="未检测到活体人脸    文案优化" />
-              <option value="Dependency 'androidx.camera:camera-video:1.3.2' requires libraries and applications that&#10;      depend on it to compile against version 34 or later of the&#10;      Android APIs." />
+              <option value="[0713/164312.149294:ERROR:elf_dynamic_array_reader.h(64)] tag not found&#10;[0713/164312.219196:ERROR:file_io_posix.cc(144)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: Permission denied (13)" />
+              <option value="[0713/164312.149294:ERROR:elf_dynamic_array_reader.h(64)] tag not found&#10;[0713/164312.219196:ERROR:file_io_posix.cc(144)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: Permission denied (13)  这个错误如何修复" />
+              <option value="/generate optimization" />
             </list>
           </value>
         </entry>
@@ -71,6 +73,13 @@
               <option value="kotlin 循环前加跳转标签" />
               <option value="PriorityBlockingQueue 中 take 和 poll 的区别" />
               <option value="LinearLayout 子view 均匀分布 的属性" />
+            </list>
+          </value>
+        </entry>
+        <entry key="RapidOcrAndroidOnnx|1508137056710408">
+          <value>
+            <list>
+              <option value="/explain code" />
             </list>
           </value>
         </entry>
