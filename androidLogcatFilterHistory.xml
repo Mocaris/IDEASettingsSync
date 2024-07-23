@@ -9,9 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="PhoneOCRActivity" />
     <option name="nonFavorites">
       <list>
+        <option value="SocketService" />
+        <option value="com.laotiejicun" />
         <option value="PhoneOCRActivity" />
         <option value="识别结果" />
         <option value="ORCSDKManager" />
@@ -30,8 +31,6 @@
         <option value="HBS:PushPluginHBS:PushPlugin" />
         <option value="掌纹模块初始化" />
         <option value="receive data" />
-        <option value="1302" />
-        <option value="checkReboot" />
       </list>
     </option>
   </component>
