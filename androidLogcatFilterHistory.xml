@@ -9,8 +9,10 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="PhoneOCRActivity" />
     <option name="nonFavorites">
       <list>
+        <option value="PhoneOCRActivity" />
         <option value="识别结果" />
         <option value="ORCSDKManager" />
         <option value="bugly" />
@@ -30,7 +32,6 @@
         <option value="receive data" />
         <option value="1302" />
         <option value="checkReboot" />
-        <option value="MainPage" />
       </list>
     </option>
   </component>
