@@ -11,6 +11,13 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="PalmVeinManager" />
+        <option value="search scor" />
+        <option value="code:" />
+        <option value="code" />
+        <option value="search score" />
+        <option value="Palm" />
+        <option value="PalmVein" />
         <option value="initialize" />
         <option value="掌纹模块初始化" />
         <option value="SocketService" />
@@ -24,13 +31,6 @@
         <option value="spdlog" />
         <option value="BDOCRSDKManager" />
         <option value="BaiduVisUtils" />
-        <option value="BDOCRSDKManager initSDK:" />
-        <option value="Resource :" />
-        <option value="FalconDP" />
-        <option value="licenseLocalInfo" />
-        <option value="initLicense" />
-        <option value="HBS:PushPlugin" />
-        <option value="HBS:PushPluginHBS:PushPlugin" />
       </list>
     </option>
   </component>
