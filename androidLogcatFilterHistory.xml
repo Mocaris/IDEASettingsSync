@@ -11,6 +11,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="检测失败, 继续检测" />
         <option value="PalmVeinManager" />
         <option value="search scor" />
         <option value="code:" />
@@ -30,7 +31,6 @@
         <option value="BridgeWebView" />
         <option value="spdlog" />
         <option value="BDOCRSDKManager" />
-        <option value="BaiduVisUtils" />
       </list>
     </option>
   </component>
