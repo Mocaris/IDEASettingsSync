@@ -9,9 +9,11 @@
         <option value="LeakCanary" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="PhoneOCRActivity" />
     <option name="nonFavorites">
       <list>
         <option value="PhoneOCRActivity" />
+        <option value="$USER_HOME$/DevWork/AndroidStudio/LaotiePhoneApp/app/apk/release/1.0.0/2/com.laotiejicun.app-release-1.0.0.2-2.apk" />
         <option value="识别结果" />
         <option value="ORCSDKManager" />
         <option value="bugly" />
@@ -30,7 +32,6 @@
         <option value="掌纹模块初始化" />
         <option value="receive data" />
         <option value="1302" />
-        <option value="checkReboot" />
       </list>
     </option>
   </component>
