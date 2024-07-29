@@ -93,6 +93,14 @@
             </list>
           </value>
         </entry>
+        <entry key="flutter_tools|1508137056710408">
+          <value>
+            <list>
+              <option value="正则 \d[.\d]?[xX]" />
+              <option value="正则 匹配所有 非 下划线 字母 和数字" />
+            </list>
+          </value>
+        </entry>
         <entry key="icommu-app|1508137056710408">
           <value>
             <list>
