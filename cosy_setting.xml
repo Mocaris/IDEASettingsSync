@@ -98,6 +98,9 @@
             <list>
               <option value="正则 \d[.\d]?[xX]" />
               <option value="正则 匹配所有 非 下划线 字母 和数字" />
+              <option value="//  #  忽略文件和文件夹&#10;      //     - &quot;**/2.0x/**&quot;&#10;      //     - &quot;**/3.0x/**&quot;&#10;      //     - &quot;**.txt&quot;" />
+              <option value="判断 路径是否包含      &#10; //  #  忽略文件和文件夹&#10;      //     - &quot;**/2.0x/**&quot;&#10;      //     - &quot;**/3.0x/**&quot;&#10;      //     - &quot;**.txt&quot;" />
+              <option value="dart 根据正则忽略 文件路径和文件名" />
             </list>
           </value>
         </entry>
