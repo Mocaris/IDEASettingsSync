@@ -1,36 +1,8 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="favorites">
-      <list>
-        <option value="com.laotiejicun.webuilocker" />
-        <option value="com.qiuliao.tv" />
-        <option value="package:com.laotiejicun.locker" />
-        <option value="com.laotiejicun.buffet" />
-        <option value="LeakCanary" />
-      </list>
-    </option>
     <option name="nonFavorites">
       <list>
-        <option value="42921" />
-        <option value="检测失败, 继续检测" />
-        <option value="PalmVeinManager" />
-        <option value="search scor" />
-        <option value="code:" />
-        <option value="code" />
-        <option value="search score" />
-        <option value="Palm" />
-        <option value="PalmVein" />
-        <option value="initialize" />
-        <option value="掌纹模块初始化" />
-        <option value="SocketService" />
-        <option value="com.laotiejicun" />
-        <option value="PhoneOCRActivity" />
-        <option value="识别结果" />
-        <option value="ORCSDKManager" />
-        <option value="bugly" />
-        <option value="MainPageVM" />
-        <option value="BridgeWebView" />
-        <option value="spdlog" />
+        <option value="IndexOutOfBoundsException" />
       </list>
     </option>
   </component>

@@ -44,8 +44,6 @@
           <value>
             <list>
               <option value="/generate optimization" />
-              <option value="Returns the current value of the running Java Virtual Machine's high-resolution time source, in nanoseconds.&#10;This method can only be used to measure elapsed time and is not related to any other notion of system or wall-clock time. The value returned represents nanoseconds since some fixed but arbitrary origin time (perhaps in the future, so values may be negative). The same origin is used by all invocations of this method in an instance of a Java virtual machine; other virtual machine instances are likely to use a different origin.&#10;This method provides nanosecond precision, but not necessarily nanosecond resolution (that is, how frequently the value changes) - no guarantees are made except that the resolution is at least as good as that of currentTimeMillis().&#10;Differences in successive calls that span greater than approximately 292 years (263 nanoseconds) will not correctly compute elapsed time due to numerical overflow.&#10;The values returned by this method become meaningful only when the difference between two such values, obtained within the same instance of a Java virtual machine, is computed.&#10;For example, to measure how long some code takes to execute:&#10; long startTime = System.nanoTime();  // ... the code being measured ...  long estimatedTime = System.nanoTime() - startTime;&#10;To compare two nanoTime values&#10; long t0 = System.nanoTime();  ...  long t1 = System.nanoTime();&#10;one should use t1 - t0 &lt; 0, not t1 &lt; t0, because of the possibility of numerical overflow.&#10;The value returned by this method does not account for elapsed time during deep sleep. For timekeeping facilities available on Android see android.os.SystemClock.&#10;Returns:&#10;the current value of the running Java Virtual Machine's high-resolution time source, in nanoseconds" />
-              <option value="/generate optimization" />
               <option value="/explain code" />
               <option value="/generate optimization" />
               <option value="android webview 页面 第一次点击无反应" />
@@ -63,6 +61,8 @@
               <option value="/generate optimization" />
               <option value="Flag for bindService: this service is very important to the client, so should be brought to the foreground process level when the client is. Normally a process can only be raised to the visibility level by a client, even if that client is in the foreground." />
               <option value="Scheduling restart of crashed service com.laotiejicun.webuilocker/com.laotiejicun.service.SocketService in 10965ms for connection" />
+              <option value="/generate optimization" />
+              <option value="java.lang.IndexOutOfBoundsException: UnpooledByteBufAllocator$InstrumentedUnpooledHeapByteBuf(ridx: 0, widx: 64, cap: 64).slice(37, 64)" />
             </list>
           </value>
         </entry>
