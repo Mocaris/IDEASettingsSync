@@ -1,8 +1,8 @@
 <application>
   <component name="LafManager">
-    <laf themeId="f92a0fa7-1a98-47cd-b5cb-78ff67e6f4f3" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="1a92aa6f-c2f1-4994-ae01-6a78e43eeb24" scheme="_@user_Default" />
+      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_One Dark Italic" />
     </lafs-to-previous-schemes>
   </component>
 </application>
