@@ -2,6 +2,7 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="onEnroll" />
         <option value="checkUSBPermission" />
         <option value="PalmVeinManager" />
         <option value="掌纹模块初始化" />
