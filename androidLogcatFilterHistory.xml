@@ -2,7 +2,9 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
-        <option value="IndexOutOfBoundsException" />
+        <option value="checkUSBPermission" />
+        <option value="PalmVeinManager" />
+        <option value="掌纹模块初始化" />
       </list>
     </option>
   </component>

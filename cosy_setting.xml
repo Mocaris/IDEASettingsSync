@@ -1,6 +1,5 @@
 <application>
   <component name="CosySettings">
-    <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
@@ -24,7 +23,7 @@
         </option>
         <option name="local">
           <LocalModelParam>
-            <option name="enable" value="true" />
+            <option name="enable" value="false" />
             <option name="inferenceMode" value="auto" />
             <option name="maxCandidateNum" value="3" />
           </LocalModelParam>
@@ -33,78 +32,7 @@
     </option>
     <option name="recentQueries">
       <map>
-        <entry key="FlutterTestDemo|1508137056710408">
-          <value>
-            <list>
-              <option value="/explain code" />
-            </list>
-          </value>
-        </entry>
         <entry key="LaoTieSysApp|1508137056710408">
-          <value>
-            <list>
-              <option value="/generate optimization" />
-              <option value="/explain code" />
-              <option value="/generate optimization" />
-              <option value="android webview 页面 第一次点击无反应" />
-              <option value="InputDispatcher            W  Asynchronous input event injection failed." />
-              <option value="/explain code" />
-              <option value="Could not determine the dependencies of task ':appWebUILocker:compileDevDebugJavaWithJavac'.&#10;&gt; Could not create task ':appWebUILocker:kspDevDebugKotlin'.&#10;   &gt; Cannot query the value of task ':appWebUILocker:compileDevDebugKotlin' property 'moduleName' because it has no value available." />
-              <option value="/explain code" />
-              <option value="public synchronized int dbIdentifyParallel(byte[] verTemplate, String[] id, int sliceCount) {&#10;        int[] sliceScores = new int[sliceCount];&#10;        Thread[] threads = new Thread[sliceCount];&#10;        String[][] palmsId = new String[sliceCount][];&#10;&#10;        int maxScore;&#10;        int i;&#10;        for(maxScore = 0; maxScore &lt; sliceCount; ++maxScore) {&#10;            String[] palmId = new String[1];&#10;            palmsId[maxScore] = palmId;&#10;            i = maxScore;&#10;            threads[maxScore] = new Thread(() -&gt; {&#10;                int ret = this.sliceIdentify(verTemplate, palmId, sliceCount, i);&#10;                sliceScores[i] = ret;&#10;            });&#10;            threads[maxScore].start();&#10;        }&#10;&#10;        Thread[] var13 = threads;&#10;        int var14 = threads.length;&#10;&#10;        for(i = 0; i &lt; var14; ++i) {&#10;            Thread thread = var13[i];&#10;&#10;            try {&#10;                thread.join();&#10;            } catch (InterruptedException var12) {&#10;                InterruptedException e = var12;&#10;                e.printStackTrace();&#10;            }&#10;        }&#10;&#10;        maxScore = 0;&#10;        String bestPalmId = null;&#10;&#10;        for(i = 0; i &lt; sliceCount; ++i) {&#10;            if (sliceScores[i] &gt; maxScore) {&#10;                maxScore = sliceScores[i];&#10;                bestPalmId = palmsId[i][0];&#10;            }&#10;        }&#10;&#10;        id[0] = bestPalmId;&#10;        return maxScore;&#10;    }&#10;&#10;这段代码 执行完成会导致 String[] id 为 null" />
-              <option value="/explain code" />
-              <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details" />
-              <option value="Execution failed for task ':libOCR:compileDebugKotlin'.&#10;&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction&#10;   &gt; Compilation error. See log for more details&#10;错误修复" />
-              <option value="未检测到活体人脸    文案优化" />
-              <option value="[0713/164312.149294:ERROR:elf_dynamic_array_reader.h(64)] tag not found&#10;[0713/164312.219196:ERROR:file_io_posix.cc(144)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: Permission denied (13)" />
-              <option value="[0713/164312.149294:ERROR:elf_dynamic_array_reader.h(64)] tag not found&#10;[0713/164312.219196:ERROR:file_io_posix.cc(144)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: Permission denied (13)  这个错误如何修复" />
-              <option value="/generate optimization" />
-              <option value="Flag for bindService: this service is very important to the client, so should be brought to the foreground process level when the client is. Normally a process can only be raised to the visibility level by a client, even if that client is in the foreground." />
-              <option value="Scheduling restart of crashed service com.laotiejicun.webuilocker/com.laotiejicun.service.SocketService in 10965ms for connection" />
-              <option value="/generate optimization" />
-              <option value="java.lang.IndexOutOfBoundsException: UnpooledByteBufAllocator$InstrumentedUnpooledHeapByteBuf(ridx: 0, widx: 64, cap: 64).slice(37, 64)" />
-            </list>
-          </value>
-        </entry>
-        <entry key="LaotieLocker|1508137056710408">
-          <value>
-            <list>
-              <option value="Scheduling restart of crashed service top.carlwu.laotie.beta/top.carlwu.laotie.service.CoreLockerService in 1000ms" />
-              <option value="kotlin 循环前加跳转标签" />
-              <option value="PriorityBlockingQueue 中 take 和 poll 的区别" />
-              <option value="LinearLayout 子view 均匀分布 的属性" />
-            </list>
-          </value>
-        </entry>
-        <entry key="LaotiePhoneApp|1508137056710408">
-          <value>
-            <list>
-              <option value="/explain code" />
-              <option value="E:\StudioProjects\LaotiePhoneApp\app\src\main\AndroidManifest.xml:28:18-86 Error:&#10;&#9;Attribute application@appComponentFactory value=(androidx.core.app.CoreComponentFactory) from [androidx.core:core:1.13.1] AndroidManifest.xml:28:18-86&#10;&#9;is also present at [com.android.support:support-compat:28.0.0] AndroidManifest.xml:22:18-91 value=(android.support.v4.app.CoreComponentFactory).&#10;&#9;Suggestion: add 'tools:replace=&quot;android:appComponentFactory&quot;' to &lt;application&gt; element at AndroidManifest.xml:5:5-32:19 to override." />
-              <option value="Execution failed for task ':app:kspDebugKotlin'.&#10;&gt; Could not resolve all files for configuration ':app:kspDebugKotlinProcessorClasspath'.&#10;   &gt; Could not find androidx.room:room-compiler:provider(?).&#10;     Searched in the following locations:&#10;       - https://dl.google.com/dl/android/maven2/androidx/room/room-compiler/provider(%3F)/room-compiler-provider(%3F).pom&#10;       - https://repo.maven.apache.org/maven2/androidx/room/room-compiler/provider(%3F)/room-compiler-provider(%3F).pom&#10;       - https://jitpack.io/androidx/room/room-compiler/provider(%3F)/room-compiler-provider(%3F).pom&#10;       - https://jcenter.bintray.com/androidx/room/room-compiler/provider(%3F)/room-compiler-provider(%3F).pom&#10;     Required by:&#10;         project :app" />
-              <option value="java.lang.SecurityException: Specified package &quot;com.laotiejicun.app&quot; under uid -1 but it is not&#10;                                                       &#9;at com.android.server.appop.AppOpsService.verifyAndGetBypass(AppOpsService.java:4692)&#10;                                                       &#9;at com.android.server.appop.AppOpsService.noteOperationUnchecked(AppOpsService.java:3455)&#10;                                                       &#9;at com.android.server.appop.AppOpsService.noteOperationImpl(AppOpsService.java:3443)&#10;                                                       &#9;at com.android.server.appop.AppOpsService.-$$Nest$mnoteOperationImpl(Unknown Source:0)&#10;                                                       &#9;at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.lambda$noteOperation$4(AppOpsService.java:7638)&#10;                                                       &#9;at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.$r8$lambda$oOwUoG55BBmJ6yiwhp3OAq3tQ30(Unknown Source:0)&#10;                                                       &#9;at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher$$ExternalSyntheticLambda3.apply(Unknown Source:32)&#10;                                                       &#9;at com.android.server.policy.AppOpsPolicy.noteOperation(AppOpsPolicy.java:225)&#10;                                                       &#9;at com.android.server.appop.AppOpsService$CheckOpsDelegateDispatcher.noteOperation(AppOpsService.java:7636)&#10;                                                       &#9;at com.android.server.appop.AppOpsService.noteOperation(AppOpsService.java:3427)&#10;                                                       &#9;at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:479)&#10;                                                       &#9;at android.os.Binder.execTransactInternal(Binder.java:1280)&#10;                                                       &#9;at android.os.Binder.execTransact(Binder.java:1244)&#10;19:09:43.763 19911-16212 OpenGLRenderer             E  Unable to match the desired swap behavior." />
-              <option value="/explain code" />
-            </list>
-          </value>
-        </entry>
-        <entry key="RapidOcrAndroidOnnx|1508137056710408">
-          <value>
-            <list>
-              <option value="/explain code" />
-            </list>
-          </value>
-        </entry>
-        <entry key="icommu-app|1508137056710408">
-          <value>
-            <list>
-              <option value="[DIO] Request: GET https://api-dev.i-commu.com/api/v1/transactions/balance&#10;I/flutter (15404):  [DIO] Response [code 200]:&#10;I/flutter (15404):  {data: {balance: 9999946, vBalance: 10000000000, payableEarning: 0, totalEarning: 0, totalBalance: 10000000000}}&#10;I/flutter (15404): SPCacheManager Error #0      _JsonStringifier.writeObject (dart:convert/json.dart:793:7)&#10;I/flutter (15404): #1      _JsonStringifier.writeList (dart:convert/json.dart:841:7)&#10;I/flutter (15404): #2      _JsonStringifier.writeJsonValue (dart:convert/json.dart:823:7)&#10;I/flutter (15404): #3      _JsonStringifier.writeObject (dart:convert/json.dart:784:9)&#10;I/flutter (15404): #4      _JsonStringStringifier.printOn (dart:convert/json.dart:982:17)&#10;I/flutter (15404): #5      _JsonStringStringifier.stringify (dart:convert/json.dart:967:5)&#10;I/flutter (15404): #6      JsonEncoder.convert (dart:convert/json.dart:345:30)&#10;I/flutter (15404): #7      JsonCodec.encode (dart:convert/json.dart:231:45)&#10;I/flutter (15404): #8      SPCacheManager.setCache (package:icommu_core/caches/src/cache_manager.dart:34:54)&#10;I/flutter (15404): #9      ListDataSource.requestData (package:icommu_core/data_source/src/list_data_source.dart:96:16)&#10;I/flutter (15404): &lt;asynchronous suspension&gt;&#10;I/flutter (15404): #10     Future.wait.&lt;anonymous closure&gt; (dart:async/future.dart:524:21)&#10;I/flutter (15404): &lt;asynchronous suspension&gt;&#10;I/flutter (15404): #11     _WalletState._requestData (package:icommu_app_chs/pages/me/wallet/wallet_page.dart:31:5)&#10;I/flutter (15404): &lt;asynchronous suspension&gt;" />
-              <option value="判断 字符串 src 是一个网络地址还是 file 的路径" />
-              <option value="flutter 中 ClipRRect 导致抖动" />
-              <option value="/generate optimization" />
-            </list>
-          </value>
-        </entry>
-        <entry key="laotie_flutter|1508137056710408">
           <value>
             <list>
               <option value="/explain code" />
@@ -115,7 +43,5 @@
     </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
-    <option name="showInlinePrevTips" value="false" />
-    <option name="showInlineTriggerTips" value="false" />
   </component>
 </application>
