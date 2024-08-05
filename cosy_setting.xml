@@ -39,6 +39,15 @@
             </list>
           </value>
         </entry>
+        <entry key="icommu-app|1508137056710408">
+          <value>
+            <list>
+              <option value="android usb 串口 连接两个同型号设备 如何区分" />
+              <option value="android原生开发 usb 串口 连接两个同型号设备 如何区分" />
+              <option value="android usb 串口 连接设备并发送数据" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
