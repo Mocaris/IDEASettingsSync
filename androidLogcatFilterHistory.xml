@@ -1,12 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="-----------" />
+    <option name="mostRecentlyUsed" value="PalmVeinManager" />
     <option name="nonFavorites">
       <list>
+        <option value="PalmVeinManager" />
         <option value="-----------" />
         <option value="onEnroll" />
         <option value="checkUSBPermission" />
-        <option value="PalmVeinManager" />
         <option value="掌纹模块初始化" />
       </list>
     </option>
