@@ -32,19 +32,24 @@
     </option>
     <option name="recentQueries">
       <map>
+        <entry key="AccessControl|1508137056710408">
+          <value>
+            <list>
+              <option value="针对以下终端信息，请解释原因并提供修复意见。" />
+            </list>
+          </value>
+        </entry>
+        <entry key="AccessControl|1508137056710408|">
+          <value>
+            <list>
+              <option value="针对以下终端信息，请解释原因并提供修复意见。" />
+            </list>
+          </value>
+        </entry>
         <entry key="LaoTieSysApp|1508137056710408">
           <value>
             <list>
               <option value="/explain code" />
-            </list>
-          </value>
-        </entry>
-        <entry key="icommu-app|1508137056710408">
-          <value>
-            <list>
-              <option value="android usb 串口 连接两个同型号设备 如何区分" />
-              <option value="android原生开发 usb 串口 连接两个同型号设备 如何区分" />
-              <option value="android usb 串口 连接设备并发送数据" />
             </list>
           </value>
         </entry>

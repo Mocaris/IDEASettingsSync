@@ -4,6 +4,7 @@
     <option name="nonFavorites">
       <list>
         <option value="PalmVeinManager" />
+        <option value="------------------" />
         <option value="-----------" />
         <option value="onEnroll" />
         <option value="checkUSBPermission" />
