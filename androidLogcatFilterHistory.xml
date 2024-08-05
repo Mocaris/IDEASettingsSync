@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="PalmVeinManager" />
+    <option name="mostRecentlyUsed" value="initializeSDK" />
     <option name="nonFavorites">
       <list>
+        <option value="initializeSDK" />
         <option value="PalmVeinManager" />
         <option value="------------------" />
         <option value="-----------" />
