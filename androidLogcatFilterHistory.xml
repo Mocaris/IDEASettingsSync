@@ -1,6 +1,5 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="initializeSDK" />
     <option name="nonFavorites">
       <list>
         <option value="initializeSDK" />
