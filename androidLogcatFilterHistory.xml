@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="usbReceiver" />
     <option name="nonFavorites">
       <list>
+        <option value="usbReceiver" />
         <option value="initializeSDK" />
         <option value="PalmVeinManager" />
         <option value="------------------" />
