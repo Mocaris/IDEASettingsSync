@@ -111,17 +111,17 @@
     <jdk version="2">
       <name value="Android API 28 Platform" />
       <type value="Android SDK" />
-      <homePath value="D:/DevKit/Android/Sdk" />
+      <homePath value="$USER_HOME$/DeveloperKit/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-28/data/annotations.zip!/" type="simple" />
+            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-28/data/annotations.zip!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-28/android.jar!/" type="simple" />
-            <root url="file://D:/DevKit/Android/Sdk/platforms/android-28/data/res" type="simple" />
+            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-28/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-28/data/res" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -129,7 +129,7 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root url="file://D:/DevKit/Android/Sdk/sources/android-28" type="simple" />
+            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/sources/android-28" type="simple" />
           </root>
         </sourcePath>
       </roots>
@@ -165,26 +165,26 @@
     <jdk version="2">
       <name value="Android API 30 Platform" />
       <type value="Android SDK" />
-      <homePath value="D:/DevKit/Android/Sdk" />
+      <homePath value="$USER_HOME$/DeveloperKit/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-30/data/annotations.zip!/" type="simple" />
+            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-30/data/annotations.zip!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-30/android.jar!/" type="simple" />
-            <root url="file://D:/DevKit/Android/Sdk/platforms/android-30/data/res" type="simple" />
+            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-30/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-30/data/res" type="simple" />
           </root>
         </classPath>
         <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
+          <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/sources/android-30" type="simple" />
+          </root>
         </sourcePath>
       </roots>
       <additional sdk="android-30" />
@@ -246,26 +246,26 @@
     <jdk version="2">
       <name value="Android API 33, extension level 3 Platform" />
       <type value="Android SDK" />
-      <homePath value="D:/DevKit/Android/Sdk" />
+      <homePath value="$USER_HOME$/DeveloperKit/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-33/data/annotations.zip!/" type="simple" />
+            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-33/data/annotations.zip!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-33/android.jar!/" type="simple" />
-            <root url="file://D:/DevKit/Android/Sdk/platforms/android-33/data/res" type="simple" />
+            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-33/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-33/data/res" type="simple" />
           </root>
         </classPath>
         <javadocPath>
-          <root type="composite">
-            <root url="http://developer.android.com/reference/" type="simple" />
-          </root>
+          <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/sources/android-33" type="simple" />
+          </root>
         </sourcePath>
       </roots>
       <additional sdk="android-33" />
