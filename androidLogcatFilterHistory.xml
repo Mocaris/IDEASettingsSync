@@ -1,8 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="KeyboardSDK" />
     <option name="nonFavorites">
       <list>
         <option value="KeyboardSDK" />
+        <option value="permission denied for device" />
         <option value="InitSdkManager" />
         <option value="keyboardList" />
         <option value="usbReceiver" />
