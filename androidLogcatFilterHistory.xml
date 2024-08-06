@@ -4,6 +4,12 @@
     <option name="nonFavorites">
       <list>
         <option value="KeyboardSDK" />
+        <option value="USBKeyBoardWrapper" />
+        <option value="complete" />
+        <option value="onUsbPermissionGranted" />
+        <option value="UsbListManager" />
+        <option value="USB CHANGED" />
+        <option value="try open keyboard" />
         <option value="permission denied for device" />
         <option value="InitSdkManager" />
         <option value="keyboardList" />
