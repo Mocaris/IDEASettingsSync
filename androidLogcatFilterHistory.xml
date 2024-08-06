@@ -2,6 +2,9 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="KeyboardSDK" />
+        <option value="InitSdkManager" />
+        <option value="keyboardList" />
         <option value="usbReceiver" />
         <option value="initializeSDK" />
         <option value="PalmVeinManager" />
