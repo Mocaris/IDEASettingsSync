@@ -50,6 +50,8 @@
           <value>
             <list>
               <option value="/explain code" />
+              <option value="kotlin 协程 周期运行函数" />
+              <option value="String concatenation '+' in loop" />
             </list>
           </value>
         </entry>
