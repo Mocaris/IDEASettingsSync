@@ -52,6 +52,7 @@
               <option value="/explain code" />
               <option value="kotlin 协程 周期运行函数" />
               <option value="String concatenation '+' in loop" />
+              <option value="java.lang.NullPointerException: Parameter specified as non-null is null: method com.laotiejicun.webuilocker.module.palm.vm.PalmDetectVM$listener$1.onEnroll, parameter feature&#10;                                                       &#9;at com.laotiejicun.webuilocker.module.palm.vm.PalmDetectVM$listener$1.onEnroll(Unknown Source:2)&#10;                                                       &#9;at com.veinauthen.tool.JXPalmWorkThread.run(JXPalmWorkThread.java:177)&#10;                                                       &#9;at java.lang.Thread.run(Thread.java:923)" />
             </list>
           </value>
         </entry>
