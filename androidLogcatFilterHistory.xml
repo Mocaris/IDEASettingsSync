@@ -2,6 +2,8 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="PalmVeinManager" />
+        <option value="apiTool" />
         <option value="USBKeyBoardWrapper" />
         <option value="try open keyboard" />
         <option value="KeyBoardSDKManager" />
@@ -10,7 +12,6 @@
         <option value="open complete" />
         <option value="KeyboardSDK" />
         <option value="keyboard deviceId" />
-        <option value="PalmVeinManager" />
         <option value="DefaultKeyboardListener" />
         <option value="complete" />
         <option value="UsbListManager" />
@@ -21,7 +22,6 @@
         <option value="usbReceiver" />
         <option value="initializeSDK" />
         <option value="------------------" />
-        <option value="-----------" />
       </list>
     </option>
   </component>
