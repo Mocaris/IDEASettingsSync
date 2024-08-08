@@ -3,6 +3,7 @@
     <option name="nonFavorites">
       <list>
         <option value="PalmVeinManager" />
+        <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
         <option value="apiTool" />
         <option value="USBKeyBoardWrapper" />
         <option value="try open keyboard" />
@@ -21,7 +22,6 @@
         <option value="keyboardList" />
         <option value="usbReceiver" />
         <option value="initializeSDK" />
-        <option value="------------------" />
       </list>
     </option>
   </component>
