@@ -2,6 +2,7 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="-----------------&gt;&gt;deviceId:" />
         <option value="License-SDK" />
         <option value="Face init" />
         <option value="PalmVeinManager" />
@@ -21,7 +22,6 @@
         <option value="USB CHANGED" />
         <option value="permission denied for device" />
         <option value="InitSdkManager" />
-        <option value="keyboardList" />
       </list>
     </option>
   </component>
