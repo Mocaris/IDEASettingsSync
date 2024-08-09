@@ -1,7 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="License-SDK" />
     <option name="nonFavorites">
       <list>
+        <option value="License-SDK" />
+        <option value="Face init" />
         <option value="PalmVeinManager" />
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
         <option value="apiTool" />
@@ -20,8 +23,6 @@
         <option value="permission denied for device" />
         <option value="InitSdkManager" />
         <option value="keyboardList" />
-        <option value="usbReceiver" />
-        <option value="initializeSDK" />
       </list>
     </option>
   </component>
