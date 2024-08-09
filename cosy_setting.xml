@@ -55,6 +55,13 @@
             </list>
           </value>
         </entry>
+        <entry key="astrostar-app|1508137056710408">
+          <value>
+            <list>
+              <option value="RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 send-pack: unexpected disconnect while reading sideband packet Total 41 (delta 23), reused 0 (delta 0), pack-reused 0 the remote end hung up unexpectedly" />
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="showInlineAcceptTips" value="false" />
