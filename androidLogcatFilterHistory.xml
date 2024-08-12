@@ -2,25 +2,26 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
-        <option value="USBKeyBoardWrapper" />
+        <option value="-----------------&gt;&gt;deviceId:" />
+        <option value="License-SDK" />
+        <option value="Face init" />
         <option value="PalmVeinManager" />
-        <option value="DefaultKeyboardListener" />
-        <option value="KeyboardSDK" />
-        <option value="complete" />
+        <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
+        <option value="apiTool" />
+        <option value="USBKeyBoardWrapper" />
+        <option value="try open keyboard" />
+        <option value="KeyBoardSDKManager" />
+        <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
         <option value="onUsbPermissionGranted" />
+        <option value="open complete" />
+        <option value="KeyboardSDK" />
+        <option value="keyboard deviceId" />
+        <option value="DefaultKeyboardListener" />
+        <option value="complete" />
         <option value="UsbListManager" />
         <option value="USB CHANGED" />
-        <option value="try open keyboard" />
         <option value="permission denied for device" />
         <option value="InitSdkManager" />
-        <option value="keyboardList" />
-        <option value="usbReceiver" />
-        <option value="initializeSDK" />
-        <option value="------------------" />
-        <option value="-----------" />
-        <option value="onEnroll" />
-        <option value="checkUSBPermission" />
-        <option value="掌纹模块初始化" />
       </list>
     </option>
   </component>
