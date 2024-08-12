@@ -2,6 +2,7 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="IrisSdkManager" />
         <option value="掌纹" />
         <option value="-----------------&gt;&gt;deviceId:" />
         <option value="License-SDK" />
@@ -21,7 +22,6 @@
         <option value="complete" />
         <option value="UsbListManager" />
         <option value="USB CHANGED" />
-        <option value="permission denied for device" />
       </list>
     </option>
   </component>
