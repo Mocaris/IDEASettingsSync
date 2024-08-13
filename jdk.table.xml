@@ -188,7 +188,7 @@
     <jdk version="2">
       <name value="17" />
       <type value="JavaSDK" />
-      <version value="Oracle OpenJDK 17.0.9 - aarch64" />
+      <version value="Oracle OpenJDK 17.0.12 - aarch64" />
       <homePath value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home" />
       <roots>
         <annotationsPath>
