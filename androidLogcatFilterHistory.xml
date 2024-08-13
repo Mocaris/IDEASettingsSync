@@ -2,6 +2,7 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="USBKeyBoardWrapper" />
         <option value="IrisSdkManager" />
         <option value="掌纹" />
         <option value="-----------------&gt;&gt;deviceId:" />
@@ -10,7 +11,6 @@
         <option value="PalmVeinManager" />
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
         <option value="apiTool" />
-        <option value="USBKeyBoardWrapper" />
         <option value="try open keyboard" />
         <option value="KeyBoardSDKManager" />
         <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
