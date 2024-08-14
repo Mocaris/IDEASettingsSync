@@ -62,6 +62,13 @@
             </list>
           </value>
         </entry>
+        <entry key="android|1508137056710408">
+          <value>
+            <list>
+              <option value="Attribute meta-data#hw_ads_sdk_type@value value=(2) from [ads-base-13.4.73.301.aar] AndroidManifest.xml:35:13-30&#10;&#9;is also present at [ads-lite-13.4.73.301.aar] AndroidManifest.xml:16:13-30 value=(6).&#10;&#9;Suggestion: add 'tools:replace=&quot;android:value&quot;' to &lt;meta-data&gt; element at AndroidManifest.xml:33:9-35:33 to override." />
+            </list>
+          </value>
+        </entry>
         <entry key="astrostar-app|1508137056710408">
           <value>
             <list>
@@ -81,6 +88,5 @@
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
     <option name="showInlineTriggerTips" value="false" />
-    <option name="useDefaultLang" value="false" />
   </component>
 </application>
