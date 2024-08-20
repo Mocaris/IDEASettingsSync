@@ -81,6 +81,11 @@
           <value>
             <list>
               <option value="@灵码" />
+              <option value="正则表达式  以#开头,结尾非空格" />
+              <option value="正则表达式 以#开头,后面不包括空格" />
+              <option value="正则表达式 匹配话题标签" />
+              <option value="正则表达式 匹配话题标签且不包含空格" />
+              <option value="正则表达式 匹配话题标签且不包含空格不以空格结尾" />
             </list>
           </value>
         </entry>
