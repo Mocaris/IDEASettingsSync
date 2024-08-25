@@ -3,8 +3,8 @@
     <jdk version="2">
       <name value="1.8" />
       <type value="JavaSDK" />
-      <version value="Oracle OpenJDK 1.8.0_391 - aarch64" />
-      <homePath value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home" />
+      <version value="Oracle OpenJDK 1.8.0_421" />
+      <homePath value="D:/Program Files/Java/jdk-1.8" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -13,27 +13,29 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/charsets.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/deploy.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/cldrdata.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/dnsns.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/jaccess.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/jfxrt.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/localedata.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/sunec.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/ext/zipfs.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/javaws.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jce.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jfr.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jfxswt.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jsse.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/management-agent.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/plugin.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/resources.jar!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/rt.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/charsets.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/deploy.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/access-bridge-64.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/cldrdata.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/dnsns.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/jaccess.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/jfxrt.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/localedata.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/nashorn.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/sunec.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/sunmscapi.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/ext/zipfs.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/javaws.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/jce.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/jfr.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/jfxswt.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/jsse.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/management-agent.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/plugin.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/resources.jar!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/jre/lib/rt.jar!/" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -41,8 +43,8 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/src.zip!/" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/javafx-src.zip!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/src.zip!/" type="simple" />
+            <root url="jar://D:/Program Files/Java/jdk-1.8/javafx-src.zip!/" type="simple" />
           </root>
         </sourcePath>
       </roots>
@@ -237,17 +239,17 @@
     <jdk version="2">
       <name value="Android API 28 Platform" />
       <type value="Android SDK" />
-      <homePath value="$USER_HOME$/DeveloperKit/Android/sdk" />
+      <homePath value="D:/DevKit/Android/Sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
-            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-28/data/annotations.zip!/" type="simple" />
+            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-28/data/annotations.zip!/" type="simple" />
           </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="jar://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-28/android.jar!/" type="simple" />
-            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/platforms/android-28/data/res" type="simple" />
+            <root url="jar://D:/DevKit/Android/Sdk/platforms/android-28/android.jar!/" type="simple" />
+            <root url="file://D:/DevKit/Android/Sdk/platforms/android-28/data/res" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -255,7 +257,7 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root url="file://$USER_HOME$/DeveloperKit/Android/sdk/sources/android-28" type="simple" />
+            <root url="file://D:/DevKit/Android/Sdk/sources/android-28" type="simple" />
           </root>
         </sourcePath>
       </roots>
