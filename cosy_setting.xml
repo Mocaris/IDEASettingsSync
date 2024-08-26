@@ -75,6 +75,7 @@
             <list>
               <option value="RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 send-pack: unexpected disconnect while reading sideband packet Total 41 (delta 23), reused 0 (delta 0), pack-reused 0 the remote end hung up unexpectedly" />
               <option value="Warning: Building for device with codesigning disabled. You will have to manually codesign before deploying to device.&#10;Building live.astrostar.dev for device (ios-release)...&#10;Warning: CocoaPods is installed but broken. Skipping pod install.&#10;  You appear to have CocoaPods installed but it is not working.&#10;  This can happen if the version of Ruby that CocoaPods was installed with is different from the one being used to invoke it.&#10;  This can usually be fixed by re-installing CocoaPods.&#10;To re-install see https://guides.cocoapods.org/using/getting-started.html#installation for instructions.&#10;&#10;CocoaPods not installed or not in valid state." />
+              <option value="[!] CocoaPods did not set the base configuration of your project because your project already has a custom config set. In order for CocoaPods integration to work at all, please either set the base configurations of the target `Runner` to `Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig` or include the `Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig` in your build configuration (`Flutter/Debug.xcconfig`)." />
             </list>
           </value>
         </entry>
