@@ -1,8 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="KeyBoardSDKManager" />
     <option name="nonFavorites">
       <list>
-        <option value="KeyboardSDK" />
+        <option value="KeyBoardSDKManager" />
+        <option value="init keyboard deviceId" />
         <option value="PalmVeinManager" />
         <option value="UsbICReaderManager" />
         <option value="UsbIcReaderWrapper" />
@@ -15,13 +17,12 @@
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
         <option value="apiTool" />
         <option value="try open keyboard" />
-        <option value="KeyBoardSDKManager" />
         <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
         <option value="onUsbPermissionGranted" />
         <option value="open complete" />
+        <option value="KeyboardSDK" />
         <option value="keyboard deviceId" />
         <option value="DefaultKeyboardListener" />
-        <option value="complete" />
       </list>
     </option>
   </component>
