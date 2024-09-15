@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="OCR" />
     <option name="nonFavorites">
       <list>
+        <option value="OCR" />
         <option value="KeyBoardSDKManager" />
         <option value="init keyboard deviceId" />
         <option value="PalmVeinManager" />
@@ -21,7 +23,6 @@
         <option value="open complete" />
         <option value="KeyboardSDK" />
         <option value="keyboard deviceId" />
-        <option value="DefaultKeyboardListener" />
       </list>
     </option>
   </component>
