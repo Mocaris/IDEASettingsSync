@@ -71,6 +71,7 @@
           <value>
             <list>
               <option value="Null extracted folder for artifact: ResolvedArtifact(componentIdentifier=OcrLibrary-1.3.0-release.aar, variant=local file, variantName=null, artifactFile=/Users/mocaris/DevWork/AndroidStudio/LaotiePhoneApp/libOCR/libs/OcrLibrary-1.3.0-release.aar, isTestFixturesArtifact=false, extractedFolder=null, publishedLintJar=null, dependencyType=ANDROID, isWrappedModule=false)" />
+              <option value="Default cache usage mode. If the navigation type doesn't impose any&#10;     * specific behavior, use cached resources when they are available&#10;     * and not expired, otherwise load resources from the network.&#10;     * Use with {@link #setCacheMode}." />
             </list>
           </value>
         </entry>
