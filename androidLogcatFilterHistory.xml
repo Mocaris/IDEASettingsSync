@@ -1,9 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="com.fengniao.icommu" />
+      </list>
+    </option>
     <option name="mostRecentlyUsed" value="com.fengniao.icommu" />
     <option name="nonFavorites">
       <list>
-        <option value="com.fengniao.icommu" />
         <option value="OCR" />
         <option value="KeyBoardSDKManager" />
         <option value="init keyboard deviceId" />
