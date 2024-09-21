@@ -5,9 +5,9 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="com.fengniao.icommu" />
     <option name="nonFavorites">
       <list>
+        <option value="权限申请结果" />
         <option value="OCR" />
         <option value="KeyBoardSDKManager" />
         <option value="init keyboard deviceId" />
