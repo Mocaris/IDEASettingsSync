@@ -1,6 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="OCR" />
+    <option name="favorites">
+      <list>
+        <option value="com.fengniao.icommu" />
+      </list>
+    </option>
+    <option name="mostRecentlyUsed" value="com.fengniao.icommu" />
     <option name="nonFavorites">
       <list>
         <option value="OCR" />
@@ -22,7 +27,6 @@
         <option value="onUsbPermissionGranted" />
         <option value="open complete" />
         <option value="KeyboardSDK" />
-        <option value="keyboard deviceId" />
       </list>
     </option>
   </component>
