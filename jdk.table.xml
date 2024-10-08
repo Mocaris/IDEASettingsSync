@@ -192,9 +192,9 @@
       <additional sdk="android-34" />
     </jdk>
     <jdk version="2">
-      <name value="jbr-21" />
+      <name value="jbr-17" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 21.0.3 - aarch64" />
+      <version value="JetBrains Runtime 17.0.11 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
