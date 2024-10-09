@@ -54,6 +54,7 @@
           <value>
             <list>
               <option value="fastlane 打包flutter android" />
+              <option value="fastlane 构建android apk 命令" />
             </list>
           </value>
         </entry>
