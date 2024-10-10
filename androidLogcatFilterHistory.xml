@@ -5,8 +5,10 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="com.fengniao.icommu" />
     <option name="nonFavorites">
       <list>
+        <option value="ClipboardMonitor" />
         <option value="权限申请结果" />
         <option value="OCR" />
         <option value="KeyBoardSDKManager" />
@@ -26,7 +28,6 @@
         <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
         <option value="onUsbPermissionGranted" />
         <option value="open complete" />
-        <option value="KeyboardSDK" />
       </list>
     </option>
   </component>
