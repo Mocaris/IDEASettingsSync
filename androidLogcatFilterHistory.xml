@@ -7,6 +7,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="loadWebData" />
         <option value="getAllPreviewSizes" />
         <option value="USB CHANGED" />
         <option value="System.out  " />
@@ -26,7 +27,6 @@
         <option value="License-SDK" />
         <option value="Face init" />
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
-        <option value="apiTool" />
       </list>
     </option>
   </component>
