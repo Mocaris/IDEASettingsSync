@@ -1,8 +1,5 @@
 <application>
   <component name="CosySettings">
-    <option name="dedicatedDomainUrl" value="" />
-    <option name="localStoragePath" value="$USER_HOME$/.lingma" />
-    <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
@@ -18,132 +15,21 @@
             <option name="enable" value="true" />
             <option name="manualTrigger">
               <CloudModelManualTrigger>
-                <option name="generateLength" value="level_1" />
+                <option name="generateLength" value="level_2" />
                 <option name="modelLevel" value="large" />
               </CloudModelManualTrigger>
             </option>
-            <option name="showInlineWhenIDECompletion" value="true" />
           </CloudModelParam>
         </option>
         <option name="local">
           <LocalModelParam>
-            <option name="enable" value="true" />
+            <option name="enable" value="false" />
             <option name="inferenceMode" value="auto" />
-            <option name="maxCandidateNum" value="5" />
+            <option name="maxCandidateNum" value="3" />
           </LocalModelParam>
         </option>
       </ChangeUserSettingParams>
     </option>
-    <option name="recentQueries">
-      <map>
-        <entry key="AccessControl|1508137056710408">
-          <value>
-            <list>
-              <option value="针对以下终端信息，请解释原因并提供修复意见。" />
-            </list>
-          </value>
-        </entry>
-        <entry key="AccessControl|1508137056710408|">
-          <value>
-            <list>
-              <option value="针对以下终端信息，请解释原因并提供修复意见。" />
-            </list>
-          </value>
-        </entry>
-        <entry key="FlutterTestDemo|1508137056710408">
-          <value>
-            <list>
-              <option value="fastlane 打包flutter android" />
-              <option value="fastlane 构建android apk 命令" />
-            </list>
-          </value>
-        </entry>
-        <entry key="LaoTieSysApp|1508137056710408">
-          <value>
-            <list>
-              <option value="完成后退出脚本执行" />
-              <option value="应用安装完成后执行 adb am start -n 命令" />
-              <option value="将  %errorlevel% equ 0   改为非 判断" />
-              <option value="@echo off&#10;setlocal enabledelayedexpansion&#10; :: 设置代码页为 UTF-8&#10;chcp 65001 &gt; nul&#10;&#10;echo --------------------------------&#10;echo |       Welcome to LT-Shell     |&#10;echo |       by Mocaris              |&#10;echo --------------------------------&#10;&#10;:: 执行 adb devices 命令并获取设备列表&#10;for /f &quot;tokens=1&quot; %%a in ('adb devices ^| findstr /v &quot;List&quot;') do (&#10;    set &quot;devices=!devices! %%a&quot;&#10;)&#10;&#10;:: 检查是否有设备连接&#10;if &quot;%devices%&quot; == &quot;&quot; (&#10;    echo 没有检测到任何设备，请确保设备已正确连接并开启调试模式。&#10;    exit /b 1&#10;)&#10;&#10;:: 输出设备列表供用户选择&#10;echo 请选择一个设备：&#10;set count=0&#10;for %%d in (%devices%) do (&#10;    set /a count+=1&#10;    echo !count!: %%d&#10;    set &quot;device!count!=%%d&quot;&#10;)&#10;&#10;:: 获取用户输入&#10;set /p choice=请输入设备编号:&#10;&#10;:: 验证用户输入&#10;if %choice% gtr %count% (&#10;    echo 无效的选择，请重新选择。&#10;    exit /b 1&#10;)&#10;&#10;:: 获取用户选择的设备&#10;set device=&#10;for /l %%i in (1,1,%count%) do (&#10;    if %choice%==%%i (&#10;        set &quot;device=!device%%i!&quot;&#10;    )&#10;)&#10;&#10;if &quot;%device%&quot; == &quot;&quot; (&#10;    echo 无效的选择，请重新选择。&#10;    exit /b 1&#10;)&#10;&#10;echo 您选择了设备: %device%&#10;&#10;:: 设置 APK 文件路径&#10;set apkPath=%scriptDir%Launcher3.apk&#10;&#10;:: 执行 adb install 命令并等待&#10;echo 正在安装应用...&#10;adb -s %device% install -rn &quot;%apkPath%&quot;&#10;&#10;:: 检查安装结果&#10;if %errorlevel% neq 0 (&#10;  echo 应用安装失败。按任意键退出...&#10;     pause &gt; nul&#10;     exit /b 0&#10;)&#10;:: 执行 adb am start -n 命令启动应用&#10;echo 正在启动应用...&#10;adb -s %device% shell am start -n com.android.launcher3/.Launcher&#10;if %errorlevel% equ 0 (&#10;    echo 应用启动成功。&#10;)&#10;echo 开始卸载小铁应用...&#10;adb -s %device% shell pm uninstall com.orange.service&#10;adb -s %device% shell pm uninstall com.orange.cabinet&#10;&#10;echo 按任意键退出...&#10;pause &gt; nul&#10;exit /b 0" />
-              <option value="修改错误的地方" />
-              <option value="adb shell 设置默认桌面" />
-              <option value="@echo off&#10;setlocal enabledelayedexpansion&#10; :: 设置代码页为 UTF-8&#10;chcp 65001 &gt; nul&#10;&#10;echo -----------by Mocaris---------------------&#10;&#10;:: 执行 adb devices 命令并获取设备列表&#10;for /f &quot;tokens=1&quot; %%a in ('adb devices ^| findstr /v &quot;List&quot;') do (&#10;    set &quot;devices=!devices! %%a&quot;&#10;)&#10;&#10;:: 检查是否有设备连接&#10;if &quot;%devices%&quot; == &quot;&quot; (&#10;    echo 没有检测到任何设备，请确保设备已正确连接并开启调试模式。&#10;    exit /b 1&#10;)&#10;&#10;:: 输出设备列表供用户选择&#10;echo 请选择一个设备：&#10;set count=0&#10;for %%d in (%devices%) do (&#10;    set /a count+=1&#10;    echo !count!: %%d&#10;    set &quot;device!count!=%%d&quot;&#10;)&#10;&#10;:: 获取用户输入&#10;set /p choice=请输入设备编号:&#10;&#10;:: 验证用户输入&#10;if %choice% gtr %count% (&#10;    echo 无效的选择，请重新选择。&#10;    exit /b 1&#10;)&#10;&#10;:: 获取用户选择的设备&#10;set device=&#10;for /l %%i in (1,1,%count%) do (&#10;    if %choice%==%%i (&#10;        set &quot;device=!device%%i!&quot;&#10;    )&#10;)&#10;&#10;if &quot;%device%&quot; == &quot;&quot; (&#10;    echo 无效的选择，请重新选择。&#10;    exit /b 1&#10;)&#10;&#10;echo 您选择了设备: %device%&#10;&#10;:: 设置 APK 文件路径&#10;set apkPath=%scriptDir%Launcher3.apk&#10;&#10;:: 执行 adb install 命令并等待&#10;echo 正在安装应用...&#10;adb -s %device% install -rn &quot;%apkPath%&quot;&#10;&#10;:: 检查安装结果&#10;if %errorlevel% neq 0 (&#10;  echo 应用安装失败。按任意键退出...&#10;     pause &gt; nul&#10;     exit /b 0&#10;)&#10;:: 执行 adb am start -n 命令启动应用&#10;echo 正在启动应用...&#10;adb -s %device% shell am start -n com.android.launcher3/.Launcher&#10;if %errorlevel% equ 0 (&#10;    echo 应用启动成功。&#10;)&#10;&#10;echo 开始卸载小铁应用...&#10;adb -s %device% shell pm uninstall com.orange.service&#10;if %errorlevel% equ 0 (&#10;    echo 小铁服务卸载成功。&#10;)&#10;&#10;adb -s %device% shell pm uninstall com.orange.cabinet&#10;if %errorlevel% equ 0 (&#10;    echo 小铁应用卸载成功。&#10;)&#10;&#10;echo 按任意键退出...&#10;pause &gt; nul&#10;exit /b 0" />
-              <option value="将这个 bat 脚本转为 shell 脚本" />
-              <option value="adb shell 查看 设备信息" />
-              <option value="android.database.sqlite.SQLiteException: near &quot;)&quot;: syntax error (code 1): , while compiling: CREATE TABLE IF NOT EXISTS `tb_board` ( `board_id` TEXT PRIMARY KEY NOT NULL, `is_default` INTEGER NOT NULL DEFAULT 0, `board_config` TEXT NOT NULL DEFAULT '', `edit_time` INTEGER NOT NULL DEFAULT 0, ) ;" />
-              <option value="android.database.sqlite.SQLiteException: near &quot;COLUMN&quot;: syntax error (code 1): , while compiling: ALTER TABLE tb_locker RENAME COLUMN board_id TO board_id_old ;" />
-              <option value="android.database.sqlite.SQLiteException: near &quot;DROP&quot;: syntax error (code 1): , while compiling: ALTER TABLE tb_locker DROP COLUMN board_id ;" />
-              <option value="java.lang.IllegalStateException: Migration didn't properly handle: tb_board(com.laotiejicun.webuilocker.db.tb.TBBoardModel).&#10;                                                        Expected:&#10;                                                       TableInfo{name='tb_board', columns={is_default=Column{name='is_default', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, edit_time=Column{name='edit_time', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, board_id=Column{name='board_id', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=1, defaultValue='undefined'}, board_config=Column{name='board_config', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=0, defaultValue=''''}}, foreignKeys=[], indices=[Index{name='index_tb_board_is_default', unique=false, columns=[is_default], orders=[ASC]'}, Index{name='index_tb_board_board_id', unique=false, columns=[board_id], orders=[ASC]'}]}&#10;                                                        Found:&#10;                                                       TableInfo{name='tb_board', columns={board_id=Column{name='board_id', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=1, defaultValue='undefined'}, is_default=Column{name='is_default', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, board_config=Column{name='board_config', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=0, defaultValue=''''}, edit_time=Column{name='edit_time', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}}, foreignKeys=[], indices=[]}" />
-              <option value="try {&#10;            database.beginTransaction()&#10;            //1 update  tb_board&#10;            // 删除 tb_board&#10;            database.execSQL(&quot;DROP TABLE tb_board;&quot;)&#10;            //创建新表 tb_board  并添加 board_id , is_default 索引&#10;            database.execSQL(&#10;                &quot;&quot;&quot;&#10;    CREATE TABLE IF NOT EXISTS `tb_board` (&#10;        `board_id` TEXT PRIMARY KEY NOT NULL,&#10;        `is_default` INTEGER NOT NULL DEFAULT 0,&#10;        `board_config` TEXT NOT NULL DEFAULT '',&#10;        `edit_time` INTEGER NOT NULL DEFAULT 0&#10;    );&#10;    CREATE INDEX `index_tb_board_board_id` ON `tb_board` (`board_id` ASC);&#10;    CREATE INDEX `index_tb_board_is_default` ON `tb_board` (`is_default` ASC);&#10;&quot;&quot;&quot;,&#10;            )&#10;            // 添加索引&#10;//            val createIndexBoardIdQuery = &quot;&quot;&quot;&#10;//       CREATE INDEX `index_tb_board_board_id` ON `tb_board` (`board_id` ASC);&#10;//   &quot;&quot;&quot;&#10;//            database.execSQL(createIndexBoardIdQuery)&#10;//&#10;//            val createIndexIsDefaultQuery = &quot;&quot;&quot;&#10;//       CREATE INDEX `index_tb_board_is_default` ON `tb_board` (`is_default` ASC);&#10;//   &quot;&quot;&quot;&#10;//            database.execSQL(createIndexIsDefaultQuery)&#10;            // 2 update tb_locker&#10;            //重命名 tb_locker&#10;            database.execSQL(&quot;ALTER TABLE tb_locker RENAME TO tb_locker_old;&quot;)&#10;            //重建 tb_locker&#10;            database.execSQL(&#10;                &quot;&quot;&quot;&#10;    CREATE TABLE IF NOT EXISTS `tb_locker` (&#10;        `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,&#10;        `board_id` TEXT NOT NULL,&#10;        `board_num` INTEGER NOT NULL,&#10;        `lock_num` INTEGER NOT NULL,&#10;        `lock_id` INTEGER NOT NULL,&#10;        `use_time` INTEGER NOT NULL,&#10;        `status` INTEGER NOT NULL&#10;        );&#10;    CREATE INDEX `index_tb_locker_board_id` ON `tb_locker` (`board_id` ASC);&#10;    CREATE INDEX `index_tb_locker_lock_id` ON `tb_locker` (`lock_id` ASC);&#10;            &quot;&quot;&quot;,&#10;            )&#10;            //添加索引 board_id ,lock_id&#10;//            val createIndexBoardIdLockerQuery = &quot;&quot;&quot;&#10;//       CREATE INDEX `index_tb_locker_board_id` ON `tb_locker` (`board_id` ASC);&#10;//   &quot;&quot;&quot;&#10;//            database.execSQL(createIndexBoardIdLockerQuery)&#10;//            val createIndexLockIdLockerQuery = &quot;&quot;&quot;&#10;//       CREATE INDEX `index_tb_locker_lock_id` ON `tb_locker` (`lock_id` ASC);&#10;//   &quot;&quot;&quot;&#10;            //复制 tb_locker_old 到 tb_locker&#10;            database.execSQL(&#10;                &quot;&quot;&quot;&#10;    INSERT INTO tb_locker(id,board_id,board_num,lock_num,lock_id,use_time,status)&#10;    SELECT id,board_id,board_num,lock_num,lock_id,use_time,status FROM tb_locker_old;&#10;&quot;&quot;&quot;,&#10;            )&#10;            //删除 tb_locker_old&#10;            database.execSQL(&quot;DROP TABLE tb_locker_old;&quot;)&#10;            database.setTransactionSuccessful()&#10;        } finally {&#10;            database.endTransaction()&#10;        }" />
-              <option value="java.lang.IllegalStateException: Migration didn't properly handle: tb_board(com.laotiejicun.webuilocker.db.tb.TBBoardModel).&#10;                                                        Expected:&#10;                                                       TableInfo{name='tb_board', columns={is_default=Column{name='is_default', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, edit_time=Column{name='edit_time', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, board_id=Column{name='board_id', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=1, defaultValue='undefined'}, board_config=Column{name='board_config', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=0, defaultValue=''''}}, foreignKeys=[], indices=[Index{name='index_tb_board_is_default', unique=false, columns=[is_default], orders=[ASC]'}, Index{name='index_tb_board_board_id', unique=false, columns=[board_id], orders=[ASC]'}]}&#10;                                                        Found:&#10;                                                       TableInfo{name='tb_board', columns={board_id=Column{name='board_id', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=1, defaultValue='undefined'}, is_default=Column{name='is_default', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, board_config=Column{name='board_config', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=0, defaultValue=''''}, edit_time=Column{name='edit_time', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}}, foreignKeys=[], indices=[]}" />
-              <option value="&quot;&quot;&quot;&#10;    CREATE TABLE IF NOT EXISTS `tb_board` (&#10;        `board_id` TEXT PRIMARY KEY NOT NULL,&#10;        `is_default` INTEGER NOT NULL DEFAULT 0,&#10;        `board_config` TEXT NOT NULL DEFAULT '',&#10;        `edit_time` INTEGER NOT NULL DEFAULT 0&#10;    );&#10;    CREATE INDEX IF NOT EXISTS `index_tb_board_board_id` ON `tb_board` (`board_id`);&#10;    CREATE INDEX IF NOT EXISTS `index_tb_board_is_default` ON `tb_board` (`is_default`);&#10;&quot;&quot;&quot;,&#10;运行后报错&#10; java.lang.IllegalStateException: Migration didn't properly handle: tb_board(com.laotiejicun.webuilocker.db.tb.TBBoardModel).&#10;                                                        Expected:&#10;                                                       TableInfo{name='tb_board', columns={is_default=Column{name='is_default', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, edit_time=Column{name='edit_time', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, board_id=Column{name='board_id', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=1, defaultValue='undefined'}, board_config=Column{name='board_config', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=0, defaultValue=''''}}, foreignKeys=[], indices=[Index{name='index_tb_board_is_default', unique=false, columns=[is_default], orders=[ASC]'}, Index{name='index_tb_board_board_id', unique=false, columns=[board_id], orders=[ASC]'}]}&#10;                                                        Found:&#10;                                                       TableInfo{name='tb_board', columns={board_id=Column{name='board_id', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=1, defaultValue='undefined'}, is_default=Column{name='is_default', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}, board_config=Column{name='board_config', type='TEXT', affinity='2', notNull=true, primaryKeyPosition=0, defaultValue=''''}, edit_time=Column{name='edit_time', type='INTEGER', affinity='3', notNull=true, primaryKeyPosition=0, defaultValue='0'}}, foreignKeys=[], indices=[]}" />
-              <option value="Allows Room to destructively recreate database tables if Migrations that would migrate old database schemas to the latest schema version are not found.&#10;When the database version on the device does not match the latest schema version, Room runs necessary Migrations on the database.&#10;If it cannot find the set of Migrations that will bring the database to the current version, it will throw an IllegalStateException.&#10;You can call this method to change this behavior to re-create the database instead of crashing.&#10;If the database was create from an asset or a file then Room will try to use the same file to re-create the database, otherwise this will delete all of the data in the database tables managed by Room.&#10;To let Room fallback to destructive migration only during a schema downgrade then use fallbackToDestructiveMigrationOnDowngrade." />
-              <option value="CREATE INDEX IF NOT EXISTS `index_tb_locker_board_id_lock_num` ON `tb_locker` (`board_id`, `lock_num` ASC, ASC);" />
-              <option value="android.database.sqlite.SQLiteException: index index_tb_locker_board_id_lock_num already exists (code 1): , while compiling: CREATE INDEX `index_tb_locker_board_id_lock_num` ON `tb_locker` (`board_id` ASC, `lock_num` ASC);" />
-              <option value="sqlite 删除表索引" />
-            </list>
-          </value>
-        </entry>
-        <entry key="LaotiePhoneApp|1508137056710408">
-          <value>
-            <list>
-              <option value="Null extracted folder for artifact: ResolvedArtifact(componentIdentifier=OcrLibrary-1.3.0-release.aar, variant=local file, variantName=null, artifactFile=/Users/mocaris/DevWork/AndroidStudio/LaotiePhoneApp/libOCR/libs/OcrLibrary-1.3.0-release.aar, isTestFixturesArtifact=false, extractedFolder=null, publishedLintJar=null, dependencyType=ANDROID, isWrappedModule=false)" />
-              <option value="Default cache usage mode. If the navigation type doesn't impose any&#10;     * specific behavior, use cached resources when they are available&#10;     * and not expired, otherwise load resources from the network.&#10;     * Use with {@link #setCacheMode}." />
-            </list>
-          </value>
-        </entry>
-        <entry key="android|1508137056710408">
-          <value>
-            <list>
-              <option value="Attribute meta-data#hw_ads_sdk_type@value value=(2) from [ads-base-13.4.73.301.aar] AndroidManifest.xml:35:13-30&#10;&#9;is also present at [ads-lite-13.4.73.301.aar] AndroidManifest.xml:16:13-30 value=(6).&#10;&#9;Suggestion: add 'tools:replace=&quot;android:value&quot;' to &lt;meta-data&gt; element at AndroidManifest.xml:33:9-35:33 to override." />
-            </list>
-          </value>
-        </entry>
-        <entry key="astrostar-app|1508137056710408">
-          <value>
-            <list>
-              <option value="RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 send-pack: unexpected disconnect while reading sideband packet Total 41 (delta 23), reused 0 (delta 0), pack-reused 0 the remote end hung up unexpectedly" />
-              <option value="Warning: Building for device with codesigning disabled. You will have to manually codesign before deploying to device.&#10;Building live.astrostar.dev for device (ios-release)...&#10;Warning: CocoaPods is installed but broken. Skipping pod install.&#10;  You appear to have CocoaPods installed but it is not working.&#10;  This can happen if the version of Ruby that CocoaPods was installed with is different from the one being used to invoke it.&#10;  This can usually be fixed by re-installing CocoaPods.&#10;To re-install see https://guides.cocoapods.org/using/getting-started.html#installation for instructions.&#10;&#10;CocoaPods not installed or not in valid state." />
-              <option value="[!] CocoaPods did not set the base configuration of your project because your project already has a custom config set. In order for CocoaPods integration to work at all, please either set the base configurations of the target `Runner` to `Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig` or include the `Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig` in your build configuration (`Flutter/Debug.xcconfig`)." />
-              <option value="/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin23/rbconfig.rb:21: warning: Insecure world writable dir /Users/mocaris/DevWork/AndroidStudio/Flutter in PATH, mode 040777&#10;/Library/Ruby/Site/2.6.0/rubygems.rb:281:in `find_spec_for_exe': Could not find 'bundler' (2.2.13) required by your /Users/mocaris/DevWork/AndroidStudio/Flutter/astrostar-app/ios/Gemfile.lock. (Gem::GemNotFoundException)&#10;To update to the latest version installed on your system, run `bundle update --bundler`.&#10;To install the missing version, run `gem install bundler:2.2.13`&#10;        from /Library/Ruby/Site/2.6.0/rubygems.rb:300:in `activate_bin_path'&#10;        from /usr/bin/bundle:23:in `&lt;main&gt;'" />
-            </list>
-          </value>
-        </entry>
-        <entry key="flutter_demo|1508137056710408">
-          <value>
-            <list>
-              <option value="/explain code" />
-            </list>
-          </value>
-        </entry>
-        <entry key="icommu-app|1508137056710408">
-          <value>
-            <list>
-              <option value="@灵码" />
-              <option value="正则表达式  以#开头,结尾非空格" />
-              <option value="正则表达式 以#开头,后面不包括空格" />
-              <option value="正则表达式 匹配话题标签" />
-              <option value="正则表达式 匹配话题标签且不包含空格" />
-              <option value="正则表达式 匹配话题标签且不包含空格不以空格结尾" />
-              <option value="Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.9.0, expected version is 1.7.1." />
-              <option value="输入框输入中 判断金额 的正则" />
-              <option value="针对以下终端信息，请解释原因并提供修复意见。" />
-              <option value="FAILURE: Build failed with an exception.&#10;&#10;* What went wrong:&#10;Execution failed for task ':gradle:compileGroovy'.&#10;&gt; BUG! exception in phase 'semantic analysis' in source unit '/Users/mocaris/DeveloperKit/flutter/packages/flutter_tools/gradle/src/main/groovy/app_plugin_loader.groovy' Unsupported class file major version 65&#10;&#10;* Try:&#10;&gt; Run with --stacktrace option to get the stack trace.&#10;&gt; Run with --info or --debug option to get more log output.&#10;&gt; Run with --scan to get full insights.&#10;&#10;* Get more help at https://help.gradle.org&#10;&#10;BUILD FAILED in 4s" />
-            </list>
-          </value>
-        </entry>
-        <entry key="icommu-app|1508137056710408|">
-          <value>
-            <list>
-              <option value="针对以下终端信息，请解释原因并提供修复意见。" />
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="showInlineAcceptTips" value="false" />
-    <option name="showInlineCancelTips" value="false" />
-    <option name="showInlinePrevTips" value="false" />
-    <option name="showInlineTriggerTips" value="false" />
   </component>
 </application>
