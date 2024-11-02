@@ -5,9 +5,9 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="System.out  " />
     <option name="nonFavorites">
       <list>
+        <option value="USB CHANGED" />
         <option value="System.out  " />
         <option value="com.laotiejicun" />
         <option value="ClipboardMonitor" />
@@ -27,7 +27,6 @@
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
         <option value="apiTool" />
         <option value="try open keyboard" />
-        <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
       </list>
     </option>
   </component>
