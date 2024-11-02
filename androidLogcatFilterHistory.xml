@@ -5,8 +5,10 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="System.out  " />
     <option name="nonFavorites">
       <list>
+        <option value="System.out  " />
         <option value="com.laotiejicun" />
         <option value="ClipboardMonitor" />
         <option value="权限申请结果" />
@@ -26,7 +28,6 @@
         <option value="apiTool" />
         <option value="try open keyboard" />
         <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
-        <option value="onUsbPermissionGranted" />
       </list>
     </option>
   </component>
