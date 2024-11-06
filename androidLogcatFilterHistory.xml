@@ -5,8 +5,11 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="BridgeWebViewClient" />
     <option name="nonFavorites">
       <list>
+        <option value="BridgeWebViewClient" />
+        <option value="onReceivedError" />
         <option value="com.laotiejicun" />
         <option value="ClipboardMonitor" />
         <option value="权限申请结果" />
@@ -25,8 +28,6 @@
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
         <option value="apiTool" />
         <option value="try open keyboard" />
-        <option value="   Logg.cd(                         TAG,                         &quot;releaseKeyboard size ${boardWrappers.size} ${usbDevice.deviceId} ${usbDevice.vendorId}, ${usbDevice.productId}&quot;                     )" />
-        <option value="onUsbPermissionGranted" />
       </list>
     </option>
   </component>
