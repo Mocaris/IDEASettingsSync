@@ -7,6 +7,8 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="fileObserver" />
+        <option value="PRETTY_LOGGER" />
         <option value="BridgeWebViewClient" />
         <option value="onReceivedError" />
         <option value="com.laotiejicun" />
@@ -25,8 +27,6 @@
         <option value="License-SDK" />
         <option value="Face init" />
         <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
-        <option value="apiTool" />
-        <option value="try open keyboard" />
       </list>
     </option>
   </component>

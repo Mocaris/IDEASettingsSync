@@ -129,6 +129,7 @@
               <option value="dart 判断字符串是否是 url" />
               <option value="android Q 以下 使用  FileObserver" />
               <option value="写一个 html  页面中间显示 '资源文件未加载,请稍后或联系管理员'" />
+              <option value="将 .message 样式 加上 左右边距" />
             </list>
           </value>
         </entry>
