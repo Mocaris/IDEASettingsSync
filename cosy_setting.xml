@@ -127,6 +127,7 @@
               <option value="针对以下终端信息，请解释原因并提供修复意见。" />
               <option value="FAILURE: Build failed with an exception.&#10;&#10;* What went wrong:&#10;Execution failed for task ':gradle:compileGroovy'.&#10;&gt; BUG! exception in phase 'semantic analysis' in source unit '/Users/mocaris/DeveloperKit/flutter/packages/flutter_tools/gradle/src/main/groovy/app_plugin_loader.groovy' Unsupported class file major version 65&#10;&#10;* Try:&#10;&gt; Run with --stacktrace option to get the stack trace.&#10;&gt; Run with --info or --debug option to get more log output.&#10;&gt; Run with --scan to get full insights.&#10;&#10;* Get more help at https://help.gradle.org&#10;&#10;BUILD FAILED in 4s" />
               <option value="dart 判断字符串是否是 url" />
+              <option value="android Q 以下 使用  FileObserver" />
             </list>
           </value>
         </entry>
