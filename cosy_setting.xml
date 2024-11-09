@@ -30,6 +30,17 @@
         </option>
       </ChangeUserSettingParams>
     </option>
+    <option name="recentQueries">
+      <map>
+        <entry key="LaoTieSysApp|1508137056710408">
+          <value>
+            <list>
+              <option value="java.lang.IllegalArgumentException: Make sure the SurfaceView or associated SurfaceHolder has a valid Surface" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
     <option name="showInlineTriggerTips" value="false" />
