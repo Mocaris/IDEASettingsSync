@@ -38,6 +38,7 @@
               <option value="java.lang.IllegalArgumentException: Make sure the SurfaceView or associated SurfaceHolder has a valid Surface" />
               <option value="android  UsbDevice 和 camera id 匹配" />
               <option value="android 获取 摄像头 的 pid vid" />
+              <option value="/generate unit test" />
             </list>
           </value>
         </entry>
