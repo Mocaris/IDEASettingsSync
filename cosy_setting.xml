@@ -34,6 +34,258 @@
         </option>
       </ChangeUserSettingParams>
     </option>
+    <option name="recentComplexQueries">
+      <map>
+        <entry key="icommu-app|1508137056710408">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="console.log(&quot; iRingo:  TestFlight Request&quot;),console.log(&quot;Version: 3.2.4&quot;),console.log(&quot;2024/10/13 15:35:02&quot;);const e=function(){if(&quot;undefined&quot;!=typeof $environment&amp;&amp;$environment[&quot;surge-version&quot;])return&quot;Surge&quot;;if(&quot;undefined&quot;!=typeof $environment&amp;&amp;$environment[&quot;stash-version&quot;])return&quot;Stash&quot;;if(&quot;undefined&quot;!=typeof module&amp;&amp;module.exports)return&quot;Node.js&quot;;if(&quot;undefined&quot;!=typeof $task)return&quot;Quantumult X&quot;;if(&quot;undefined&quot;!=typeof $loon)return&quot;Loon&quot;;if(&quot;undefined&quot;!=typeof $rocket)return&quot;Shadowrocket&quot;;if(&quot;undefined&quot;!=typeof Egern)return&quot;Egern&quot;}();class t{static name=&quot;Lodash&quot;;static version=&quot;1.2.2&quot;;static about(){return console.log(`\n ${this.name} v${this.version}\n`)}static get(e={},t=&quot;&quot;,s=void 0){Array.isArray(t)||(t=this.toPath(t));const a=t.reduce(((e,t)=&gt;Object(e)[t]),e);return void 0===a?s:a}static set(e={},t=&quot;&quot;,s){return Array.isArray(t)||(t=this.toPath(t)),t.slice(0,-1).reduce(((e,s,a)=&gt;Object(e[s])===e[s]?e[s]:e[s]=/^\d+$/.test(t[a+1])?[]:{}),e)[t[t.length-1]]=s,e}static unset(e={},t=&quot;&quot;){return Array.isArray(t)||(t=this.toPath(t)),t.reduce(((e,s,a)=&gt;a===t.length-1?(delete e[s],!0):Object(e)[s]),e)}static toPath(e){return e.replace(/\[(\d+)\]/g,&quot;.$1&quot;).split(&quot;.&quot;).filter(Boolean)}static escape(e){const t={&quot;&amp;&quot;:&quot;&amp;amp;&quot;,&quot;&lt;&quot;:&quot;&amp;lt;&quot;,&quot;&gt;&quot;:&quot;&amp;gt;&quot;,'&quot;':&quot;&amp;quot;&quot;,&quot;'&quot;:&quot;&amp;#39;&quot;};return e.replace(/[&amp;&lt;&gt;&quot;']/g,(e=&gt;t[e]))}static unescape(e){const t={&quot;&amp;amp;&quot;:&quot;&amp;&quot;,&quot;&amp;lt;&quot;:&quot;&lt;&quot;,&quot;&amp;gt;&quot;:&quot;&gt;&quot;,&quot;&amp;quot;&quot;:'&quot;',&quot;&amp;#39;&quot;:&quot;'&quot;};return e.replace(/&amp;amp;|&amp;lt;|&amp;gt;|&amp;quot;|&amp;#39;/g,(e=&gt;t[e]))}}class s{static name=&quot;Storage&quot;;static version=&quot;1.1.0&quot;;static about(){return i(&quot;&quot;,` ${this.name} v${this.version}`,&quot;&quot;)}static data=null;static dataFile=&quot;box.dat&quot;;static#e=/^@(?&lt;key&gt;[^.]+)(?:\.(?&lt;path&gt;.*))?$/;static getItem(s=new String,a=null){let i=a;if(!0===s.startsWith(&quot;@&quot;)){const{key:e,path:a}=s.match(this.#e)?.groups;s=e;let r=this.getItem(s,{});&quot;object&quot;!=typeof r&amp;&amp;(r={}),i=t.get(r,a);try{i=JSON.parse(i)}catch(e){}}else{switch(e){case&quot;Surge&quot;:case&quot;Loon&quot;:case&quot;Stash&quot;:case&quot;Egern&quot;:case&quot;Shadowrocket&quot;:i=$persistentStore.read(s);break;case&quot;Quantumult X&quot;:i=$prefs.valueForKey(s);break;case&quot;Node.js&quot;:this.data=this.#t(this.dataFile),i=this.data?.[s];break;default:i=this.data?.[s]||null}try{i=JSON.parse(i)}catch(e){}}return i??a}static setItem(s=new String,a=new String){let i=!1;if(&quot;object&quot;==typeof a)a=JSON.stringify(a);else a=String(a);if(!0===s.startsWith(&quot;@&quot;)){const{key:e,path:r}=s.match(this.#e)?.groups;s=e;let o=this.getItem(s,{});&quot;object&quot;!=typeof o&amp;&amp;(o={}),t.set(o,r,a),i=this.setItem(s,o)}else switch(e){case&quot;Surge&quot;:case&quot;Loon&quot;:case&quot;Stash&quot;:case&quot;Egern&quot;:case&quot;Shadowrocket&quot;:i=$persistentStore.write(a,s);break;case&quot;Quantumult X&quot;:i=$prefs.setValueForKey(a,s);break;case&quot;Node.js&quot;:this.data=this.#t(this.dataFile),this.data[s]=a,this.#s(this.dataFile),i=!0;break;default:i=this.data?.[s]||null}return i}static removeItem(s){let a=!1;if(!0===s.startsWith(&quot;@&quot;)){const{key:e,path:i}=s.match(this.#e)?.groups;s=e;let r=this.getItem(s);&quot;object&quot;!=typeof r&amp;&amp;(r={}),keyValue=t.unset(r,i),a=this.setItem(s,r)}else switch(e){case&quot;Surge&quot;:case&quot;Loon&quot;:case&quot;Stash&quot;:case&quot;Egern&quot;:case&quot;Shadowrocket&quot;:case&quot;Node.js&quot;:default:a=!1;break;case&quot;Quantumult X&quot;:a=$prefs.removeValueForKey(s)}return a}static clear(){let t=!1;switch(e){case&quot;Surge&quot;:case&quot;Loon&quot;:case&quot;Stash&quot;:case&quot;Egern&quot;:case&quot;Shadowrocket&quot;:case&quot;Node.js&quot;:default:t=!1;break;case&quot;Quantumult X&quot;:t=$prefs.removeAllValues()}return t}static#t(e){if(!this.isNode())return{};{this.fs=this.fs?this.fs:require(&quot;fs&quot;),this.path=this.path?this.path:require(&quot;path&quot;);const t=this.path.resolve(e),s=this.path.resolve(process.cwd(),e),a=this.fs.existsSync(t),i=!a&amp;&amp;this.fs.existsSync(s);if(!a&amp;&amp;!i)return{};{const e=a?t:s;try{return JSON.parse(this.fs.readFileSync(e))}catch(e){return{}}}}}static#s(e=this.dataFile){if(this.isNode()){this.fs=this.fs?this.fs:require(&quot;fs&quot;),this.path=this.path?this.path:require(&quot;path&quot;);const t=this.path.resolve(e),s=this.path.resolve(process.cwd(),e),a=this.fs.existsSync(t),i=!a&amp;&amp;this.fs.existsSync(s),r=JSON.stringify(this.data);a?this.fs.writeFileSync(t,r):i?this.fs.writeFileSync(s,r):this.fs.writeFileSync(t,r)}}}function a(s={}){switch(e){case&quot;Surge&quot;:s.policy&amp;&amp;t.set(s,&quot;headers.X-Surge-Policy&quot;,s.policy),i(&quot;&quot;,` 执行结束!  ${(new Date).getTime()/1e3-$script.startTime} 秒`,&quot;&quot;),$done(s);break;case&quot;Loon&quot;:s.policy&amp;&amp;(s.node=s.policy),i(&quot;&quot;,` 执行结束!  ${(new Date-$script.startTime)/1e3} 秒`,&quot;&quot;),$done(s);break;case&quot;Stash&quot;:s.policy&amp;&amp;t.set(s,&quot;headers.X-Stash-Selected-Proxy&quot;,encodeURI(s.policy)),i(&quot;&quot;,` 执行结束!  ${(new Date-$script.startTime)/1e3} 秒`,&quot;&quot;),$done(s);break;case&quot;Egern&quot;:case&quot;Shadowrocket&quot;:default:i(&quot;&quot;,&quot; 执行结束!&quot;,&quot;&quot;),$done(s);break;case&quot;Quantumult X&quot;:s.policy&amp;&amp;t.set(s,&quot;opts.policy&quot;,s.policy),delete s[&quot;auto-redirect&quot;],delete s[&quot;auto-cookie&quot;],delete s[&quot;binary-mode&quot;],delete s.charset,delete s.host,delete s.insecure,delete s.method,delete s.opt,delete s.path,delete s.policy,delete s[&quot;policy-descriptor&quot;],delete s.scheme,delete s.sessionIndex,delete s.statusCode,delete s.timeout,s.body instanceof ArrayBuffer?(s.bodyBytes=s.body,delete s.body):ArrayBuffer.isView(s.body)?(s.bodyBytes=s.body.buffer.slice(s.body.byteOffset,s.body.byteLength+s.body.byteOffset),delete s.body):s.body&amp;&amp;delete s.bodyBytes,i(&quot;&quot;,&quot; 执行结束!&quot;,&quot;&quot;),$done(s);break;case&quot;Node.js&quot;:i(&quot;&quot;,&quot; 执行结束!&quot;,&quot;&quot;),process.exit(1)}}const i=(...e)=&gt;console.log(e.join(&quot;\n&quot;));var r={Testflight:{Settings:{Switch:!0,CountryCode:&quot;US&quot;,MultiAccount:!1,Universal:!0}},Default:{Settings:{Switch:!0},Configs:{Storefront:{AE:&quot;143481&quot;,AF:&quot;143610&quot;,AG:&quot;143540&quot;,AI:&quot;143538&quot;,AL:&quot;143575&quot;,AM:&quot;143524&quot;,AO:&quot;143564&quot;,AR:&quot;143505&quot;,AT:&quot;143445&quot;,AU:&quot;143460&quot;,AZ:&quot;143568&quot;,BA:&quot;143612&quot;,BB:&quot;143541&quot;,BD:&quot;143490&quot;,BE:&quot;143446&quot;,BF:&quot;143578&quot;,BG:&quot;143526&quot;,BH:&quot;143559&quot;,BJ:&quot;143576&quot;,BM:&quot;143542&quot;,BN:&quot;143560&quot;,BO:&quot;143556&quot;,BR:&quot;143503&quot;,BS:&quot;143539&quot;,BT:&quot;143577&quot;,BW:&quot;143525&quot;,BY:&quot;143565&quot;,BZ:&quot;143555&quot;,CA:&quot;143455&quot;,CD:&quot;143613&quot;,CG:&quot;143582&quot;,CH:&quot;143459&quot;,CI:&quot;143527&quot;,CL:&quot;143483&quot;,CM:&quot;143574&quot;,CN:&quot;143465&quot;,CO:&quot;143501&quot;,CR:&quot;143495&quot;,CV:&quot;143580&quot;,CY:&quot;143557&quot;,CZ:&quot;143489&quot;,DE:&quot;143443&quot;,DK:&quot;143458&quot;,DM:&quot;143545&quot;,DO:&quot;143508&quot;,DZ:&quot;143563&quot;,EC:&quot;143509&quot;,EE:&quot;143518&quot;,EG:&quot;143516&quot;,ES:&quot;143454&quot;,FI:&quot;143447&quot;,FJ:&quot;143583&quot;,FM:&quot;143591&quot;,FR:&quot;143442&quot;,GA:&quot;143614&quot;,GB:&quot;143444&quot;,GD:&quot;143546&quot;,GF:&quot;143615&quot;,GH:&quot;143573&quot;,GM:&quot;143584&quot;,GR:&quot;143448&quot;,GT:&quot;143504&quot;,GW:&quot;143585&quot;,GY:&quot;143553&quot;,HK:&quot;143463&quot;,HN:&quot;143510&quot;,HR:&quot;143494&quot;,HU:&quot;143482&quot;,ID:&quot;143476&quot;,IE:&quot;143449&quot;,IL:&quot;143491&quot;,IN:&quot;143467&quot;,IQ:&quot;143617&quot;,IS:&quot;143558&quot;,IT:&quot;143450&quot;,JM:&quot;143511&quot;,JO:&quot;143528&quot;,JP:&quot;143462&quot;,KE:&quot;143529&quot;,KG:&quot;143586&quot;,KH:&quot;143579&quot;,KN:&quot;143548&quot;,KP:&quot;143466&quot;,KR:&quot;143466&quot;,KW:&quot;143493&quot;,KY:&quot;143544&quot;,KZ:&quot;143517&quot;,TC:&quot;143552&quot;,TD:&quot;143581&quot;,TJ:&quot;143603&quot;,TH:&quot;143475&quot;,TM:&quot;143604&quot;,TN:&quot;143536&quot;,TO:&quot;143608&quot;,TR:&quot;143480&quot;,TT:&quot;143551&quot;,TW:&quot;143470&quot;,TZ:&quot;143572&quot;,LA:&quot;143587&quot;,LB:&quot;143497&quot;,LC:&quot;143549&quot;,LI:&quot;143522&quot;,LK:&quot;143486&quot;,LR:&quot;143588&quot;,LT:&quot;143520&quot;,LU:&quot;143451&quot;,LV:&quot;143519&quot;,LY:&quot;143567&quot;,MA:&quot;143620&quot;,MD:&quot;143523&quot;,ME:&quot;143619&quot;,MG:&quot;143531&quot;,MK:&quot;143530&quot;,ML:&quot;143532&quot;,MM:&quot;143570&quot;,MN:&quot;143592&quot;,MO:&quot;143515&quot;,MR:&quot;143590&quot;,MS:&quot;143547&quot;,MT:&quot;143521&quot;,MU:&quot;143533&quot;,MV:&quot;143488&quot;,MW:&quot;143589&quot;,MX:&quot;143468&quot;,MY:&quot;143473&quot;,MZ:&quot;143593&quot;,NA:&quot;143594&quot;,NE:&quot;143534&quot;,NG:&quot;143561&quot;,NI:&quot;143512&quot;,NL:&quot;143452&quot;,NO:&quot;143457&quot;,NP:&quot;143484&quot;,NR:&quot;143606&quot;,NZ:&quot;143461&quot;,OM:&quot;143562&quot;,PA:&quot;143485&quot;,PE:&quot;143507&quot;,PG:&quot;143597&quot;,PH:&quot;143474&quot;,PK:&quot;143477&quot;,PL:&quot;143478&quot;,PT:&quot;143453&quot;,PW:&quot;143595&quot;,PY:&quot;143513&quot;,QA:&quot;143498&quot;,RO:&quot;143487&quot;,RS:&quot;143500&quot;,RU:&quot;143469&quot;,RW:&quot;143621&quot;,SA:&quot;143479&quot;,SB:&quot;143601&quot;,SC:&quot;143599&quot;,SE:&quot;143456&quot;,SG:&quot;143464&quot;,SI:&quot;143499&quot;,SK:&quot;143496&quot;,SL:&quot;143600&quot;,SN:&quot;143535&quot;,SR:&quot;143554&quot;,ST:&quot;143598&quot;,SV:&quot;143506&quot;,SZ:&quot;143602&quot;,UA:&quot;143492&quot;,UG:&quot;143537&quot;,US:&quot;143441&quot;,UY:&quot;143514&quot;,UZ:&quot;143566&quot;,VC:&quot;143550&quot;,VE:&quot;143502&quot;,VG:&quot;143543&quot;,VN:&quot;143471&quot;,VU:&quot;143609&quot;,XK:&quot;143624&quot;,YE:&quot;143571&quot;,ZA:&quot;143472&quot;,ZM:&quot;143622&quot;,ZW:&quot;143605&quot;}}}};function o(e,a,r){i(&quot;️ Set Environment Variables&quot;,&quot;&quot;);let{Settings:o,Caches:n,Configs:c}=function(e,a,i){let r=s.getItem(e,i),o={};switch(typeof $argument){case&quot;string&quot;:let e=Object.fromEntries($argument.split(&quot;&amp;&quot;).map((e=&gt;e.split(&quot;=&quot;).map((e=&gt;e.replace(/\&quot;/g,&quot;&quot;))))));for(let s in e)t.set(o,s,e[s]);break;case&quot;object&quot;:for(let e in $argument)t.set(o,e,$argument[e])}const n={Settings:i?.Default?.Settings||{},Configs:i?.Default?.Configs||{},Caches:{}};Array.isArray(a)||(a=[a]);for(let e of a)n.Settings={...n.Settings,...i?.[e]?.Settings,...o,...r?.[e]?.Settings},n.Configs={...n.Configs,...i?.[e]?.Configs},r?.[e]?.Caches&amp;&amp;&quot;string&quot;==typeof r?.[e]?.Caches&amp;&amp;(r[e].Caches=JSON.parse(r?.[e]?.Caches)),n.Caches={...n.Caches,...r?.[e]?.Caches};return function e(t,s){for(var a in t){var i=t[a];t[a]=&quot;object&quot;==typeof i&amp;&amp;null!==i?e(i,s):s(a,i)}return t}(n.Settings,((e,t)=&gt;(&quot;true&quot;===t||&quot;false&quot;===t?t=JSON.parse(t):&quot;string&quot;==typeof t&amp;&amp;(t=t.includes(&quot;,&quot;)?t.split(&quot;,&quot;).map((e=&gt;c(e))):c(t)),t))),n;function c(e){return e&amp;&amp;!isNaN(e)&amp;&amp;(e=parseInt(e,10)),e}}(e,a,r);if(i(` Set Environment Variables, Settings: ${typeof o}, Settings内容: ${JSON.stringify(o)}`,&quot;&quot;),c.Locale&amp;&amp;(c.Locale=new Map(c.Locale)),c.i18n)for(let e in c.i18n)c.i18n[e]=new Map(c.i18n[e]);return{Settings:o,Caches:n,Configs:c}}let n;const c=new class{constructor(e,t=void 0){return console.log(&quot;\n URL v2.1.2\n&quot;),e=this.#a(e,t),this}#a(e,t=void 0){const s=/(?:(?&lt;protocol&gt;\w+:)\/\/(?:(?&lt;username&gt;[^\s:&quot;]+)(?::(?&lt;password&gt;[^\s:&quot;]+))?@)?(?&lt;host&gt;[^\s@/]+))?(?&lt;pathname&gt;\/?[^\s@?]+)?(?&lt;search&gt;\?[^\s?]+)?/,a=/(?&lt;hostname&gt;.+):(?&lt;port&gt;\d+)$/;if(e=e.match(s)?.groups||{},t&amp;&amp;(!(t=t?.match(s)?.groups||{}).protocol||!t.hostname))throw new Error(` ${name}, ${t} is not a valid URL`);if((e.protocol||t?.protocol)&amp;&amp;(this.protocol=e.protocol||t.protocol),(e.username||t?.username)&amp;&amp;(this.username=e.username||t.username),(e.password||t?.password)&amp;&amp;(this.password=e.password||t.password),(e.host||t?.host)&amp;&amp;(this.host=e.host||t.host,Object.freeze(this.host),this.hostname=this.host.match(a)?.groups.hostname??this.host,this.port=this.host.match(a)?.groups.port??&quot;&quot;),e.pathname||t?.pathname){if(this.pathname=e.pathname||t?.pathname,this.pathname.startsWith(&quot;/&quot;)||(this.pathname=&quot;/&quot;+this.pathname),this.paths=this.pathname.split(&quot;/&quot;).filter(Boolean),Object.freeze(this.paths),this.paths){const e=this.paths[this.paths.length-1];if(e?.includes(&quot;.&quot;)){const t=e.split(&quot;.&quot;);this.format=t[t.length-1],Object.freeze(this.format)}}}else this.pathname=&quot;&quot;;return(e.search||t?.search)&amp;&amp;(this.search=e.search||t.search,Object.freeze(this.search),this.search&amp;&amp;(this.searchParams=this.search.slice(1).split(&quot;&amp;&quot;).map((e=&gt;e.split(&quot;=&quot;))))),this.searchParams=new Map(this.searchParams||[]),this.harf=this.toString(),Object.freeze(this.harf),this}toString(){let e=&quot;&quot;;return this.protocol&amp;&amp;(e+=this.protocol+&quot;//&quot;),this.username&amp;&amp;(e+=this.username+(this.password?&quot;:&quot;+this.password:&quot;&quot;)+&quot;@&quot;),this.hostname&amp;&amp;(e+=this.hostname),this.port&amp;&amp;(e+=&quot;:&quot;+this.port),this.pathname&amp;&amp;(e+=this.pathname),0!==this.searchParams.size&amp;&amp;(e+=&quot;?&quot;+Array.from(this.searchParams).map((e=&gt;e.join(&quot;=&quot;))).join(&quot;&amp;&quot;)),e}toJSON(){return JSON.stringify({...this})}}($request.url);i(` url: ${c.toJSON()}`,&quot;&quot;);const h=$request.method,d=c.hostname,l=c.pathname,u=c.paths;i(` METHOD: ${h}, HOST: ${d}, PATH: ${l}`,&quot;&quot;);const p=($request.headers?.[&quot;Content-Type&quot;]??$request.headers?.[&quot;content-type&quot;])?.split(&quot;;&quot;)?.[0];i(` FORMAT: ${p}`,&quot;&quot;),(async()=&gt;{const{Settings:e,Caches:t,Configs:a}=o(&quot;iRingo&quot;,&quot;TestFlight&quot;,r);switch(i(` Settings.Switch: ${e?.Switch}`,&quot;&quot;),e.Switch){case!0:default:let r={};switch(h){case&quot;POST&quot;:case&quot;PUT&quot;:case&quot;PATCH&quot;:case&quot;DELETE&quot;:switch(p){case void 0:case&quot;application/x-www-form-urlencoded&quot;:case&quot;text/plain&quot;:default:case&quot;application/x-mpegURL&quot;:case&quot;application/x-mpegurl&quot;:case&quot;application/vnd.apple.mpegurl&quot;:case&quot;audio/mpegurl&quot;:case&quot;text/xml&quot;:case&quot;text/html&quot;:case&quot;text/plist&quot;:case&quot;application/xml&quot;:case&quot;application/plist&quot;:case&quot;application/x-plist&quot;:case&quot;text/vtt&quot;:case&quot;application/vtt&quot;:break;case&quot;text/json&quot;:case&quot;application/json&quot;:if(r=JSON.parse($request.body??&quot;{}&quot;),&quot;testflight.apple.com&quot;===d)switch(l){case&quot;/v1/session/authenticate&quot;:&quot;AUTO&quot;!==e.CountryCode&amp;&amp;(r.storeFrontIdentifier=r.storeFrontIdentifier.replace(/\d{6}/,a.Storefront[e.CountryCode]));break;case&quot;/v1/properties/testflight&quot;:case&quot;/v1/devices&quot;:case&quot;/v1/devices/apns&quot;:case&quot;/v1/devices/add&quot;:case&quot;/v1/devices/remove&quot;:break;default:switch(u[0]){case&quot;v1&quot;:case&quot;v2&quot;:case&quot;v3&quot;:if(&quot;accoun&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="格式化" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Downloads/request.js" />
+                      <option name="name" value="$USER_HOME$/Downloads/request.js" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="request.js" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="ts&quot;===u[1])if(&quot;settings&quot;===u[2]);else if(&quot;apps&quot;===u[3])if(u[4],&quot;builds&quot;===u[5])switch(u[7]){case void 0:break;case&quot;install&quot;:&quot;AUTO&quot;!==e.CountryCode&amp;&amp;(r.storefrontId=r.storefrontId.replace(/\d{6}/,a.Storefront[e.CountryCode]))}}}$request.body=JSON.stringify(r);case&quot;application/protobuf&quot;:case&quot;application/x-protobuf&quot;:case&quot;application/vnd.google.protobuf&quot;:case&quot;application/grpc&quot;:case&quot;application/grpc+proto&quot;:case&quot;applecation/octet-stream&quot;:}case&quot;GET&quot;:case&quot;HEAD&quot;:case&quot;OPTIONS&quot;:case void 0:default:if(&quot;testflight.apple.com&quot;===d)switch(l){case&quot;/v1/session/authenticate&quot;:case&quot;v1/properties/testflight&quot;:case&quot;/v1/devices&quot;:case&quot;/v1/devices/apns&quot;:case&quot;/v1/devices/add&quot;:case&quot;/v1/devices/remove&quot;:break;default:switch(e.MultiAccount){case!0:i(&quot; 启用多账号支持&quot;,&quot;&quot;);const e=$request?.headers?.[&quot;If-None-Match&quot;]??$request?.headers?.[&quot;if-none-match&quot;],a=$request?.headers?.[&quot;X-Request-Id&quot;]??$request?.headers?.[&quot;x-request-id&quot;],r=$request?.headers?.[&quot;X-Session-Id&quot;]??$request?.headers?.[&quot;x-session-id&quot;],o=$request?.headers?.[&quot;X-Session-Digest&quot;]??$request?.headers?.[&quot;x-session-digest&quot;];if(t.data){switch(i(&quot; Caches.data存在，读取&quot;,&quot;&quot;),u[0]){case&quot;v1&quot;:case&quot;v2&quot;:case&quot;v3&quot;:switch(u[1]){case&quot;accounts&quot;:case&quot;messages&quot;:case&quot;apps&quot;:default:switch(u[2]){case&quot;settings&quot;:case void 0:default:switch(/[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}/.test(u[2])){case!0:i(&quot; PATHs[2]是UUID，替换url.pathname&quot;,&quot;&quot;),c.pathname=l.replace(/\/[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}\//i,`/${t.data.accountId}/`);case!1:r!==t.headers[&quot;X-Session-Id&quot;]&amp;&amp;(i(&quot; sessionId不同，替换$request.headers&quot;,&quot;&quot;),e&amp;&amp;(delete $request.headers?.[&quot;If-None-Match&quot;],delete $request.headers?.[&quot;if-none-match&quot;]),a&amp;&amp;($request.headers?.[&quot;X-Request-Id&quot;]&amp;&amp;($request.headers[&quot;X-Request-Id&quot;]=t.headers[&quot;X-Request-Id&quot;]),$request.headers?.[&quot;x-request-id&quot;]&amp;&amp;($request.headers[&quot;x-request-id&quot;]=t.headers[&quot;X-Request-Id&quot;])),r&amp;&amp;($request.headers?.[&quot;X-Session-Id&quot;]&amp;&amp;($request.headers[&quot;X-Session-Id&quot;]=t.headers[&quot;X-Session-Id&quot;]),$request.headers?.[&quot;x-session-id&quot;]&amp;&amp;($request.headers[&quot;x-session-id&quot;]=t.headers[&quot;X-Session-Id&quot;])),o&amp;&amp;($request.headers?.[&quot;X-Session-Digest&quot;]&amp;&amp;($request.headers[&quot;X-Session-Digest&quot;]=t.headers[&quot;X-Session-Digest&quot;]),$request.headers?.[&quot;x-session-digest&quot;]&amp;&amp;($request.headers[&quot;x-session-digest&quot;]=t.headers[&quot;X-Session-Digest&quot;])))}break;case t?.data?.accountId:i(&quot; PATHs[2]与accountId相同，更新Caches&quot;,&quot;&quot;),t.headers={&quot;X-Request-Id&quot;:a,&quot;X-Session-Id&quot;:r,&quot;X-Session-Digest&quot;:o},s.setItem(&quot;@iRingo.TestFlight.Caches&quot;,t)}case&quot;tc&quot;:}}break}i(&quot; Caches空，新写入&quot;,&quot;&quot;),t.headers={&quot;X-Request-Id&quot;:a,&quot;X-Session-Id&quot;:r,&quot;X-Session-Digest&quot;:o},/[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}/.test(u[2])&amp;&amp;(t.data={accountId:u[2],sessionId:r}),s.setItem(&quot;@iRingo.TestFlight.Caches&quot;,t)}}case&quot;CONNECT&quot;:case&quot;TRACE&quot;:}$request.url=c.toString(),i(&quot; 调试信息&quot;,`$request.url: ${$request.url}`,&quot;&quot;);case!1:}})().catch((t=&gt;function(t){switch(e){case&quot;Surge&quot;:case&quot;Loon&quot;:case&quot;Stash&quot;:case&quot;Egern&quot;:case&quot;Shadowrocket&quot;:case&quot;Quantumult X&quot;:default:i(&quot;&quot;,&quot;️执行错误!&quot;,t,&quot;&quot;);break;case&quot;Node.js&quot;:i(&quot;&quot;,&quot;️执行错误!&quot;,t.stack,&quot;&quot;)}}(t))).finally((()=&gt;{if(void 0===n)a($request);else if(n.headers,n.headers,&quot;Quantumult X&quot;===e)n.status||(n.status=&quot;HTTP/1.1 200 OK&quot;),delete n.headers?.[&quot;Content-Length&quot;],delete n.headers?.[&quot;content-length&quot;],delete n.headers?.[&quot;Transfer-Encoding&quot;],a(n);else a({response:n})}));&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="1" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Downloads/request.js#L1-L1" />
+                      <option name="name" value="$USER_HOME$/Downloads/request.js#L1-L1" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="1" />
+                      <option name="text" value="request.js" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="继续上一段 格式化" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="1" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Downloads/request.js#L1-L1" />
+                      <option name="name" value="$USER_HOME$/Downloads/request.js#L1-L1" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="1" />
+                      <option name="text" value="request.js" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="recentQueries">
       <map>
         <entry key="AccessControl|1508137056710408">
