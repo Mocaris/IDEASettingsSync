@@ -5,8 +5,10 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="callJsExitFunc" />
     <option name="nonFavorites">
       <list>
+        <option value="callJsExitFunc" />
         <option value="fileObserver" />
         <option value="PRETTY_LOGGER" />
         <option value="BridgeWebViewClient" />
@@ -26,7 +28,6 @@
         <option value="-----------------&gt;&gt;deviceId:" />
         <option value="License-SDK" />
         <option value="Face init" />
-        <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
       </list>
     </option>
   </component>
