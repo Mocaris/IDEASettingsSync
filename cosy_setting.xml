@@ -30,22 +30,7 @@
         </option>
       </ChangeUserSettingParams>
     </option>
-    <option name="recentQueries">
-      <map>
-        <entry key="LaoTieSysApp|1508137056710408">
-          <value>
-            <list>
-              <option value="java.lang.IllegalArgumentException: Make sure the SurfaceView or associated SurfaceHolder has a valid Surface" />
-              <option value="android  UsbDevice 和 camera id 匹配" />
-              <option value="android 获取 摄像头 的 pid vid" />
-              <option value="/generate unit test" />
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="showInlineAcceptTips" value="false" />
     <option name="showInlineCancelTips" value="false" />
-    <option name="showInlineTriggerTips" value="false" />
   </component>
 </application>

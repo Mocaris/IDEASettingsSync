@@ -1,33 +1,5 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="favorites">
-      <list>
-        <option value="com.fengniao.icommu" />
-      </list>
-    </option>
-    <option name="nonFavorites">
-      <list>
-        <option value="loadWebData" />
-        <option value="getAllPreviewSizes" />
-        <option value="USB CHANGED" />
-        <option value="System.out  " />
-        <option value="com.laotiejicun" />
-        <option value="ClipboardMonitor" />
-        <option value="权限申请结果" />
-        <option value="OCR" />
-        <option value="KeyBoardSDKManager" />
-        <option value="init keyboard deviceId" />
-        <option value="PalmVeinManager" />
-        <option value="UsbICReaderManager" />
-        <option value="UsbIcReaderWrapper" />
-        <option value="USBKeyBoardWrapper" />
-        <option value="IrisSdkManager" />
-        <option value="掌纹" />
-        <option value="-----------------&gt;&gt;deviceId:" />
-        <option value="License-SDK" />
-        <option value="Face init" />
-        <option value=" val users = DataUsersRepository.findAllPalmUsers()             for (user in users) {                 try {                     PalmVeinManager.addDBInfo(&quot;${user.id}&quot;, user.palmFeature)                 } catch (e: Exception) {                     e.printStackTrace()                 }             }             Logg.cd(&quot;initFingerSdk&quot;, &quot;initPalmSdk user count:${users.size}&quot;)" />
-      </list>
-    </option>
+    <option name="mostRecentlyUsed" value="level:INFO" />
   </component>
 </application>
