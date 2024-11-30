@@ -30,30 +30,5 @@
         </option>
       </ChangeUserSettingParams>
     </option>
-    <option name="recentComplexQueries">
-      <map>
-        <entry key="LaoTieSysApp|1508137056710408">
-          <value>
-            <list>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="dlopen failed: cannot locate symbol &quot;libusb_wrap_sys_device&quot; referenced by &quot;/data/app/com.laotiejicun.webuilocker-2/lib/arm/libuvc.so&quot;...&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="showInlineAcceptTips" value="false" />
-    <option name="showInlineCancelTips" value="false" />
   </component>
 </application>
