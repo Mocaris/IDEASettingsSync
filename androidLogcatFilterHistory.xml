@@ -5,8 +5,10 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="load page:" />
     <option name="nonFavorites">
       <list>
+        <option value="load page:" />
         <option value="-----------------------" />
         <option value="callJsExitFunc" />
         <option value="fileObserver" />
@@ -26,7 +28,6 @@
         <option value="IrisSdkManager" />
         <option value="掌纹" />
         <option value="-----------------&gt;&gt;deviceId:" />
-        <option value="License-SDK" />
       </list>
     </option>
   </component>
