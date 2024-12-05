@@ -835,6 +835,86 @@
                   </list>
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value=" final paint = Paint()..style = PaintingStyle.fill;&#10;    canvas.drawImageRect(&#10;      image,&#10;      Rect.fromLTWH(0, 0, image.width.toDouble(), image.height.toDouble()),&#10;      Rect.fromLTWH(0, 0, size.width, size.height),&#10;      paint,&#10;    );&#10;    if (filterRate == 0) {&#10;      return;&#10;    }&#10;    paint&#10;      ..color = filterColor&#10;      ..blendMode = BlendMode.srcATop;&#10;    canvas.drawRect(&#10;        Rect.fromLTWH(0, 0, size.width * filterRate, size.height), paint);&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="这段代码每次运行 会先绘制一个框,导致每次绘制会闪动" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/AndroidStudio/Flutter/icommu-app/icommu_app_chs/lib/shared/widgets/icommu_rating_bar.dart" />
+                      <option name="name" value="$USER_HOME$/DevWork/AndroidStudio/Flutter/icommu-app/icommu_app_chs/lib/shared/widgets/icommu_rating_bar.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="icommu_rating_bar.dart" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
