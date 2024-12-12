@@ -5,11 +5,11 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="com.laotie" />
+    <option name="mostRecentlyUsed" value="callJsExitFunc" />
     <option name="nonFavorites">
       <list>
-        <option value="com.laotie" />
         <option value="callJsExitFunc" />
+        <option value="com.laotie" />
         <option value="load page:" />
         <option value="-----------------------" />
         <option value="fileObserver" />
