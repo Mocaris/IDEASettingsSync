@@ -5,9 +5,10 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="callJsExitFunc" />
+    <option name="mostRecentlyUsed" value="------------------------" />
     <option name="nonFavorites">
       <list>
+        <option value="------------------------" />
         <option value="callJsExitFunc" />
         <option value="com.laotie" />
         <option value="load page:" />
@@ -27,7 +28,6 @@
         <option value="UsbIcReaderWrapper" />
         <option value="USBKeyBoardWrapper" />
         <option value="IrisSdkManager" />
-        <option value="掌纹" />
       </list>
     </option>
   </component>
