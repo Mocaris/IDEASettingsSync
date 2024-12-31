@@ -10,7 +10,7 @@
           <CloudModelParam>
             <option name="autoTrigger">
               <CloudModelAutoTrigger>
-                <option name="enable" value="false" />
+                <option name="enable" value="true" />
                 <option name="generateLength" value="level_1" />
                 <option name="modelLevel" value="large" />
               </CloudModelAutoTrigger>
@@ -27,7 +27,7 @@
         </option>
         <option name="local">
           <LocalModelParam>
-            <option name="enable" value="false" />
+            <option name="enable" value="true" />
             <option name="inferenceMode" value="speed" />
             <option name="maxCandidateNum" value="5" />
           </LocalModelParam>
@@ -331,6 +331,25 @@
                       <option name="type" value="currentFile" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+        <entry key="android|1508137056710408">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Build file '/Users/mocaris/DevWork/FlutterPlugin/fx_push/android/build.gradle' line: 24&#10;&#10;A problem occurred evaluating project ':fx_push'.&#10;&gt; Failed to apply plugin 'com.android.internal.library'.&#10;   &gt; Accessing GradleBuildProject.Builder through AnalyticsConfiguratorService is not allowed after AnalyticsService is created.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
