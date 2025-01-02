@@ -5,8 +5,10 @@
         <option value="com.fengniao.icommu" />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="com.laotiejicun" />
     <option name="nonFavorites">
       <list>
+        <option value="com.laotiejicun" />
         <option value="------------------------" />
         <option value="callJsExitFunc" />
         <option value="com.laotie" />
@@ -16,7 +18,6 @@
         <option value="PRETTY_LOGGER" />
         <option value="BridgeWebViewClient" />
         <option value="onReceivedError" />
-        <option value="com.laotiejicun" />
         <option value="ClipboardMonitor" />
         <option value="权限申请结果" />
         <option value="OCR" />
