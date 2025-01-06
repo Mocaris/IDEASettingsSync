@@ -1,12 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="-----" />
+    <option name="mostRecentlyUsed" value="data:" />
     <option name="nonFavorites">
       <list>
-        <option value="-----" />
-        <option value="----- " />
-        <option value="execute data" />
-        <option value=" --------" />
+        <option value="data:" />
       </list>
     </option>
   </component>
