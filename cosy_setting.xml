@@ -436,6 +436,207 @@
                   <list />
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="  val file = File(AppFileConstant.webUIIndexFile)&#10;        if (file.exists() || h5Url == oldConfig?.board?.h5_url) {&#10;            return&#10;        }&#10;将这段代码 转为 卫语句" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value=" if(!file.exists()|| h5Url != oldConfig?.board?.h5_url){&#10;            &#10;        }&#10;将这段代码 转为 卫语句" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="  if(!file.exists()|| h5Url != oldConfig?.board?.h5_url){&#10;            &#10;        SourceDownloadManager.H5Source.downloadH5Assets(h5Url)&#10;        }&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="143" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\StudioProjects\LaoTieSysApp\appWebUILocker\src\main\java\com\laotiejicun\webuilocker\manager\init\InitBoardConfigManager.kt#L140-L143" />
+                      <option name="name" value="E:\StudioProjects\LaoTieSysApp\appWebUILocker\src\main\java\com\laotiejicun\webuilocker\manager\init\InitBoardConfigManager.kt#L140-L143" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="140" />
+                      <option name="text" value="InitBoardConfigManager.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="  val file = File(AppFileConstant.webUIIndexFile)&#10;        if (!file.exists() || (null != oldConfig &amp;&amp; oldConfig.board.h5_url != h5Url)) {&#10;            SourceDownloadManager.H5Source.downloadH5Assets(h5Url)&#10;        }&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="139" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\StudioProjects\LaoTieSysApp\appWebUILocker\src\main\java\com\laotiejicun\webuilocker\manager\init\InitBoardConfigManager.kt#L136-L139" />
+                      <option name="name" value="E:\StudioProjects\LaoTieSysApp\appWebUILocker\src\main\java\com\laotiejicun\webuilocker\manager\init\InitBoardConfigManager.kt#L136-L139" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="136" />
+                      <option name="text" value="InitBoardConfigManager.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="01-10 15:20:09.615  1820  1963 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x94980000 in tid 1963 (pool-3-thread-1)&#10;01-10 15:20:09.615   195   195 W         : debuggerd: handling request: pid=1820 uid=10037 gid=10037 tid=1963&#10;01-10 15:20:09.696  2113  2113 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***&#10;01-10 15:20:09.696  2113  2113 F DEBUG   : Build fingerprint: 'Android/rk3288/rk3288:7.1.2/NHG47K/dewod05201703:userdebug/test-keys'&#10;01-10 15:20:09.696  2113  2113 F DEBUG   : Revision: '0'&#10;01-10 15:20:09.696  2113  2113 F DEBUG   : ABI: 'arm'&#10;01-10 15:20:09.696  2113  2113 F DEBUG   : pid: 1820, tid: 1963, name: pool-3-thread-1  &gt;&gt;&gt; com.laotiejicun.webuilocker &lt;&lt;&lt;&#10;01-10 15:20:09.696  2113  2113 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x94980000&#10;01-10 15:20:09.696  2113  2113 F DEBUG   :     r0 8119f9d0  r1 9497fca5  r2 0000027c  r3 000ffca5&#10;01-10 15:20:09.696  2113  2113 F DEBUG   :     r4 00000759  r5 000000ad  r6 0000035b  r7 94b7cc30&#10;01-10 15:20:09.696  2113  2113 F DEBUG   :     r8 000002cf  r9 00000400  sl 6f680000  fp 97efc7a0&#10;01-10 15:20:09.696  2113  2113 F DEBUG   :     ip 00000903  sp 94b7cb98  lr 00000273  pc 956fa638  cpsr 800b0030&#10;01-10 15:20:09.698  2113  2113 F DEBUG   :&#10;01-10 15:20:09.698  2113  2113 F DEBUG   : backtrace:&#10;01-10 15:20:09.698  2113  2113 F DEBUG   :     #00 pc 00098638  /data/app/com.laotiejicun.webuilocker-2/lib/arm/libbdface_sdk.so (_ZN6bdface16FaceAbilityTrack15_track_max_faceEPNS_12FaceInstanceEPKNS_19BDFaceImageInstanceERPNS_14BDFaceBBoxListERNSt6__ndk16vectorINS_15BDFaceTrackInfoENS9_9allocatorISB_EEEE+935)&#10;01-10 15:20:09.698  2113  2113 F DEBUG   :     #01 pc 00098217  /data/app/com.laotiejicun.webuilocker-2/lib/arm/libbdface_sdk.so (_ZN6bdface16FaceAbilityTrack3runEPvPS1_+262)&#10;01-10 15:20:09.698  2113  2113 F DEBUG   :     #02 pc 00097a75  /data/app/com.laotiejicun.webuilocker-2/lib/arm/libbdface_sdk.so (bdface_track+476)&#10;01-10 15:20:09.698  2113  2113 F DEBUG   :     #03 pc 00045453  /data/app/com.laotiejicun.webuilocker-2/lib/arm/libbdface_sdk.so (Java_com_baidu_idl_main_facesdk_FaceDetect_nativeFastTrack+50)&#10;01-10 15:20:09.698  2113  2113 F DEBUG   :     #04 pc 01ba704d  /data/app/com.laotiejicun.webuilocker-2/oat/arm/base.odex (offset 0x1a56000)&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
