@@ -10,7 +10,7 @@
           <CloudModelParam>
             <option name="autoTrigger">
               <CloudModelAutoTrigger>
-                <option name="enable" value="false" />
+                <option name="enable" value="true" />
                 <option name="generateLength" value="level_1" />
                 <option name="modelLevel" value="large" />
               </CloudModelAutoTrigger>
