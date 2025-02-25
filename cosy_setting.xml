@@ -32,6 +32,25 @@
     </option>
     <option name="recentComplexQueries">
       <map>
+        <entry key="EquipmentLocker|1508137056710408">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="android usbdevice 唯一设备ID" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
         <entry key="EquipmentLocker|1508137056710408|AiDeveloper">
           <value>
             <list>
