@@ -1,6 +1,5 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="usbReceiver action:" />
     <option name="nonFavorites">
       <list>
         <option value="usbReceiver action:" />
