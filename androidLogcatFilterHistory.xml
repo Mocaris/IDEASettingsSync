@@ -2,6 +2,8 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="System.out" />
+        <option value="System.out " />
         <option value="usbReceiver action:" />
         <option value="usb" />
       </list>
