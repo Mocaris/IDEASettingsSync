@@ -2,6 +2,10 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="nonFavorites">
       <list>
+        <option value="socketChannel success" />
+        <option value="SocketClient" />
+        <option value="socketChannel closed" />
+        <option value="SocketClientHandler" />
         <option value="System.out" />
         <option value="System.out " />
         <option value="usbReceiver action:" />
