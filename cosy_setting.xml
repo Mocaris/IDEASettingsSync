@@ -1,5 +1,10 @@
 <application>
   <component name="CosySettings">
+    <option name="chatModelSelected">
+      <map>
+        <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
+      </map>
+    </option>
     <option name="commandAllowList" value="" />
     <option name="dedicatedDomainUrl" value="" />
     <option name="localStoragePath" value="$USER_HOME$/.lingma" />
