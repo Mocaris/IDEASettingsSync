@@ -1,5 +1,8 @@
 <application>
   <component name="CosySettings">
+    <option name="commandAllowList" value="" />
+    <option name="dedicatedDomainUrl" value="" />
+    <option name="localStoragePath" value="$USER_HOME$/.lingma" />
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
