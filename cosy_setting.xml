@@ -1,5 +1,10 @@
 <application>
   <component name="CosySettings">
+    <option name="chatModeSelected">
+      <map>
+        <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange" value="chat" />
+      </map>
+    </option>
     <option name="chatModelSelected">
       <map>
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
