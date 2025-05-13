@@ -1,33 +1,17 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="favorites">
-      <list>
-        <option value="com.fengniao.icommu" />
-      </list>
-    </option>
     <option name="mostRecentlyUsed" value="com.laotiejicun" />
     <option name="nonFavorites">
       <list>
         <option value="com.laotiejicun" />
-        <option value="------------------------" />
-        <option value="callJsExitFunc" />
-        <option value="com.laotie" />
-        <option value="load page:" />
-        <option value="-----------------------" />
-        <option value="fileObserver" />
-        <option value="PRETTY_LOGGER" />
-        <option value="BridgeWebViewClient" />
-        <option value="onReceivedError" />
-        <option value="ClipboardMonitor" />
-        <option value="权限申请结果" />
-        <option value="OCR" />
-        <option value="KeyBoardSDKManager" />
-        <option value="init keyboard deviceId" />
-        <option value="PalmVeinManager" />
-        <option value="UsbICReaderManager" />
-        <option value="UsbIcReaderWrapper" />
-        <option value="USBKeyBoardWrapper" />
-        <option value="IrisSdkManager" />
+        <option value="socketChannel success" />
+        <option value="SocketClient" />
+        <option value="socketChannel closed" />
+        <option value="SocketClientHandler" />
+        <option value="System.out" />
+        <option value="System.out " />
+        <option value="usbReceiver action:" />
+        <option value="usb" />
       </list>
     </option>
   </component>
