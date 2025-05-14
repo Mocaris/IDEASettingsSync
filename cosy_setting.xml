@@ -7,6 +7,7 @@
     </option>
     <option name="chatModelSelected">
       <map>
+        <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
       </map>
     </option>
@@ -286,6 +287,25 @@
                       <option name="type" value="currentFile" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+        <entry key="FlutterTools|1508137056710408|AiAssistantAgent">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="写一个将 json 转换为 dart model 的工具类" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
