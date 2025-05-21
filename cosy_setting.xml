@@ -487,6 +487,19 @@
                   <list />
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="{&#10;                id: 972105765,&#10;                first_name: &quot;Duang!\ud83e\udd21&quot;,&#10;                username: &quot;Mocaris&quot;,&#10;                photo_url:&#10;                    &quot;https:\/\/t.me\/i\/userpic\/320\/KCGpxvgsYB5C299wQCag7eW9NmBTPLAxDcwQMhVw8QE.jpg&quot;,&#10;                auth_date: 1747737621,&#10;                hash: &quot;560608c0199c9b5e40d3aa20a51a7c6606194b8690c1dc3e0a98c2ceacff1166&quot;,&#10;            }&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
