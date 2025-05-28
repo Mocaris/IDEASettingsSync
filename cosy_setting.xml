@@ -10,9 +10,9 @@
         <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app-2/exchange-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
+        <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-inline" value="default" />
       </map>
     </option>
-    <option name="commandAllowList" value="" />
     <option name="dedicatedDomainUrl" value="" />
     <option name="localStoragePath" value="$USER_HOME$/.lingma" />
     <option name="manualOpenLocalModel" value="true" />
