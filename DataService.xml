@@ -1,7 +1,9 @@
 <application>
   <component name="DataService">
+    <option name="modeDefault" value="false" />
+    <option name="modeEasy" value="true" />
     <option name="module" value="{&quot;logicName&quot;:&quot;Controller&quot;,&quot;viewName&quot;:&quot;UI&quot;,&quot;viewFileName&quot;:&quot;UI&quot;,&quot;stateName&quot;:&quot;State&quot;}" />
-    <option name="function" value="{&quot;useFolder&quot;:true,&quot;usePrefix&quot;:false,&quot;isPageView&quot;:false,&quot;autoDispose&quot;:false,&quot;addLifecycle&quot;:false,&quot;addBinding&quot;:false,&quot;lintNorm&quot;:false,&quot;funTabIndex&quot;:2}" />
+    <option name="function" value="{&quot;useGetX5&quot;:false,&quot;useFolder&quot;:true,&quot;usePrefix&quot;:false,&quot;isPageView&quot;:false,&quot;autoDispose&quot;:false,&quot;addLifecycle&quot;:false,&quot;addBinding&quot;:false,&quot;funTabIndex&quot;:2}" />
     <option name="templatePage" value="{&quot;logic&quot;:&quot;Logic&quot;,&quot;view&quot;:&quot;Page&quot;,&quot;viewFile&quot;:&quot;View&quot;,&quot;state&quot;:&quot;State&quot;,&quot;selected&quot;:false}" />
     <option name="templateCustom" value="{&quot;logic&quot;:&quot;Controller&quot;,&quot;view&quot;:&quot;UI&quot;,&quot;viewFile&quot;:&quot;UI&quot;,&quot;state&quot;:&quot;State&quot;,&quot;selected&quot;:true}" />
   </component>
