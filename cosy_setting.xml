@@ -783,6 +783,794 @@
                   </list>
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="全部转换" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/router.dart" />
+                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="router.dart" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="785" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/router.dart#L315-L785" />
+                      <option name="name" value="router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="315" />
+                      <option name="text" value="router.dart" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value=" HistoryMerchantPage.routeName: (context, {arguments}) =&gt;&#10;        HistoryMerchantPage(arguments: arguments),&#10;    MerchantRechargePage.routeName: (context, {arguments}) =&gt;&#10;        MerchantRechargePage(arguments: arguments),&#10;    MerchantRechargePaymentPage.routeName: (context, {arguments}) =&gt;&#10;        MerchantRechargePaymentPage(arguments: arguments),&#10;    TransferNotesMerchantPage.routeName: (context, {arguments}) =&gt;&#10;        TransferNotesMerchantPage(arguments: arguments),&#10;    TransferMerchantDetailPage.routeName: (context, {arguments}) =&gt;&#10;        TransferMerchantDetailPage(arguments: arguments),&#10;    LanguageSetPage.routeName: (context, {arguments}) =&gt;&#10;        LanguageSetPage(arguments: arguments),&#10;    RegisterPage.routeName: (context, {arguments}) =&gt; const RegisterPage(),&#10;    EmailVerifyPage.routeName: (context, {arguments}) =&gt;&#10;        const EmailVerifyPage(),&#10;    CheckVerifyCodePage.routeName: (context, {arguments}) =&gt;&#10;        CheckVerifyCodePage(arguments: arguments),&#10;    SetNewPasswordPage.routeName: (context, {arguments}) =&gt;&#10;        SetNewPasswordPage(arguments: arguments),&#10;    ThirdAuthWebView.routeName: (context, {arguments}) =&gt;&#10;        ThirdAuthWebView(arguments: arguments),&#10;    BindEmailPage.routeName: (context, {arguments}) =&gt;&#10;        BindEmailPage(arguments: arguments),&#10;    FlashExchange.routeName: (context) =&gt; const FlashExchange(),&#10;    FeOrderDetail.routeName: (context, {arguments}) =&gt; const FeOrderDetail(),&#10;    UsdtGetUrlPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtGetUrlPage(arguments: arguments),&#10;    UsdtTopUpPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtTopUpPage(arguments: arguments),&#10;    Withdrawal.routeName: (context, {arguments}) =&gt;&#10;        Withdrawal(arguments: arguments),&#10;    UsdtTopUpResultPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtTopUpResultPage(arguments: arguments),&#10;    UsdtAddressPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtAddressPage(arguments: arguments),&#10;    UsdtCoinSearchPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtCoinSearchPage(arguments: arguments),&#10;    UsdtGetUrlPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtGetUrlPage(arguments: arguments),&#10;    UsdtTopUpPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtTopUpPage(arguments: arguments),&#10;    Withdrawal.routeName: (context, {arguments}) =&gt;&#10;        Withdrawal(arguments: arguments),&#10;    UsdtTopUpResultPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtTopUpResultPage(arguments: arguments),&#10;    UsdtCoinSearchPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtCoinSearchPage(arguments: arguments),&#10;    FeAssets.routeName: (context, {arguments}) =&gt; const FeAssets(),&#10;    TransferQualificationPage.routeName: (context, {arguments}) =&gt;&#10;        const TransferQualificationPage(),&#10;    TransferConfirmOrderPage.routeName: (context, {arguments}) =&gt;&#10;        TransferConfirmOrderPage(arguments: arguments),&#10;    UsdtTransferResultPage.routeName: (context, {arguments}) =&gt;&#10;        UsdtTransferResultPage(arguments: arguments),&#10;    XbTransferResultPage.routeName: (context, {arguments}) =&gt;&#10;        XbTransferResultPage(arguments: arguments),&#10;    YuEBaoMain.routeName: (context, {arguments}) =&gt; const YuEBaoMain(),&#10;    ProfitInOutDetailPage.routeName: (context, {arguments}) =&gt;&#10;        ProfitInOutDetailPage(arguments: arguments),&#10;    ProfitPaymentDetailPage.routeName: (context, {arguments}) =&gt;&#10;        ProfitPaymentDetailPage(arguments: arguments),&#10;    LoginNew.routeName: (context, {arguments}) =&gt; const LoginNew(),&#10;    RegisterNew.routeName: (context, {arguments}) =&gt; const RegisterNew(),&#10;    PhoneLoginNew.routeName: (context, {arguments}) =&gt; const PhoneLoginNew(),&#10;    PhoneRegisterNew.routeName: (context, {arguments}) =&gt;&#10;        const PhoneRegisterNew(),&#10;    LaunchLoginSkeletonPage.routeName: (context, {arguments}) =&gt;&#10;        LaunchLoginSkeletonPage(arguments: arguments),&#10;    NewChoiceMarketPage.routeName: (context, {arguments}) =&gt;&#10;        NewChoiceMarketPage(arguments: arguments),&#10;    NewDeviceOffsitePage.routeName: (context, {arguments}) =&gt;&#10;        NewDeviceOffsitePage(arguments: arguments),&#10;    ForgetPwd.routeName: (context, {arguments}) =&gt; const ForgetPwd(),&#10;    GoogleRegisterNew.routeName: (context, {arguments}) =&gt;&#10;        GoogleRegisterNew(arguments: arguments),&#10;    NewAreaSelectedPage.routeName: (context, {arguments}) =&gt;&#10;        const NewAreaSelectedPage(),&#10;    ResetPwdNew.routeName: (context, {arguments}) =&gt;&#10;        ResetPwdNew(arguments: arguments),&#10;    SetupEmailPasswordPage.routeName: (context, {arguments}) =&gt;&#10;        SetupEmailPasswordPage(arguments: arguments),&#10;    NewDeviceOffsitePhoneVerfi.routeName: (context, {arguments}) =&gt;&#10;        NewDeviceOffsitePhoneVerfi(arguments: arguments),&#10;    NewDeviceOffsiteEamilVerfiPage.routeName: (context, {arguments}) =&gt;&#10;        NewDeviceOffsiteEamilVerfiPage(arguments: arguments),&#10;    SwitchEmail.routeName: (context, {arguments}) =&gt; const SwitchEmail(),&#10;    BindEmailNew.routeName: (context, {arguments}) =&gt;&#10;        BindEmailNew(arguments: arguments),&#10;    OptionalTradingPage.routeName: (context, {arguments}) =&gt;&#10;        OptionalTradingPage(arguments: arguments),&#10;    QuickPurchase.routeName: (context, {arguments}) =&gt; const QuickPurchase(),&#10;    QuickOrderMatching.routeName: (context, {arguments}) =&gt;&#10;        const QuickOrderMatching(),&#10;    QuickOrderMatchingFail.routeName: (context, {arguments}) =&gt;&#10;        const QuickOrderMatchingFail(),&#10;    QuickOrderMatchingSuccess.routeName: (context, {arguments}) =&gt;&#10;        const QuickOrderMatchingSuccess(),&#10;    CollectionOrderGenerateBuyPage.routeName: (context, {arguments}) =&gt;&#10;        const CollectionOrderGenerateBuyPage(),&#10;    CollectionWaitUploadCreFilePage.routeName: (context, {arguments}) =&gt;&#10;        CollectionWaitUploadCreFilePage(data: arguments),&#10;    CollectionWebOrderPayPage.routeName: (context, {arguments}) =&gt;&#10;        CollectionWebOrderPayPage(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSecurityWhenLogin.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSecurityWhenLogin(arguments: arguments),&#10;    NewDeviceOffsiteGoogleVerfi.routeName: (context, {arguments}) =&gt;&#10;        const NewDeviceOffsiteGoogleVerfi(),&#10;    GoogleResetPage.routeName: (context, {arguments}) =&gt;&#10;        const GoogleResetPage(),&#10;    ExchangeBindPhonePage.routeName: (context, {arguments}) =&gt;&#10;        const ExchangeBindPhonePage(),&#10;    NewAccountSecurityAfterLogin.routeName: (context, {arguments}) =&gt;&#10;        const NewAccountSecurityAfterLogin(),&#10;    ExchangeBindEmailPage.routeName: (context, {arguments}) =&gt;&#10;        const ExchangeBindEmailPage(),&#10;    NewAccountSecurityAfterLoginRealnameVerfi.routeName: (context,&#10;            {arguments}) =&gt;&#10;        const NewAccountSecurityAfterLoginRealnameVerfi(),&#10;    NewAbroadKycPage.routeName: (context, {arguments}) =&gt; NewAbroadKycPage(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSecurityAfterLoginGoogleVerfi.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSecurityAfterLoginGoogleVerfi(&#10;          arguments: arguments,&#10;        ),&#10;    GoogleAuthenticatorPage.routeName: (context, {arguments}) =&gt;&#10;        GoogleAuthenticatorPage(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountGoogleCheckCode.routeName: (context, {arguments}) =&gt;&#10;        NewAccountGoogleCheckCode(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSecurityExchangeBindPhone.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSecurityExchangeBindPhone(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSecurityExchangeBindEmail.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSecurityExchangeBindEmail(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountChangePaymentPassword.routeName: (context, {arguments}) =&gt;&#10;        NewAccountChangePaymentPassword(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSetupNewPassword.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSetupNewPassword(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSecurityAfterLoginEmailVerfi.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSecurityAfterLoginEmailVerfi(&#10;          arguments: arguments,&#10;        ),&#10;    NewAccountSecurityAfterLoginPhoneVerfi.routeName: (context, {arguments}) =&gt;&#10;        NewAccountSecurityAfterLoginPhoneVerfi(&#10;          arguments: arguments,&#10;        ),&#10;    AuthenAboardEditInfoPage.routeName: (context, {arguments}) =&gt;&#10;        AuthenAboardEditInfoPage(&#10;          arguments: arguments,&#10;        ),&#10;    AuthenCenterNewPage.routeName: (context, {arguments}) =&gt;&#10;        AuthenCenterNewPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingIndexPage.routeName: (context, {arguments}) =&gt; StakingIndexPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingSelectCurrencyPage.routeName: (context, {arguments}) =&gt;&#10;        StakingSelectCurrencyPage(&#10;          arguments: arguments,&#10;        ),&#10;    ProfitSelectCurrencyPage.routeName: (context, {arguments}) =&gt;&#10;        ProfitSelectCurrencyPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingLoanServiceAgreementPage.routeName: (context, {arguments}) =&gt;&#10;        StakingLoanServiceAgreementPage(&#10;          arguments: arguments,&#10;        ),&#10;    VirCoinInComeDetail.routeName: (context, {arguments}) =&gt;&#10;        VirCoinInComeDetail(coinInfo: arguments),&#10;    StakingInterestPage.routeName: (context, {arguments}) =&gt;&#10;        StakingInterestPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingRedemptionPage.routeName: (context, {arguments}) =&gt;&#10;        StakingRedemptionPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingInterestDetailPage.routeName: (context, {arguments}) =&gt;&#10;        StakingInterestDetailPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingBorrowingHistory.routeName: (context, {arguments}) =&gt;&#10;        StakingBorrowingHistory(&#10;          arguments: arguments,&#10;        ),&#10;    CurrentRecordDetailStakingPage.routeName: (context, {arguments}) =&gt;&#10;        CurrentRecordDetailStakingPage(&#10;          arguments: arguments,&#10;        ),&#10;    RegularRecordDetailStakingPage.routeName: (context, {arguments}) =&gt;&#10;        RegularRecordDetailStakingPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingOrderRecordPage.routeName: (context, {arguments}) =&gt;&#10;        StakingOrderRecordPage(&#10;          arguments: arguments,&#10;        ),&#10;    FlashExchangeRecord.routeName: (context, {arguments}) =&gt;&#10;        FlashExchangeRecord(&#10;          arguments: arguments,&#10;        ),&#10;    VirCoinTopUpCurrentRecord.routeName: (context, {arguments}) =&gt;&#10;        VirCoinTopUpCurrentRecord(&#10;          arguments: arguments,&#10;        ),&#10;    VirCoinTopUpResultDetail.routeName: (context, {arguments}) =&gt;&#10;        VirCoinTopUpResultDetail(arguments: arguments),&#10;    UsdtAddressAddPage.routeName: (context, {arguments}) =&gt; UsdtAddressAddPage(&#10;          arguments: arguments,&#10;        ),&#10;    FinancialManagementSelectCoinPage.routeName: (context, {arguments}) =&gt;&#10;        FinancialManagementSelectCoinPage(&#10;          arguments: arguments,&#10;        ),&#10;    StakingCalculatorPage.routeName: (context, {arguments}) =&gt;&#10;        StakingCalculatorPage(&#10;          arguments: arguments,&#10;        ),&#10;    FinancePage.routeName: (context, {arguments}) =&gt; const FinancePage(),&#10;    FinanceDetailPage.routeName: (context, {arguments}) =&gt;&#10;        FinanceDetailPage(coinInfo: arguments),&#10;    CurrencyManagementPage.routeName: (context, {arguments}) =&gt;&#10;        CurrencyManagementPage(&#10;          arguments: arguments,&#10;        ),&#10;&#10;    YueBaoOrderRecord.routeName: (context, {arguments}) =&gt; YueBaoOrderRecord(&#10;          arguments: arguments,&#10;        ),&#10;&#10;    StakingFaqPage.routeName: (context, {arguments}) =&gt;&#10;        StakingFaqPage(arguments: arguments),&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="785" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/router.dart#L315-L785" />
+                      <option name="name" value="router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="315" />
+                      <option name="text" value="router.dart" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="完整转换" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="785" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/router.dart#L315-L785" />
+                      <option name="name" value="router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="315" />
+                      <option name="text" value="router.dart" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="tag">
+                        <ChatAskTag>
+                          <option name="displayText" value="#app_router.dart 495-741" />
+                          <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart#L495-L741" />
+                          <option name="text" value="app_router.dart" />
+                          <option name="type" value="context" />
+                        </ChatAskTag>
+                      </option>
+                      <option name="type" value="tag" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value=" 转换为 GetPage 的方式" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="741" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart#L495-L741" />
+                      <option name="name" value="app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="495" />
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="完整转换 剩余的" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="741" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart#L495-L741" />
+                      <option name="name" value="app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="495" />
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="一次性转换全部路由" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="741" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart#L495-L741" />
+                      <option name="name" value="app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="495" />
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="一次性转换 全部路由 转为 GetPage 的方式" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="不需要导入包, 去除重复的路由" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/lib/config/app_router.dart" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="app_router.dart" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
