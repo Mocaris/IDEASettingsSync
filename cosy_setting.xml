@@ -321,19 +321,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="帮我写一个 fastlane 打包 ipa 的模板" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="生成 fastlane 打包 apk " />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -1569,6 +1556,19 @@
                       <option name="type" value="file" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="{&#10;      &quot;id&quot;: 507,&#10;      &quot;user_id&quot;: 2706940221386752,&#10;      &quot;order_id&quot;: &quot;3022743756742656&quot;,&#10;      &quot;amount&quot;: &quot;100&quot;,&#10;      &quot;coin_id&quot;: 1,&#10;      &quot;coin_name&quot;: &quot;USDT&quot;,&#10;      &quot;create_time&quot;: 1749808627115,&#10;      &quot;currency_id&quot;: 10,&#10;      &quot;currency_name&quot;: &quot;JPZ&quot;,&#10;      &quot;status&quot;: 5,&#10;      &quot;remark&quot;: &quot;&quot;,&#10;      &quot;coin_class&quot;: &quot;&quot;,&#10;      &quot;yuebao_config_id&quot;: 0,&#10;      &quot;yuebao_chain_id&quot;: 0&#10;    }&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
