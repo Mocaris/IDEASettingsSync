@@ -1,0 +1,11 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1718682311182">What is a composable?</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,11 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="Mocaris" id="fc3e4917-931e-4143-9bb9-ddc7fbda464b">
+      <server host="github.com" />
+    </account>
+  </component>
+  <component name="GithubSettings">
+    <option name="CONNECTION_TIMEOUT" value="30000" />
+    <option name="CLONE_GIT_USING_SSH" value="true" />
+  </component>
+</application>

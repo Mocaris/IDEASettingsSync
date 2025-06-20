@@ -1,0 +1,14 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.32864583333333336" />
+        <entry key="../../android/src/main/res/layout/activity_scan.xml" value="0.1716485507246377" />
+        <entry key="app/src/main/res/drawable/launch_background.xml" value="0.26851851851851855" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1514690982776089" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.20833333333333334" />
+        <entry key="appLib/src/main/res/layout/activity_base.xml" value="0.25679347826086957" />
+      </map>
+    </option>
+  </component>
+</application>

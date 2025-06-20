@@ -1,0 +1,18 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="com.laotiejicun" />
+    <option name="nonFavorites">
+      <list>
+        <option value="com.laotiejicun" />
+        <option value="socketChannel success" />
+        <option value="SocketClient" />
+        <option value="socketChannel closed" />
+        <option value="SocketClientHandler" />
+        <option value="System.out" />
+        <option value="System.out " />
+        <option value="usbReceiver action:" />
+        <option value="usb" />
+      </list>
+    </option>
+  </component>
+</application>

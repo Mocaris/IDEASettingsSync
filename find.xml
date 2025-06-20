@@ -1,0 +1,11 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.kt</mask>
+    <mask>*</mask>
+    <mask>*.yaml</mask>
+    <mask>*.dart</mask>
+  </component>
+</application>
