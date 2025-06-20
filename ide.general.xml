@@ -10,7 +10,6 @@
     <entry key="ide.experimental.ui" value="true" />
     <entry key="i18n.locale" value="zh-CN" />
     <entry key="compiler.document.save.enabled" value="true" />
-    <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="debugger.new.tool.window.layout" value="true" />
     <entry key="ide.images.show.chessboard" value="true" />
   </component>
