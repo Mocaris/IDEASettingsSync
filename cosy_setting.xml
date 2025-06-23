@@ -321,32 +321,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="{&#10;    &quot;user_name_register_enable&quot;: true,&#10;    &quot;user_name_login_enable&quot;: true,&#10;    &quot;email_register_enable&quot;: true,&#10;    &quot;email_login_enable&quot;: true,&#10;    &quot;phone_register_enabled&quot;: true,&#10;    &quot;phone_login_enabled&quot;: true,&#10;    &quot;google_register_enable&quot;: true,&#10;    &quot;google_login_enable&quot;: true,&#10;    &quot;phone_code_valid&quot;: 3,&#10;    &quot;email_code_valid&quot;: 3,&#10;    &quot;profit_switch&quot;: true,&#10;    &quot;default_avatar_list&quot;: [&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_1.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_2.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_3.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_4.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_5.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_6.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_7.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/user_avatar_8.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      }&#10;    ],&#10;    &quot;customer_support&quot;: {&#10;      &quot;evn_no&quot;: &quot;1000&quot;,&#10;      &quot;domains&quot;: &quot;http://46gytl9ojaft.imsz.org?sign=0x4f227352cf96fab9e67064e08219a86cd398fdbb067aa53fc7ad49deb882a0ad49b1d073ae0b3f74d39d288f3cf3feab6f102c1993532e1239e2f48e4afb534b1c&amp;nickName=hxx001&amp;nickId=hxx001&amp;language=zh&quot;,&#10;      &quot;pc_domains&quot;: &quot;http://46gytl9ojaft.imsz.org?sign=0x4f227352cf96fab9e67064e08219a86cd398fdbb067aa53fc7ad49deb882a0ad49b1d073ae0b3f74d39d288f3cf3feab6f102c1993532e1239e2f48e4afb534b1c&amp;nickName=hxx001&amp;nickId=hxx001&amp;language=zh&quot;&#10;    },&#10;    &quot;captcha&quot;: {&#10;      &quot;acount_list&quot;: [&#10;        {&#10;          &quot;id&quot;: 1,&#10;          &quot;name&quot;: &quot;帐户1&quot;,&#10;          &quot;config&quot;: {&#10;            &quot;name&quot;: &quot;wangyi图形验证码&quot;,&#10;            &quot;prefix&quot;: &quot;ih6vre&quot;,&#10;            &quot;secret&quot;: &quot;a9c2b4db5f2c08049bc8ac3a8a96b7b3&quot;,&#10;            &quot;secret_id&quot;: &quot;9fe0114d56f7f03d5f9025d5e6c3512d&quot;,&#10;            &quot;puzzle_verification_id&quot;: &quot;fa16e0abad4e4f43a9231618199d55d7&quot;&#10;          }&#10;        }&#10;      ],&#10;      &quot;captcha_switch&quot;: false&#10;    },&#10;    &quot;switch_status&quot;: {&#10;      &quot;order_statistics_switch&quot;: true,&#10;      &quot;earnings_statistics_switch&quot;: true,&#10;      &quot;membership_level_switch&quot;: true,&#10;      &quot;collect_cancel_switch&quot;: true&#10;    },&#10;    &quot;third_party_login_list&quot;: [&#10;      {&#10;        &quot;name&quot;: &quot;google&quot;,&#10;        &quot;open&quot;: true,&#10;        &quot;provider&quot;: &quot;google&quot;&#10;      }&#10;    ],&#10;    &quot;currency_id&quot;: 10,&#10;    &quot;language&quot;: &quot;vi&quot;,&#10;    &quot;currency_icon&quot;: {&#10;      &quot;url&quot;: &quot;https://abpay-pub.s3.ap-northeast-1.amazonaws.com/1075_1736250020174.png&quot;,&#10;      &quot;key&quot;: &quot;&quot;&#10;    },&#10;    &quot;currency_name&quot;: &quot;柬币&quot;,&#10;    &quot;currency_legal_abb&quot;: &quot;JPZ&quot;,&#10;    &quot;area_info&quot;: {&#10;      &quot;area_id&quot;: 2,&#10;      &quot;area_name&quot;: &quot;中国香港&quot;,&#10;      &quot;area_flag&quot;: {&#10;        &quot;url&quot;: &quot;https://ali-pub01.cn-shenzhen.oss.aliyuncs.com/area_flag_hong_kong.png&quot;,&#10;        &quot;key&quot;: &quot;&quot;&#10;      },&#10;      &quot;area_code&quot;: &quot;+852&quot;,&#10;      &quot;verify_type&quot;: 2,&#10;      &quot;doc_types&quot;: [&#10;        1,&#10;        2&#10;      ]&#10;    },&#10;    &quot;switch_currency&quot;: true,&#10;    &quot;phone_bind_enable&quot;: true,&#10;    &quot;cancel_reason&quot;: [&#10;      {&#10;        &quot;parent_id&quot;: 0,&#10;        &quot;language&quot;: &quot;zh_Hans&quot;,&#10;        &quot;text_buyer_cancel_pay_method_wrong&quot;: &quot;付款方式有误&quot;,&#10;        &quot;text_seller_cancel_delayed_transactions&quot;: &quot;延迟交易&quot;,&#10;        &quot;text_seller_cancel_no_need&quot;: &quot;不需要了&quot;,&#10;        &quot;text_buyer_cancel_delayed_transactions&quot;: &quot;延迟交易&quot;,&#10;        &quot;text_buyer_cancel_no_need&quot;: &quot;不需要了&quot;&#10;      },&#10;      {&#10;        &quot;parent_id&quot;: 0,&#10;        &quot;language&quot;: &quot;en&quot;,&#10;        &quot;text_buyer_cancel_pay_method_wrong&quot;: &quot;The company has a good reputation&quot;,&#10;        &quot;text_seller_cancel_delayed_transactions&quot;: &quot;Delayed transactions&quot;,&#10;        &quot;text_seller_cancel_no_need&quot;: &quot;No need&quot;,&#10;        &quot;text_buyer_cancel_delayed_transactions&quot;: &quot;Delayed transactions&quot;,&#10;        &quot;text_buyer_cancel_no_need&quot;: &quot;No need&quot;&#10;      },&#10;      {&#10;        &quot;parent_id&quot;: 0,&#10;        &quot;language&quot;: &quot;vi&quot;,&#10;        &quot;text_buyer_cancel_pay_method_wrong&quot;: &quot;Phương thức thanh toán không đúng&quot;,&#10;        &quot;text_seller_cancel_delayed_transactions&quot;: &quot;Giao dịch bị trì hoãn&quot;,&#10;        &quot;text_seller_cancel_no_need&quot;: &quot;Không cần thiết&quot;,&#10;        &quot;text_buyer_cancel_delayed_transactions&quot;: &quot;Giao dịch bị trì hoãn&quot;,&#10;        &quot;text_buyer_cancel_no_need&quot;: &quot;Không cần thiết&quot;&#10;      }&#10;    ]&#10;  }&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="{&#10;                id: 972105765,&#10;                first_name: &quot;Duang!\ud83e\udd21&quot;,&#10;                username: &quot;Mocaris&quot;,&#10;                photo_url:&#10;                    &quot;https:\/\/t.me\/i\/userpic\/320\/KCGpxvgsYB5C299wQCag7eW9NmBTPLAxDcwQMhVw8QE.jpg&quot;,&#10;                auth_date: 1747737621,&#10;                hash: &quot;560608c0199c9b5e40d3aa20a51a7c6606194b8690c1dc3e0a98c2ceacff1166&quot;,&#10;            }&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="{&#10;    &quot;force_update&quot;: false,&#10;    &quot;version&quot;: &quot;2.1.11&quot;,&#10;    &quot;platform&quot;: 2,&#10;    &quot;content&quot;: &quot;测试&quot;,&#10;    &quot;link&quot;: &quot; &quot;,&#10;    &quot;apkUrl&quot;: &quot;https://ali-test-3.s3.ap-northeast-1.amazonaws.com/2.1.11.apk&quot;,&#10;    &quot;priority&quot;: 2,&#10;    &quot;google_play_url&quot;: &quot;&quot;&#10;  }&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -1576,6 +1550,32 @@
                       <option name="type" value="currentFile" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="#!/bin/bash&#10;&#10;# 选择打包类型&#10;echo &quot;请选择打包类型：&quot;&#10;echo &quot;1. ad hoc&quot;&#10;echo &quot;2. appstore&quot;&#10;echo &quot;请先确认 打包配置文件是否正确:&quot;&#10;echo &quot;ad hoc:  文件路径 ios/exportOptions/exportOptions-adhoc.pliste&quot;&#10;echo &quot;appstore:  文件路径 ios/exportOptions/exportOptions-appstore.pliste&quot;&#10;echo &quot;---------------------------------------------------&quot;&#10;read -p &quot;请输入选项 (1 或 2): &quot; distribution_type&#10;&#10;# 根据用户输入确定分发类型和构建参数&#10;case $distribution_type in&#10;    1)&#10;        export DISTRIBUTION=&quot;adhoc&quot;&#10;        FLUTTER_BUILD_ARGS=&quot;--release --no-codesign&quot;&#10;        ;;&#10;    2)&#10;        export DISTRIBUTION=&quot;appstore&quot;&#10;        FLUTTER_BUILD_ARGS=&quot;--release&quot;&#10;        ;;&#10;    *)&#10;        echo &quot;无效的选项，脚本终止。&quot;&#10;        exit 1&#10;        ;;&#10;esac&#10;&#10;# 执行 Flutter 构建&#10;fvm flutter build ios $FLUTTER_BUILD_ARGS&#10;&#10;# 检查构建是否成功&#10;if [ $? -ne 0 ]; then&#10;    echo &quot;Flutter 构建失败，请检查错误。&quot;&#10;    exit 1&#10;fi&#10;&#10;# 获取项目名称&#10;PROJECT_NAME=Runner&#10;&#10;# 定义构建目录&#10;BUILD_DIR=&quot;build/ios/archive&quot;&#10;&#10;# 创建输出目录（如果不存在）&#10;mkdir -p &quot;$BUILD_DIR&quot;&#10;&#10;# 导航到 iOS 子目录&#10;cd ios || { echo &quot;无法进入 ios 目录&quot;; exit 1; }&#10;&#10;# 使用 xcodebuild 打包 IPA&#10;xcodebuild -workspace &quot;$PROJECT_NAME.xcworkspace&quot; \&#10;           -scheme &quot;$PROJECT_NAME&quot; \&#10;           -sdk iphoneos \&#10;           -configuration Release \&#10;           archive -archivePath &quot;$BUILD_DIR/$PROJECT_NAME.xcarchive&quot; \&#10;           EXPORT_OPTIONS_PLIST=&quot;exportOptions/exportOptions-$DISTRIBUTION.plist&quot;&#10;&#10;# 检查打包是否成功&#10;if [ $? -ne 0 ]; then&#10;    echo &quot;IPA 打包失败，请检查错误。&quot;&#10;    exit 1&#10;fi&#10;&#10;echo &quot;IPA 打包完成，文件位于: $BUILD_DIR/&quot;&#10; &#10; " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value=" line 66: unexpected EOF while looking for matching `&quot;'&#10;/Users/mocaris/DevWork/wallet-pay-app/exchange/build_ipa.sh: line 67: syntax error: unexpected end of file&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
