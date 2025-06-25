@@ -8,6 +8,7 @@
         <option value="Default.Date" />
       </list>
     </option>
+    <option name="LABELS_LEFT_ALIGNED" value="true" />
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
     <option name="SHOW_TAG_NAMES" value="true" />
   </component>
