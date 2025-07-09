@@ -388,75 +388,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="ad hoc  teamID 是否可以不填" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="file" />
-                          <option name="drillDownEnable" value="true" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="file" />
-                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#file" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine" />
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent" />
-                          <entry key="startLine" />
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app-2/exchange/shell/ios/build_ipa.sh" />
-                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app-2/exchange/shell/ios/build_ipa.sh" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="text" value="build_ipa.sh" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="#!/bin/bash&#10;&#10;# 选择打包类型&#10;echo &quot;请选择打包类型：&quot;&#10;echo &quot;1. ad hoc&quot;&#10;echo &quot;2. appstore&quot;&#10;echo &quot;请先确认 打包配置文件是否正确:&quot;&#10;echo &quot;ad hoc:  文件路径 ios/exportOptions/exportOptions-adhoc.pliste&quot;&#10;echo &quot;appstore:  文件路径 ios/exportOptions/exportOptions-appstore.pliste&quot;&#10;echo &quot;---------------------------------------------------&quot;&#10;read -p &quot;请输入选项 (1 或 2): &quot; distribution_type&#10;&#10;# 根据用户输入确定分发类型和构建参数&#10;case $distribution_type in&#10;    1)&#10;        export DISTRIBUTION=&quot;adhoc&quot;&#10;        FLUTTER_BUILD_ARGS=&quot;--release --no-codesign&quot;&#10;        ;;&#10;    2)&#10;        export DISTRIBUTION=&quot;appstore&quot;&#10;        FLUTTER_BUILD_ARGS=&quot;--release&quot;&#10;        ;;&#10;    *)&#10;        echo &quot;无效的选项，脚本终止。&quot;&#10;        exit 1&#10;        ;;&#10;esac&#10;&#10;# 执行 Flutter 构建&#10;fvm flutter build ios $FLUTTER_BUILD_ARGS&#10;&#10;# 检查构建是否成功&#10;if [ $? -ne 0 ]; then&#10;    echo &quot;Flutter 构建失败，请检查错误。&quot;&#10;    exit 1&#10;fi&#10;&#10;# 获取项目名称&#10;PROJECT_NAME=Runner&#10;&#10;# 定义构建目录&#10;BUILD_DIR=&quot;build/ios/archive&quot;&#10;&#10;# 创建输出目录（如果不存在）&#10;mkdir -p &quot;$BUILD_DIR&quot;&#10;&#10;# 导航到 iOS 子目录&#10;cd ios || { echo &quot;无法进入 ios 目录&quot;; exit 1; }&#10;&#10;# 使用 xcodebuild 打包 IPA&#10;xcodebuild -workspace &quot;$PROJECT_NAME.xcworkspace&quot; \&#10;           -scheme &quot;$PROJECT_NAME&quot; \&#10;           -sdk iphoneos \&#10;           -configuration Release \&#10;           archive -archivePath &quot;$BUILD_DIR/$PROJECT_NAME.xcarchive&quot; \&#10;           EXPORT_OPTIONS_PLIST=&quot;exportOptions/exportOptions-$DISTRIBUTION.plist&quot;&#10;&#10;# 检查打包是否成功&#10;if [ $? -ne 0 ]; then&#10;    echo &quot;IPA 打包失败，请检查错误。&quot;&#10;    exit 1&#10;fi&#10;&#10;echo &quot;IPA 打包完成，文件位于: $BUILD_DIR/&quot;&#10; &#10; " />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -1098,6 +1029,75 @@
                       </option>
                       <option name="sourceType" value="system" />
                       <option name="text" value="upload_pkg.sh" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="判断 当前目录是否是当前文件目录" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/shell/android/build_apk.sh" />
+                      <option name="name" value="$USER_HOME$/DevWork/wallet-pay-app/exchange/shell/android/build_apk.sh" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="build_apk.sh" />
                       <option name="type" value="currentFile" />
                     </ChatContextTag>
                   </list>
