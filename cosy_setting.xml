@@ -8,6 +8,7 @@
     <option name="chatModelSelected">
       <map>
         <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
+        <entry key="$USER_HOME$/DevWork/Flutter/flutter_fx-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/LaoTieSysApp-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app-2/exchange-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
