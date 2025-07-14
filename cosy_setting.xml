@@ -9,6 +9,7 @@
       <map>
         <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/Flutter/flutter_fx-chat" value="default" />
+        <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_native_andriod-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/LaoTieSysApp-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app-2/exchange-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
@@ -377,6 +378,25 @@
                       <option name="type" value="file" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
+        <entry key="LbeIMChat|1508137056710408|AiAssistantAgent">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="* What went wrong:&#10;Execution failed for task ':app:mergeExtDexNormalDebug'.&#10;&gt; Could not resolve all files for configuration ':app:normalDebugRuntimeClasspath'.&#10;   &gt; Failed to transform appcompat-resources-1.7.0.aar (androidx.appcompat:appcompat-resources:1.7.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=24, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingNoClasspathTransform: /Users/lilou/.gradle/caches/transforms-3/e99be6a894ca56417cb329a3353e2b39/transformed/jetified-appcompat-resources-1.7.0-runtime.jar.&#10;         &gt; Error while dexing.&#10;   &gt; Failed to transform appcompat-1.7.0.aar (androidx.appcompat:appcompat:1.7.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=24, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingNoClasspathTransform: /Users/lilou/.gradle/caches/transforms-3/dbca9bd9a28febc74920562b0f47ef92/transformed/appcompat-1.7.0-runtime.jar.&#10;         &gt; Error while dexing.&#10;   &gt; Failed to transform lifecycle-livedata-core-2.8.7.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.7) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=24, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingNoClasspathTransform: /Users/lilou/.gradle/caches/transforms-3/0e3b140057370c44ab8be5f8a441b76d/transformed/lifecycle-livedata-core-2.8.7-runtime.jar.&#10;         &gt; Error while dexing.&#10;   &gt; Failed to transform vectordrawable-animated-1.2.0.aar (androidx.vectordrawable:vectordrawable-animated:1.2.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=24, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingNoClasspathTransform: /Users/lilou/.gradle/caches/transforms-3/878bacaec9a389fd075758dbf2cfb064/transformed/vectordrawable-animated-1.2.0-runtime.jar.&#10;         &gt; Error while dexing.&#10;   &gt; Failed to transform vectordrawable-1.2.0.aar (androidx.vectordrawable:vectordrawable:1.2.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=24, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingNoClasspathTransform: /Users/lilou/.gradle/caches/transforms-3/5cd75b749e2ebbe28d675f3705e98977/transformed/vectordrawable-1.2.0-runtime.jar.&#10;         &gt; Error while dexing.&#10;   &gt; Failed to transform profileinstaller-1.4.1.aar (androidx.profileinstaller:profileinstaller:1.4.1) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=24, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingNoClasspathTransform: /Users/lilou/.gradle/caches/transforms-3/a88a41fab78982e1f75dadaacbb3a0fb/transformed/jetified-profileinstaller-1.4.1-runtime.jar.&#10;         &gt; Error while dexing.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
