@@ -10,6 +10,7 @@
         <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/Flutter/flutter_fx-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android-chat" value="default" />
+        <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/example-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_native_andriod-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/LaoTieSysApp-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app-2/exchange-chat" value="default" />
@@ -411,6 +412,19 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="&gt;无法解析配置“:app:debugRuntimeClasspath”的所有文件。&#10;&#10;&gt;未能将class.jar（项目：imchat_sdk_android）转换为匹配属性{artifactType=android-dex，asm-transformed-variant=NONE，com.android.build.api.attributes.AgpVersionAttr=7.4.0，com.android.build.api.attributes.BuildTypeAttr=debug，com.android.build.gradle.internal.attributes.VariantAttr=debug，dexing-enable-sugaring=true，dexing-enable-enable-jacoco-instrumentation=false，dexing-is-debuggable=true，dexing-min-sdk=21，org.gradle.categary=library，org.gradle.jvm.environment=android，org.gradle&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="&#10;Execution failed for task ':app:mergeExtDexDebug'.&#10;&gt; Could not resolve all files for configuration ':app:debugRuntimeClasspath'.&#10;   &gt; Failed to transform kotlin-stdlib-1.9.0.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=true, dexing-enable-jacoco-instrumentation=false, dexing-is-debuggable=true, dexing-min-sdk=21, org.gradle.category=library, org.gradle.libraryelements=jar, org.gradle.status=release, org.gradle.usage=java-runtime}.&#10;      &gt; Execution failed for DexingWithClasspathTransform: /Users/mocaris/.gradle/caches/transforms-3/e0fd454f51be98e1648f53ecddf02600/transformed/jetified-kotlin-stdlib-1.9.0.jar.&#10;         &gt; Error while dexing.&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
