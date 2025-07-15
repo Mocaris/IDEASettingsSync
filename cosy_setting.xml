@@ -403,6 +403,25 @@
             </list>
           </value>
         </entry>
+        <entry key="example|1508137056710408|AiAssistantAgent">
+          <value>
+            <list>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="&gt;无法解析配置“:app:debugRuntimeClasspath”的所有文件。&#10;&#10;&gt;未能将class.jar（项目：imchat_sdk_android）转换为匹配属性{artifactType=android-dex，asm-transformed-variant=NONE，com.android.build.api.attributes.AgpVersionAttr=7.4.0，com.android.build.api.attributes.BuildTypeAttr=debug，com.android.build.gradle.internal.attributes.VariantAttr=debug，dexing-enable-sugaring=true，dexing-enable-enable-jacoco-instrumentation=false，dexing-is-debuggable=true，dexing-min-sdk=21，org.gradle.categary=library，org.gradle.jvm.environment=android，org.gradle&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+            </list>
+          </value>
+        </entry>
         <entry key="exchange|1508137056710408|AiAssistantAgent">
           <value>
             <list>
