@@ -9,6 +9,7 @@
       <map>
         <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/Flutter/flutter_fx-chat" value="default" />
+        <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_native_andriod-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/LaoTieSysApp-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app-2/exchange-chat" value="default" />
@@ -1783,6 +1784,204 @@
                       </option>
                       <option name="text" value="build.gradle" />
                       <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Build file '/Users/mocaris/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle' line: 25&#10;&#10;A problem occurred evaluating root project 'imsdk'.&#10;&gt; Plugin with id 'dev.flutter.flutter-gradle-plugin' not found.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle" />
+                      <option name="name" value="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="build.gradle" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method android() for arguments [flutter_bs7hqqsc4l7u04h3glo671lbv$_run_closure1@52988116] on root project 'imsdk' of type org.gradle.api.Project.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle" />
+                      <option name="name" value="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="build.gradle" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="&#10;FAILURE: Build failed with an exception.&#10;&#10;* Where:&#10;Script '/Users/mocaris/DeveloperKit/flutter/fvm/versions/3.27.0/packages/flutter_tools/gradle/src/main/groovy/flutter.groovy' line: 232&#10;&#10;* What went wrong:&#10;A problem occurred evaluating script.&#10;&gt; Failed to apply plugin class 'FlutterPlugin'.&#10;   &gt; Flutter SDK not found. Define location with flutter.sdk in the local.properties file or with a FLUTTER_ROOT environment variable.&#10;&#10;* Try:&#10;&gt; Run with --info or --debug option to get more log output.&#10;&gt; Run with --scan to get full insights.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle" />
+                      <option name="name" value="$USER_HOME$/DevWork/IMSDK/imchat_sdk_andriod/android/build.gradle" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="build.gradle" />
+                      <option name="type" value="currentFile" />
                     </ChatContextTag>
                   </list>
                 </option>
