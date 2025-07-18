@@ -1986,19 +1986,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="加上 打包 development 选项" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="加上 development 选项" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -3161,6 +3148,77 @@
                 </option>
                 <option name="contextTags">
                   <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="生成 枚举类" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="image" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="image" />
+                          <option name="id" value="82cea131-ecaa-44be-bf2d-7dcce2149d9c" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#image" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="imgUrl">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="/var/folders/9z/kq2wwjkd1_b_09h2yt2t3wrm0000gn/T/ce985408.png" />
+                      <option name="name" value="ce985408.png" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="ce985408.png" />
+                      <option name="type" value="image" />
+                      <option name="valid" value="true" />
+                    </ChatContextTag>
+                  </list>
                 </option>
               </ChatRecentQuery>
             </list>
