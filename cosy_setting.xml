@@ -5,6 +5,7 @@
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange" value="chat" />
       </map>
     </option>
+    <option name="chatModeUseTool" value="true" />
     <option name="chatModelSelected">
       <map>
         <entry key="$USER_HOME$/DevWork/Flutter/FlutterTools-chat" value="default" />
@@ -2008,6 +2009,45 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="Cannot convert value of type 'any ThirdEventCallback' to expected argument type 'NSObject'&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value=" UIApplication.shared.delegate?.window??.rootViewController?.navigationController&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="flutter ios 插件 中   UIApplication.shared.delegate?.window??.rootViewController?.navigationController" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="跳转 新的 flutter engine" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
