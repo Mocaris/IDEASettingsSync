@@ -1,8 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="com.lbe.chatapp" />
+    <option name="mostRecentlyUsed" value="com.neway" />
     <option name="nonFavorites">
       <list>
+        <option value="com.neway" />
+        <option value="com." />
+        <option value="com" />
         <option value="com.lbe.chatapp" />
         <option value="com.laotiejicun" />
         <option value="socketChannel success" />
