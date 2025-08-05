@@ -15,6 +15,7 @@
         <entry key="$USER_HOME$/DevWork/IMSDK/imchat_sdk_native_andriod-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/LaoTieSysApp-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/im-app-flutter/private_chat-chat" value="dashscope_qwen3_coder_default" />
+        <entry key="$USER_HOME$/DevWork/im_plugin_wallet/exchange-chat" value="dashscope_qwen3_coder_default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app-2/exchange-chat" value="dashscope_qwen3_coder_default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-chat" value="default" />
         <entry key="$USER_HOME$/DevWork/wallet-pay-app/exchange-inline" value="default" />
@@ -2163,32 +2164,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="flutter channel ios 端调用 flutter 方法" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="swift 中 非 is  表示" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="swift 接口 表示" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -2839,6 +2814,43 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="import Flutter&#10;import UIKit&#10;&#10;public class ExchangePlugin: NSObject, FlutterPlugin, PluginShareDataCallback, ThirdEventCallback {&#10;    private var channel: FlutterMethodChannel&#10;&#10;    static var thirdEventCallbacks: [ThirdEventCallback] = []&#10;&#10;    static let openChatService: String = &quot;openChatService&quot;&#10;&#10;    static let channelName: String = &quot;app.exchange&quot;&#10;&#10;    static var shareDataPlugin: ExchangePlugin?&#10;&#10;    let cacheEngineName = &quot;abpay_wallet&quot;&#10;&#10;    lazy var engineGroup = FlutterEngineGroup(name: ExchangePlugin.channelName, project: nil)&#10;&#10;    private var flutterEnginCache = [String: FlutterEngine]()&#10;&#10;    public static func register(with registrar: FlutterPluginRegistrar) {&#10;        let channel = FlutterMethodChannel(name: &quot;app.exchange&quot;, binaryMessenger: registrar.messenger())&#10;        let instance = ExchangePlugin(channel: channel)&#10;        registrar.addMethodCallDelegate(instance, channel: channel)&#10;        registrar.addApplicationDelegate(instance)&#10;    }&#10;&#10;    init(channel: FlutterMethodChannel) {&#10;        self.channel = channel&#10;        super.init()&#10;        ExchangePlugin.thirdEventCallbacks.append(self)&#10;    }&#10;&#10;    // 获取当前的ViewController&#10;    func getCurrentViewController() -&gt; UIViewController {&#10;        var rootViewController = UIApplication.shared.delegate?.window??.rootViewController&#10;        while let presentedViewController = rootViewController?.presentedViewController {&#10;            rootViewController = presentedViewController&#10;        }&#10;        return rootViewController!&#10;    }&#10;&#10;    // 获取当前的NavigationController&#10;    func getCurrentNavigationController() -&gt; UINavigationController? {&#10;        let currentViewController = self.getCurrentViewController()&#10;        if let navigationController = currentViewController as? UINavigationController {&#10;            return navigationController&#10;        } else {&#10;            return currentViewController.navigationController&#10;        }&#10;    }&#10;&#10;    public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {&#10;        switch call.method {&#10;        case &quot;openABPay&quot;:&#10;            ExchangePlugin.shareDataPlugin = self&#10;            let engine = self.cacheFlutterEngine()&#10;            let flutterCtrl = FlutterViewController(engine: engine, nibName: nil, bundle: nil)&#10;            if let navigationController = getCurrentNavigationController() {&#10;                navigationController.pushViewController(flutterCtrl, animated: true)&#10;            } else {&#10;                // 如果没有NavigationController，使用present方式&#10;                self.getCurrentViewController().present(flutterCtrl, animated: true)&#10;            }&#10;            result(nil)&#10;//                        NotificationCenter.default.post(&#10;        //                name: NSNotification.Name(rawValue: &quot;openABPay&quot;),&#10;        //                object: self,&#10;        //                userInfo: [&quot;result&quot;: result])&#10;        //&#10;        ////            ExchangePlugin.shareDataPlugin = self&#10;        ////            let engine = self.cacheFlutterEngine()&#10;        ////&#10;        ////            let flutterCtrl = FlutterViewController(engine: engine, nibName: nil, bundle: nil)&#10;        //////                                        navigationController.pushViewController(flutterCtrl, animated: true);&#10;        ////            let navigationCl = UIApplication.shared.delegate?.window??.rootViewController?.navigationController&#10;        ////            navigationCl?.pushViewController(flutterCtrl, animated: true)&#10;        ////            result(nil)&#10;        case ExchangePlugin.openChatService:&#10;          &#10;              NotificationCenter.default.post(&#10;                  name: NSNotification.Name(rawValue: ExchangePlugin.openChatService),&#10;                  object: self,&#10;                  userInfo: [&quot;param&quot;: call.arguments as Any, &quot;result&quot;: result])&#10;&#10;        case &quot;getAuthInfo&quot;:&#10;            ExchangePlugin.shareDataPlugin?.getAuthInfo { res in&#10;                if !(res is FlutterError) {&#10;                    result(res)&#10;                } else {&#10;                    result(nil)&#10;                }&#10;            }&#10;        case &quot;sendThirdEvent&quot;:&#10;            let args = call.arguments as! [String: Any?]&#10;            let event = args[&quot;event&quot;] as! String&#10;            let data = args[&quot;data&quot;] as Any?&#10;            for e in ExchangePlugin.thirdEventCallbacks {&#10;                e.onThirdEvent(event: event, data: data)&#10;            }&#10;            result(nil)&#10;        default:&#10;            result(FlutterMethodNotImplemented)&#10;        }&#10;    }&#10;&#10;    func getAuthInfo(result: @escaping (FlutterResult)) {&#10;        self.channel.invokeMethod(&quot;getOriginAuthInfo&quot;, arguments: nil, result: result)&#10;    }&#10;&#10;    private func cacheFlutterEngine() -&gt; FlutterEngine {&#10;        var engine = self.flutterEnginCache[cacheEngineName]&#10;        if engine == nil {&#10;            engine = self.engineGroup.makeEngine(withEntrypoint: &quot;mainABPay&quot;, libraryURI: nil)&#10;            registerPluginsForEngine(engine!)&#10;            engine!.run()&#10;            self.flutterEnginCache[cacheEngineName] = engine!&#10;        }&#10;        return engine!&#10;    }&#10;&#10;    func onThirdEvent(event: String, data: Any?) {&#10;        self.channel.invokeMethod(&quot;onThirdEvent&quot;, arguments: [&quot;event&quot;: event, &quot;data&quot;: data])&#10;    }&#10;&#10;    public func detachFromEngine(for registrar: any FlutterPluginRegistrar) {&#10;        ExchangePlugin.thirdEventCallbacks.removeAll {&#10;            guard let callbackNSObject = $0 as? NSObject,&#10;                  let selfNSObject = self as? NSObject&#10;            else {&#10;                return false&#10;            }&#10;            return callbackNSObject === selfNSObject&#10;        }&#10;        if ExchangePlugin.shareDataPlugin == self {&#10;            ExchangePlugin.shareDataPlugin = nil&#10;        }&#10;    }&#10;}&#10;&#10;protocol PluginShareDataCallback {&#10;    func getAuthInfo(result: @escaping (FlutterResult))&#10;}&#10;&#10;protocol ThirdEventCallback {&#10;    func onThirdEvent(event: String, data: Any?)&#10;}&#10;&#10;// 安全注册插件的方法&#10;private func registerPluginsForEngine(_ engine: FlutterEngine) {&#10;    // 方法1：直接调用（如果GeneratedPluginRegistrant可用）&#10;//        GeneratedPluginRegistrant.register(with: engine)&#10;&#10;    // 或者方法2：动态调用（更安全）&#10;&#10;    if let registrantClass = NSClassFromString(&quot;GeneratedPluginRegistrant&quot;) as? NSObject.Type {&#10;        if registrantClass.responds(to: Selector((&quot;registerWithRegistry:&quot;))) {&#10;            registrantClass.perform(Selector((&quot;registerWithRegistry:&quot;)), with: engine)&#10;        }&#10;    }&#10;}&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="tag">
+                        <ChatAskTag>
+                          <option name="displayText" value="#ExchangePlugin.swift" />
+                          <option name="id" value="$USER_HOME$/DevWork/im_plugin_wallet/exchange/ios/Classes/ExchangePlugin.swift" />
+                          <option name="text" value="ExchangePlugin.swift" />
+                          <option name="type" value="context" />
+                        </ChatAskTag>
+                      </option>
+                      <option name="type" value="tag" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value=" 检查 main 线程安全问题" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="libMainThreadChecker.dylib`trampoline_c:&#10;    0x1084e8a94 &lt;+0&gt;:  pacibsp &#10;-&gt;  0x1084e8a98 &lt;+4&gt;:  stp    x20, x19, [sp, #-0x20]!&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
