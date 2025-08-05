@@ -2164,88 +2164,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="present  不使用模态" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="56" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/DevWork/im_plugin_wallet/exchange/ios/Classes/ExchangePlugin.swift#L50-L56" />
-                      <option name="name" value="ExchangePlugin.swift" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="statLine" value="50" />
-                      <option name="text" value="ExchangePlugin.swift" />
-                      <option name="type" value="context" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="UIApplication.shared.delegate?.window??.rootViewController?.navigationControll  为 nil" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -2938,6 +2856,71 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="添加这段 代码会导致 应用程序退到后台时 会导致报错 libMainThreadChecker.dylib`trampoline_c: 0x1084e8a94 &lt;+0&gt;: pacibsp -&gt; 0x1084e8a98 &lt;+4&gt;: stp x20, x19, [sp, #-0x20]!" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/DevWork/im_plugin_wallet/exchange/ios/Runner/AppDelegate.swift" />
+                      <option name="name" value="$USER_HOME$/DevWork/im_plugin_wallet/exchange/ios/Runner/AppDelegate.swift" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="AppDelegate.swift" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Runner`main:&#10;    0x104a09a00 &lt;+0&gt;:  stp    x20, x19, [sp, #-0x20]!&#10;    0x104a09a04 &lt;+4&gt;:  stp    x29, x30, [sp, #0x10]&#10;    0x104a09a08 &lt;+8&gt;:  add    x29, sp, #0x10&#10;    0x104a09a0c &lt;+12&gt;: mov    x0, #0x0                  ; =0 &#10;    0x104a09a10 &lt;+16&gt;: bl     0x104a04e68               ; type metadata accessor for Runner.AppDelegate at &lt;compiler-generated&gt;&#10;    0x104a09a14 &lt;+20&gt;: mov    x20, x0&#10;    0x104a09a18 &lt;+24&gt;: bl     0x104a0556c               ; static Runner.AppDelegate.$main() -&gt; () at &lt;compiler-generated&gt;&#10;-&gt;  0x104a09a1c &lt;+28&gt;: mov    w0, #0x0                  ; =0 &#10;    0x104a09a20 &lt;+32&gt;: ldp    x29, x30, [sp, #0x10]&#10;    0x104a09a24 &lt;+36&gt;: ldp    x20, x19, [sp], #0x20&#10;    0x104a09a28 &lt;+40&gt;: ret    &#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
