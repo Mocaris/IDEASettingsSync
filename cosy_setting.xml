@@ -3603,6 +3603,19 @@
                   <list />
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Execution failed for task ':app:mergeUatDebugNativeLibs'.&#10;&gt; A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction&#10;   &gt; 2 files found with path 'lib/arm64-v8a/libc++_shared.so' from inputs:&#10;      - /Users/mocaris/.gradle/caches/transforms-3/2c9b91e56a7c3f6c79b41c173648ee8d/transformed/jetified-aliyun-base-2.3.25.1.240930172458/jni/arm64-v8a/libc++_shared.so&#10;      - /Users/mocaris/.gradle/caches/transforms-3/b05bdcdca0c8d5ed2fd725ad1850b539/transformed/jetified-pdfium-android-1.9.2/jni/arm64-v8a/libc++_shared.so&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
