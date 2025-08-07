@@ -2190,127 +2190,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="UIApplication.shared.delegate?.window??.rootViewController?.navigationControll  为 nil" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="56" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/DevWork/im_plugin_wallet/exchange/ios/Classes/ExchangePlugin.swift#L50-L56" />
-                      <option name="name" value="ExchangePlugin.swift" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="statLine" value="50" />
-                      <option name="text" value="ExchangePlugin.swift" />
-                      <option name="type" value="context" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="      let navigationController = UINavigationController(rootViewController: flutterViewController)&#10;        navigationController.setNavigationBarHidden(true, animated: false)&#10;        self.window?.rootViewController = navigationController&#10;        self.window?.makeKeyAndVisible()&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="  let currentViewController = self.getCurrentViewController()&#10;        if let navigationController = currentViewController as? UINavigationController {&#10;            return navigationController&#10;        } else {&#10;            let navigationController = UINavigationController(rootViewController: currentViewController)&#10;            navigationController.setNavigationBarHidden(true, animated: false)&#10;            // 替换&#10;            if let window = UIApplication.shared.delegate?.window ?? nil {&#10;                window.rootViewController = navigationController&#10;                window.makeKeyAndVisible()&#10;            }&#10;//            return currentViewController?.navigationController&#10;            return navigationController&#10;        }&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="Thread 1: &quot;adding a root view controller &lt;FlutterViewController: 0x148bb0600&gt; as a child of view controller:&lt;UINavigationController: 0x148bb2a00&gt;&quot;&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="Thread 1: &quot;adding a root view controller &lt;FlutterViewController: 0x130b70600&gt; as a child of view controller:&lt;UINavigationController: 0x130b72a00&gt;&quot;&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -3005,6 +2884,82 @@
                       <option name="type" value="file" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="#&#10;# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.&#10;# Run `pod lib lint exchange.podspec` to validate before publishing.&#10;#&#10;Pod::Spec.new do |s|&#10;  s.name             = 'exchange'&#10;  s.version          = '0.0.1'&#10;  s.summary          = 'A new Flutter project.'&#10;  s.description      = &lt;&lt;-DESC&#10;A new Flutter project.&#10;                       DESC&#10;  s.homepage         = 'http://example.com'&#10;  s.license          = { :file =&gt; '../LICENSE' }&#10;  s.author           = { 'Your Company' =&gt; 'email@example.com' }&#10;  s.source           = { :path =&gt; '.' }&#10;  s.source_files = 'Classes/**/*'&#10;  s.public_header_files = 'Classes/**/*.h'&#10;  s.dependency 'Flutter'&#10;  s.platform = :ios, '12.0'&#10;&#10;  " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="# Flutter.framework does not contain a i386 slice.&#10;  s.pod_target_xcconfig = { 'DEFINES_MODULE' =&gt; 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' =&gt; 'i386' }&#10;  s.swift_version = '5.0'&#10;&#10;  " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="# If your plugin requires a privacy manifest, for example if it uses any&#10;  " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="# required reason APIs, update the PrivacyInfo.xcprivacy file to describe your&#10;  " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="# plugin's privacy impact, and then uncomment this line. For more information,&#10;  " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="# see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files&#10;  " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="text" value="# s.resource_bundles = {'exchange_privacy' =&gt; ['Resources/PrivacyInfo.xcprivacy']}&#10;end&#10; &#10; " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="添加 pod 'ServiceSystem', :podspec =&gt; '../LocalPodspecs/ServiceSystem_Custom.podspec'" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="[!] Invalid `exchange.podspec` file: [!] Unsupported version requirements. [{podspec: &quot;../LocalPodspecs/ServiceSystem_Custom.podspec&quot;}] is not valid..&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="[!] Invalid `exchange.podspec` file: [!] Podspecs cannot specify the source of dependencies. The `:path` option is not supported. `:path` can be used in the Podfile instead to override global dependencies..&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
