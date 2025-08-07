@@ -2190,19 +2190,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="Thread 1: &quot;adding a root view controller &lt;FlutterViewController: 0x130b70600&gt; as a child of view controller:&lt;UINavigationController: 0x130b72a00&gt;&quot;&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="PlatformException(channel-error, Unable to establish connection on channel: &quot;dev.flutter.pigeon.shared_preferences_foundation.UserDefaultsApi.getAll&quot;., null, null)&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -2954,6 +2941,19 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="[!] Invalid `exchange.podspec` file: [!] Podspecs cannot specify the source of dependencies. The `:path` option is not supported. `:path` can be used in the Podfile instead to override global dependencies..&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="PlatformException（no_fragment_activity，local_auth插件要求活动是FragmentActivity。，null，null）&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
