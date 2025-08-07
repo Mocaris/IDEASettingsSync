@@ -1,6 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="com.neway" />
+    <option name="favorites">
+      <list>
+        <option value="com.oldpath.llq" />
+      </list>
+    </option>
+    <option name="mostRecentlyUsed" value="com.oldpath.llq" />
     <option name="nonFavorites">
       <list>
         <option value="com.neway" />
