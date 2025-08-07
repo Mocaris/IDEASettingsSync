@@ -2135,6 +2135,19 @@
                   <list />
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Unable to start activity ComponentInfo{com.oldpath.llq_uat/cn.jyck.services.system.activity.helper.PhotoSelectAct}: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
