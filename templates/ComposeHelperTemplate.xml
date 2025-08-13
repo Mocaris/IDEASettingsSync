@@ -1,6 +1,5 @@
 <templateSet group="ComposeHelperTemplate">
   <template name="columncomp" value="$COMPOSABLE$(modifier = androidx.compose.ui.Modifier) {&#10; $SELECTION$ &#10; }" description="Insert Column Composable" toReformat="true" toShortenFQNames="true">
     <variable name="COMPOSABLE" expression="" defaultValue="&quot;androidx.compose.foundation.layout.Column&quot;" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
